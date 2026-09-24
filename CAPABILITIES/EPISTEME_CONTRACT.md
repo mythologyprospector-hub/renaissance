@@ -63,12 +63,15 @@ Grounded records must retain appropriate provenance.
 Episteme must preserve enough lineage to answer, where applicable:
 
 - where material came from;
-- what was actually received or observed;
+- what material was actually received or captured;
+- what, if anything, was separately observed or measured;
 - what transformations occurred;
 - what assumptions were introduced;
 - what outputs resulted.
 
 Provenance describes lineage. It does not certify truth.
+
+Capture or receipt of material does not by itself make that material an observation or evidence.
 
 ### 3.3 Unknowns and gaps
 
