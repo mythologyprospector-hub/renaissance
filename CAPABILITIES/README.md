@@ -240,7 +240,29 @@ This list is **conceptual, not a mandate for separate repositories or services**
 
 Existing implementations may cover several responsibilities. Episteme is one such case.
 
-The list may change through explicit architectural decisions.
+### Provisional human-facing model
+
+A separate provisional architectural model is now recorded in:
+
+`CAPABILITIES/HUMAN_CAPABILITY_MODEL.md`
+
+It proposes four broad human-facing responsibilities for further architectural testing:
+
+- **Understand**
+- **Explore**
+- **Create**
+- **Learn**
+
+This is **provisional** and does not yet replace the conceptual responsibility list above or establish four formally recognized capabilities. It is being treated as a hypothesis to test against real workflows and implementation evidence.
+
+The current working evidence maps:
+
+- Episteme primarily toward **Understand**;
+- Tiger Den toward **Explore**;
+- AI Foundry toward **Create**;
+- no mature Renaissance implementation currently identified as primary for **Learn**.
+
+These mappings do not transfer ownership of those broader responsibilities to the named projects.
 
 ## 12. Architectural Rules
 
