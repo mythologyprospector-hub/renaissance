@@ -1,6 +1,6 @@
 # Renaissance Human Capability Model
 
-**Status:** Provisional architectural model v0.2  
+**Status:** Provisional architectural model v0.3  
 **Authority:** Architecture — provisional, not yet Canon or Decision  
 **Constrained by:** Renaissance Constitution, Charter, Decisions, and Capability Framework
 
@@ -325,9 +325,9 @@ A learning system may:
 
 It may not silently redefine the learner's legitimate goals.
 
-The strongest form of success is not permanent reliance on the system. A successful learning interaction should, where appropriate, leave the learner **more able to proceed without it**.
+The strongest form of success is not permanent reliance on the system. A successful learning interaction should, where appropriate, leave the learner **more capable of proceeding with or without the system, and of choosing appropriate tools deliberately**.
 
-This does not mean all learning must terminate in independence from tools. Human beings appropriately use books, instruments, laboratories, teachers, collaborators, and software. The architectural requirement is that the system must not make dependency itself the objective.
+This does not mean learning should terminate in independence from tools. Human beings appropriately use books, instruments, laboratories, teachers, collaborators, and software. The architectural requirement is that the learner gains agency over tool use rather than having dependency itself become the objective.
 
 ### Measuring learning
 
