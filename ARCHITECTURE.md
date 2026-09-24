@@ -71,6 +71,8 @@ It includes, at minimum:
 
 The constitutional layer is not an implementation component.
 
+The constitutional layer does not itself act as a governing actor. During the founding phase, authority to establish, amend, or supersede foundational decisions is exercised through the governance process defined by Renaissance.
+
 No runtime service, model, dataset, repository, or generated result acquires constitutional authority merely by existing, being widely used, or being technically central.
 
 ---
@@ -261,7 +263,7 @@ Authority must not emerge accidentally from implementation.
 The intended relationship is:
 
 ```text
-CONSTITUTIONAL AUTHORITY
+GOVERNANCE / ESTABLISHED AUTHORITY
           |
           v
 SYSTEM ARCHITECTURE
@@ -293,7 +295,7 @@ Capability and authority are separate architectural concepts.
 Renaissance preserves distinctions between:
 
 - external material;
-- observation or captured material;
+- captured material and observations, where applicable and distinctly identified;
 - evidence;
 - interpretation;
 - hypothesis;
@@ -302,6 +304,8 @@ Renaissance preserves distinctions between:
 - result;
 - conclusion;
 - unknown.
+
+Captured material is not automatically an observation, and neither is automatically evidence.
 
 Movement through a Renaissance component must not silently change the epistemic status of information.
 
@@ -319,10 +323,10 @@ Where transformations occur, provenance should remain available at the appropria
 
 ## 13. Ownership boundaries
 
-### Renaissance owns
+### Renaissance establishes and maintains
 
 - the system purpose;
-- constitutional constraints;
+- constitutional constraints through its governance process;
 - system-level architectural direction;
 - cross-project architectural principles;
 - decisions explicitly promoted to Renaissance authority.
