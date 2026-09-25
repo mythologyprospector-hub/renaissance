@@ -1,6 +1,6 @@
 # Renaissance System Architecture
 
-**Status:** Working architecture v0.1  
+**Status:** Working architecture v0.2  
 **Authority:** Architecture  
 **Relationship to canon:** Constrained by `CONSTITUTION.md`, `CHARTER.md`, `PRINCIPLES.md`, and recorded decisions. This document does not override them.  
 **Scope:** System-level architecture for Renaissance and its constellation of instruments.
@@ -236,6 +236,32 @@ Interoperability should be established through explicit contracts rather than re
 
 A project may participate in the Renaissance constellation by exposing or consuming defined interfaces while retaining its own internal architecture.
 
+### Relationship interoperability
+
+Renaissance establishes relationship interoperability as a cross-project architectural responsibility.
+
+Independent systems may exchange explicit relationships without sharing a universal relationship ontology. Relationship semantics remain owned by the system or domain that defines them.
+
+The interoperability boundary should preserve enough information to distinguish, as applicable:
+
+- the relationship being represented;
+- the related references;
+- the origin of the assertion;
+- provenance and lineage;
+- transformations of the representation.
+
+The interoperability boundary must not silently:
+
+- reinterpret an unfamiliar relationship;
+- turn transport into agreement;
+- change epistemic status or authority;
+- erase historical relationships;
+- or replace an unfaithful translation with a misleading one.
+
+Relationship mappings and translations are distinguishable from the source relationships they describe.
+
+This does not establish a universal relationship vocabulary, universal ontology, universal data model, or final interoperability protocol. Those remain open until separately justified.
+
 Conceptually:
 
 ```text
@@ -357,7 +383,7 @@ This architecture does **not** yet decide:
 - a universal event model;
 - the final Organs API;
 - final capability-to-repository boundaries;
-- a universal interoperability protocol;
+- the final interoperability protocol;
 - the complete autonomy model;
 - final governance beyond the existing constitutional process;
 - licensing strategy;
