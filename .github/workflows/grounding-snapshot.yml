@@ -69,13 +69,13 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if git diff --quiet -- GROUNDING_SNAPSHOT.md; then
+          if git diff --quiet -- GROUNDING_SNAPSHOT.md && git diff --cached --quiet -- GROUNDING_SNAPSHOT.md && git ls-files --error-unmatch GROUNDING_SNAPSHOT.md >/dev/null 2>&1; then
             echo "Grounding snapshot unchanged."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add GROUNDING_SNAPSHOT.md
+          git add -f GROUNDING_SNAPSHOT.md
           git commit -m "chore: refresh grounding snapshot"
           git push
