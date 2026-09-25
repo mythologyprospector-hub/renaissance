@@ -22,7 +22,10 @@ The tools are instruments, not masters.
 
 The project is governed by the documents in this repository.
 
-Before proposing implementation:
+Before proposing implementation, perform the repository grounding procedure in `GROUNDING_PROTOCOL.md`:
+
+0. ground against the current repository state and generated snapshot when present;
+
 
 1. read `STATUS.md`;
 2. read `CHARTER.md`;
