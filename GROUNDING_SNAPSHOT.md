@@ -2,12 +2,13 @@
 
 > Generated orientation material. This file is not canon.
 
-**Generated (UTC):** "2026-09-25T18:00:39Z"
-**Commit:** 95795b31cbf0c36a69296b90bba6f2cdea94ac70
+**Generated (UTC):** "2026-09-25T21:34:50Z"
+**Commit:** 96b9b58f57dffde8af7dc0038dcbf622886ea049
 **Branch:** main
 
 ## Recent commits
 
+- 96b9b58 2026-09-25 chore: refresh grounding snapshot
 - 95795b3 2026-09-25 ci: fix grounding snapshot publication
 - b72603b 2026-09-25 docs: require grounding during onboarding
 - c2f04f3 2026-09-25 ci: automate grounding snapshot refresh
@@ -15,7 +16,6 @@
 - a97072f 2026-09-25 docs: add relationship interoperability architecture
 - 5cc371b 2026-09-25 docs: establish relationship interoperability responsibility
 - f4d6e2d 2026-09-24 Instantiate Learn experiment with Linux paths
-- 197c423 2026-09-24 Define Learn transfer experiment
 
 ## Core documents
 
@@ -26,4 +26,4 @@
 
 ## Working tree
 
-Clean at snapshot generation.
+Repository contains uncommitted changes at snapshot generation.
