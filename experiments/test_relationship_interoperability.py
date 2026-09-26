@@ -57,6 +57,27 @@ class RelationshipInteroperabilityTest(unittest.TestCase):
         self.assertEqual(imported["status_history"], relationship["status_history"])
         self.assertEqual(reconstructed["status_history"], relationship["status_history"])
 
+    def test_translation_preserves_source_semantics_and_records_mapping(self):
+        relationship = build_episteme_relationship()
+        translated = __import__("relationship_interoperability_prototype", fromlist=["translate_relationship"]).translate_relationship(
+            relationship, {"supports": "supports_evidence"}
+        )
+
+        self.assertEqual(translated["translation"]["source_predicate"], "supports")
+        self.assertEqual(translated["translation"]["target_predicate"], "supports_evidence")
+        self.assertEqual(translated["translation"]["mapping_status"], "experimentally_mapped")
+        self.assertEqual(translated["id"], relationship["id"])
+        self.assertEqual(translated["subject_id"], relationship["subject_id"])
+        self.assertEqual(translated["object_id"], relationship["object_id"])
+
+    def test_unfaithful_translation_fails_without_silent_reinterpretation(self):
+        relationship = build_episteme_relationship()
+
+        with self.assertRaises(ValueError):
+            __import__("relationship_interoperability_prototype", fromlist=["translate_relationship"]).translate_relationship(
+                relationship, {}
+            )
+
     def test_conflicting_assertions_remain_distinct(self):
         first = build_episteme_relationship()
         second = build_episteme_relationship()
