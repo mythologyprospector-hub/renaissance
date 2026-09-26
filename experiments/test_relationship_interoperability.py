@@ -41,7 +41,7 @@ class RelationshipInteroperabilityTest(unittest.TestCase):
         self.assertEqual(imported["relationship_type"], relationship["predicate"])
         self.assertEqual(imported["participants"]["subject"], relationship["subject_id"])
         self.assertEqual(imported["participants"]["object"], relationship["object_id"])
-        self.assertEqual(exported := reexported, round_trip(envelope)[2])
+        self.assertEqual(reexported, round_trip(envelope)[2])
         self.assertEqual(reconstructed, relationship)
 
     def test_conflicting_assertions_remain_distinct(self):
