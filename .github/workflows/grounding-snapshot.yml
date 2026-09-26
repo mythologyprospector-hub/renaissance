@@ -3,8 +3,6 @@ name: Renaissance grounding snapshot
 on:
   push:
     branches: [main]
-  schedule:
-    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -29,8 +27,7 @@ jobs:
             echo
             echo "> Generated orientation material. This file is not canon."
             echo
-            echo "**Generated (UTC):** $(date -u +\"%Y-%m-%dT%H:%M:%SZ\")"
-            echo "**Commit:** $(git rev-parse HEAD)"
+            echo "**Source commit:** $(git rev-parse HEAD)"
             echo "**Branch:** $(git branch --show-current)"
             echo
             echo "## Recent commits"
@@ -40,7 +37,7 @@ jobs:
             echo
             echo "## Core documents"
             echo
-            for f in STATUS.md CHARTER.md CONSTITUTION.md PRINCIPLES.md BOUNDARIES.md EPISTEMOLOGY.md GOVERNANCE.md CHANGE_CONTROL.md ARCHITECTURE.md ONBOARDING_PROMPT.md; do
+            for f in STATUS.md CHARTER.md CONSTITUTION.md PRINCIPLES.md BOUNDARIES.md EPISTEMOLOGY.md GOVERNANCE.md CHANGE_CONTROL.md ARCHITECTURE.md AGENTS.md ONBOARDING_PROMPT.md; do
               if [ -f "$f" ]; then
                 printf -- '- `%s` — present\\n' "$f"
               else
