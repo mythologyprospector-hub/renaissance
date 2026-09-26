@@ -2,6 +2,7 @@ import unittest
 
 from relationship_interoperability_prototype import (
     build_episteme_relationship,
+    translate_relationship,
     round_trip,
     unwrap_to_episteme_relationship,
     wrap_episteme_relationship,
@@ -59,9 +60,7 @@ class RelationshipInteroperabilityTest(unittest.TestCase):
 
     def test_translation_preserves_source_semantics_and_records_mapping(self):
         relationship = build_episteme_relationship()
-        translated = __import__("relationship_interoperability_prototype", fromlist=["translate_relationship"]).translate_relationship(
-            relationship, {"supports": "supports_evidence"}
-        )
+        translated = translate_relationship(relationship, {"supports": "supports_evidence"})
 
         self.assertEqual(translated["translation"]["source_predicate"], "supports")
         self.assertEqual(translated["translation"]["target_predicate"], "supports_evidence")
@@ -74,9 +73,7 @@ class RelationshipInteroperabilityTest(unittest.TestCase):
         relationship = build_episteme_relationship()
 
         with self.assertRaises(ValueError):
-            __import__("relationship_interoperability_prototype", fromlist=["translate_relationship"]).translate_relationship(
-                relationship, {}
-            )
+            translate_relationship(relationship, {})
 
     def test_conflicting_assertions_remain_distinct(self):
         first = build_episteme_relationship()
