@@ -2,12 +2,13 @@
 
 > Generated orientation material. This file is not canon.
 
-**Generated (UTC):** "2026-09-25T21:34:50Z"
-**Commit:** 96b9b58f57dffde8af7dc0038dcbf622886ea049
+**Generated (UTC):** "2026-09-26T00:37:27Z"
+**Commit:** 804f7944f1a2e0c20018cd636e55a23136665149
 **Branch:** main
 
 ## Recent commits
 
+- 804f794 2026-09-25 chore: refresh grounding snapshot
 - 96b9b58 2026-09-25 chore: refresh grounding snapshot
 - 95795b3 2026-09-25 ci: fix grounding snapshot publication
 - b72603b 2026-09-25 docs: require grounding during onboarding
@@ -15,7 +16,6 @@
 - e8cbe70 2026-09-25 docs: establish repository grounding protocol
 - a97072f 2026-09-25 docs: add relationship interoperability architecture
 - 5cc371b 2026-09-25 docs: establish relationship interoperability responsibility
-- f4d6e2d 2026-09-24 Instantiate Learn experiment with Linux paths
 
 ## Core documents
 
