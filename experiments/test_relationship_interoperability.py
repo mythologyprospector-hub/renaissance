@@ -44,6 +44,19 @@ class RelationshipInteroperabilityTest(unittest.TestCase):
         self.assertEqual(reexported, round_trip(envelope)[2])
         self.assertEqual(reconstructed, relationship)
 
+    def test_status_history_survives_transport_without_rewriting_history(self):
+        relationship = build_episteme_relationship()
+        relationship["status_history"].append(
+            {"status": "superseded", "recorded_at": "2026-09-26T00:00:03Z"}
+        )
+
+        envelope = wrap_episteme_relationship(relationship)
+        _, imported, _ = round_trip(envelope)
+        reconstructed = unwrap_to_episteme_relationship(imported)
+
+        self.assertEqual(imported["status_history"], relationship["status_history"])
+        self.assertEqual(reconstructed["status_history"], relationship["status_history"])
+
     def test_conflicting_assertions_remain_distinct(self):
         first = build_episteme_relationship()
         second = build_episteme_relationship()
