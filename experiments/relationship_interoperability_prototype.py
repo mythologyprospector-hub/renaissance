@@ -26,6 +26,7 @@ def build_episteme_relationship() -> dict[str, Any]:
         }],
         "created_at": "2026-09-26T00:00:01Z",
         "schema_version": 1,
+        "status_history": [{"status": "asserted", "recorded_at": "2026-09-26T00:00:02Z"}],
     }
 
 
@@ -41,6 +42,7 @@ def wrap_episteme_relationship(relationship: dict[str, Any]) -> dict[str, Any]:
         "provenance": relationship["provenance"],
         "created_at": relationship["created_at"],
         "schema_version": relationship["schema_version"],
+        "status_history": relationship.get("status_history", []),
     }
 
 
@@ -54,6 +56,7 @@ def unwrap_to_episteme_relationship(envelope: dict[str, Any]) -> dict[str, Any]:
         "provenance": envelope["provenance"],
         "created_at": envelope["created_at"],
         "schema_version": envelope["schema_version"],
+        "status_history": envelope.get("status_history", []),
     }
 
 
