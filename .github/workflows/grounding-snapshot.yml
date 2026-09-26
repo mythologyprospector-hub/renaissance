@@ -55,10 +55,10 @@ jobs:
             echo
             echo "## Working tree"
             echo
-            if git diff --quiet && git diff --cached --quiet; then
-              echo "Clean at snapshot generation."
+            if git diff --quiet -- . ':(exclude)GROUNDING_SNAPSHOT.md' && git diff --cached --quiet -- . ':(exclude)GROUNDING_SNAPSHOT.md'; then
+              echo "Clean before snapshot generation."
             else
-              echo "Repository contains uncommitted changes at snapshot generation."
+              echo "Repository contains uncommitted changes before snapshot generation."
             fi
           } > GROUNDING_SNAPSHOT.md
 
