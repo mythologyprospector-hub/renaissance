@@ -2,20 +2,20 @@
 
 > Generated orientation material. This file is not canon.
 
-**Generated (UTC):** "2026-09-26T06:09:34Z"
-**Commit:** 6704b455fd0cb89be290c7237315e093f976bcda
+**Generated (UTC):** "2026-09-26T10:57:49Z"
+**Commit:** ee7cbb0830863ff294fb60c5bb273c8976a44c29
 **Branch:** main
 
 ## Recent commits
 
+- ee7cbb0 2026-09-26 experiment: add relationship interoperability verification .github/workflows/experiment-tests.yml
+- 535a7b6 2026-09-26 experiment: add relationship interoperability verification experiments/test_relationship_interoperability.py
+- 750b258 2026-09-26 experiment: add relationship interoperability verification experiments/relationship_interoperability_prototype.py
+- 475673e 2026-09-26 chore: refresh grounding snapshot
 - 6704b45 2026-09-26 chore: refresh grounding snapshot
 - 804f794 2026-09-25 chore: refresh grounding snapshot
 - 96b9b58 2026-09-25 chore: refresh grounding snapshot
 - 95795b3 2026-09-25 ci: fix grounding snapshot publication
-- b72603b 2026-09-25 docs: require grounding during onboarding
-- c2f04f3 2026-09-25 ci: automate grounding snapshot refresh
-- e8cbe70 2026-09-25 docs: establish repository grounding protocol
-- a97072f 2026-09-25 docs: add relationship interoperability architecture
 
 ## Core documents
 
