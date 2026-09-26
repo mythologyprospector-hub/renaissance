@@ -28,6 +28,40 @@ class RelationshipInteroperabilityTest(unittest.TestCase):
         envelope = wrap_episteme_relationship(build_episteme_relationship())
         self.assertNotIn("domain_payload", envelope)
 
+    def test_unfamiliar_type_and_unresolved_references_remain_opaque(self):
+        relationship = build_episteme_relationship()
+        relationship["predicate"] = "domain_specific_relationship_unknown_to_receiver"
+        relationship["subject_id"] = "urn:external:object:not-present-locally"
+        relationship["object_id"] = "urn:external:object:also-not-present-locally"
+
+        envelope = wrap_episteme_relationship(relationship)
+        _, imported, reexported = round_trip(envelope)
+        reconstructed = unwrap_to_episteme_relationship(imported)
+
+        self.assertEqual(imported["relationship_type"], relationship["predicate"])
+        self.assertEqual(imported["participants"]["subject"], relationship["subject_id"])
+        self.assertEqual(imported["participants"]["object"], relationship["object_id"])
+        self.assertEqual(exported := reexported, round_trip(envelope)[2])
+        self.assertEqual(reconstructed, relationship)
+
+    def test_conflicting_assertions_remain_distinct(self):
+        first = build_episteme_relationship()
+        second = build_episteme_relationship()
+        second["id"] = "55555555-5555-4555-8555-555555555555"
+        second["predicate"] = "contradicts"
+
+        first_envelope = wrap_episteme_relationship(first)
+        second_envelope = wrap_episteme_relationship(second)
+
+        _, first_imported, _ = round_trip(first_envelope)
+        _, second_imported, _ = round_trip(second_envelope)
+
+        self.assertNotEqual(first_imported["identity"], second_imported["identity"])
+        self.assertNotEqual(
+            first_imported["relationship_type"],
+            second_imported["relationship_type"],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
