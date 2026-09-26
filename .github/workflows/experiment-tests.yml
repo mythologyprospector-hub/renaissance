@@ -1,0 +1,21 @@
+name: Renaissance experiment tests
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "experiments/**"
+      - ".github/workflows/experiment-tests.yml"
+  workflow_dispatch:
+
+jobs:
+  relationship-interoperability:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Run relationship interoperability prototype tests
+        working-directory: experiments
+        run: python -m unittest -v test_relationship_interoperability.py
