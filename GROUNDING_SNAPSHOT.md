@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** f495a90caaf9a96b3a555ae47411b881c00a1a99
+**Source commit:** 69f28b28f9482217ae0d0b5bdb30f0c594305a16
 **Branch:** main
 
 ## Recent commits
 
+- 69f28b2 2026-09-26 experiment: record relationship interoperability coverage
+- 6ae2067 2026-09-26 chore: refresh grounding snapshot
 - f495a90 2026-09-26 chore: make grounding snapshot status truthful
 - 3ca4a39 2026-09-26 chore: refresh grounding snapshot
 - fd2c6f6 2026-09-26 experiment: simplify adversarial round-trip assertion
 - cf70e3e 2026-09-26 chore: refresh grounding snapshot
 - 849822b 2026-09-26 experiment: exercise adversarial relationship interoperability cases
 - 33ea6aa 2026-09-26 chore: refresh grounding snapshot
-- ded33d7 2026-09-26 chore: make grounding snapshot deterministic
-- fef0900 2026-09-26 chore: refresh grounding snapshot
 
 ## Core documents
 
