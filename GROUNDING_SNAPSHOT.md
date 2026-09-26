@@ -2,20 +2,20 @@
 
 > Generated orientation material. This file is not canon.
 
-**Generated (UTC):** "2026-09-26T10:57:49Z"
-**Commit:** ee7cbb0830863ff294fb60c5bb273c8976a44c29
+**Generated (UTC):** "2026-09-26T11:09:41Z"
+**Commit:** 514b89ccb12988f9204625caae1c3af8c1d6640e
 **Branch:** main
 
 ## Recent commits
 
+- 514b89c 2026-09-26 chore: add stable builder instructions
+- 0074999 2026-09-26 chore: refresh grounding snapshot
 - ee7cbb0 2026-09-26 experiment: add relationship interoperability verification .github/workflows/experiment-tests.yml
 - 535a7b6 2026-09-26 experiment: add relationship interoperability verification experiments/test_relationship_interoperability.py
 - 750b258 2026-09-26 experiment: add relationship interoperability verification experiments/relationship_interoperability_prototype.py
 - 475673e 2026-09-26 chore: refresh grounding snapshot
 - 6704b45 2026-09-26 chore: refresh grounding snapshot
 - 804f794 2026-09-25 chore: refresh grounding snapshot
-- 96b9b58 2026-09-25 chore: refresh grounding snapshot
-- 95795b3 2026-09-25 ci: fix grounding snapshot publication
 
 ## Core documents
 
