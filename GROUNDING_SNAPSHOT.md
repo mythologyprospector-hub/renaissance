@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 15897d52f25e828d5e040c0266d283527b20b900
+**Source commit:** 191a90c0035b94193ae4f860baef61d5ecb7ddad
 **Branch:** main
 
 ## Recent commits
 
+- 191a90c 2026-09-26 experiment: record translation coverage
+- 8e3f838 2026-09-26 experiment: simplify translation test imports
+- 9e77891 2026-09-26 experiment: test explicit and failed translation
+- 3c9cc82 2026-09-26 experiment: model explicit relationship translation
+- ec46b7f 2026-09-26 chore: refresh grounding snapshot
 - 15897d5 2026-09-26 experiment: record status history coverage
 - 199c04a 2026-09-26 experiment: test relationship status history
 - 80ce27a 2026-09-26 experiment: preserve relationship status history
-- fad1650 2026-09-26 chore: refresh grounding snapshot
-- 69f28b2 2026-09-26 experiment: record relationship interoperability coverage
-- 6ae2067 2026-09-26 chore: refresh grounding snapshot
-- f495a90 2026-09-26 chore: make grounding snapshot status truthful
-- 3ca4a39 2026-09-26 chore: refresh grounding snapshot
 
 ## Core documents
 
