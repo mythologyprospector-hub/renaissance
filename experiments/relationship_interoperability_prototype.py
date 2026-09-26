@@ -60,6 +60,24 @@ def unwrap_to_episteme_relationship(envelope: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def translate_relationship(
+    relationship: dict[str, Any],
+    predicate_mapping: dict[str, str],
+) -> dict[str, Any]:
+    """Bounded translation experiment: retain the source and record the mapping."""
+    translated = dict(relationship)
+    predicate = relationship["predicate"]
+    if predicate not in predicate_mapping:
+        raise ValueError(f"no faithful translation for predicate: {predicate}")
+    translated["predicate"] = predicate_mapping[predicate]
+    translated["translation"] = {
+        "source_predicate": predicate,
+        "target_predicate": predicate_mapping[predicate],
+        "mapping_status": "experimentally_mapped",
+    }
+    return translated
+
+
 def round_trip(envelope: dict[str, Any]) -> tuple[str, dict[str, Any], str]:
     exported = canonical_json(envelope)
     imported = json.loads(exported)
