@@ -2,12 +2,13 @@
 
 > Generated orientation material. This file is not canon.
 
-**Generated (UTC):** "2026-09-26T00:37:27Z"
-**Commit:** 804f7944f1a2e0c20018cd636e55a23136665149
+**Generated (UTC):** "2026-09-26T06:09:34Z"
+**Commit:** 6704b455fd0cb89be290c7237315e093f976bcda
 **Branch:** main
 
 ## Recent commits
 
+- 6704b45 2026-09-26 chore: refresh grounding snapshot
 - 804f794 2026-09-25 chore: refresh grounding snapshot
 - 96b9b58 2026-09-25 chore: refresh grounding snapshot
 - 95795b3 2026-09-25 ci: fix grounding snapshot publication
@@ -15,7 +16,6 @@
 - c2f04f3 2026-09-25 ci: automate grounding snapshot refresh
 - e8cbe70 2026-09-25 docs: establish repository grounding protocol
 - a97072f 2026-09-25 docs: add relationship interoperability architecture
-- 5cc371b 2026-09-25 docs: establish relationship interoperability responsibility
 
 ## Core documents
 
