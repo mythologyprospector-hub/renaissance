@@ -60,6 +60,20 @@ def unwrap_to_episteme_relationship(envelope: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def copy_for_federation(
+    relationship: dict[str, Any],
+    destination: str,
+) -> dict[str, Any]:
+    """Bounded federation experiment: copy without changing source identity or provenance."""
+    copy = dict(relationship)
+    copy["federation"] = {
+        "source_relationship_id": relationship["id"],
+        "destination": destination,
+        "copy_type": "federated_copy",
+    }
+    return copy
+
+
 def translate_relationship(
     relationship: dict[str, Any],
     predicate_mapping: dict[str, str],
