@@ -75,6 +75,18 @@ class RelationshipInteroperabilityTest(unittest.TestCase):
         with self.assertRaises(ValueError):
             translate_relationship(relationship, {})
 
+    def test_federated_copy_preserves_identity_and_provenance(self):
+        from relationship_interoperability_prototype import copy_for_federation
+
+        relationship = build_episteme_relationship()
+        copied = copy_for_federation(relationship, "domain-b")
+
+        self.assertEqual(copied["id"], relationship["id"])
+        self.assertEqual(copied["provenance"], relationship["provenance"])
+        self.assertEqual(copied["federation"]["source_relationship_id"], relationship["id"])
+        self.assertEqual(copied["federation"]["destination"], "domain-b")
+        self.assertEqual(copied["federation"]["copy_type"], "federated_copy")
+
     def test_conflicting_assertions_remain_distinct(self):
         first = build_episteme_relationship()
         second = build_episteme_relationship()
