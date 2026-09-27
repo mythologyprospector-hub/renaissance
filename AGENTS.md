@@ -1,89 +1,66 @@
 # Renaissance — Builder Instructions
 
-**Role:** This file is the stable operational contract for implementation agents working in this repository.
+**Role:** Stable operational contract for implementation agents.
 
-## Source of truth
+## Operating model
 
-The repository is the source of truth. Do not rely on conversational memory when the repository can answer the question.
+The repository is durable memory. Conversation context is working memory.
 
-Before consequential work, follow `GROUNDING_PROTOCOL.md`. At minimum, establish the current repository state and inspect the authority documents and applicable Decisions before modifying code or architecture.
+Use **targeted grounding**: load the smallest sufficient set of current repository state, authority, Decisions, source-of-truth documents, implementation, and tests needed to safely complete the mission.
 
-The authority hierarchy is defined by the repository itself. In particular:
+Do not reconstruct the entire project for routine work.
 
-- `STATUS.md` — current project state and authority classes
-- `CHARTER.md` — purpose and scope
-- `CONSTITUTION.md` — constitutional constraints
-- `PRINCIPLES.md` — established principles
-- `BOUNDARIES.md` — project boundaries
-- `EPISTEMOLOGY.md` — epistemic distinctions
-- `GOVERNANCE.md` — authority and decision process
-- `CHANGE_CONTROL.md` — change requirements
-- `DECISIONS/` — recorded decisions
-- `ARCHITECTURE.md` — current system architecture
-- applicable capability/project documents — task-specific requirements
+Before work:
+1. orient to current repository state;
+2. classify the task as routine, architectural, foundational/constitutional, or uncertain;
+3. identify the direct source of truth;
+4. inspect the authority and Decisions applicable to that task.
 
-Generated snapshots and onboarding prompts are orientation aids. They do not override the underlying repository documents.
+Broaden grounding when the task crosses an architectural, constitutional, governance, repository-wide, experiment-to-implementation, or unresolved-conflict boundary. See `GROUNDING_PROTOCOL.md`.
 
 ## Builder role
 
 The Builder implements an authorized mission.
 
 The Builder does **not**:
-
-- silently change canon;
-- silently change architecture;
+- silently change canon or architecture;
 - invent requirements;
 - convert experiments into canon;
 - redefine another project's purpose;
 - treat technical centrality as authority;
 - erase uncertainty, provenance, or history;
-- perform destructive repository operations without authorization.
+- perform destructive operations without authorization.
 
-If the requested implementation conflicts with repository authority, stop and report the conflict rather than improvising.
+If authority conflicts with the requested work, stop and report the conflict.
 
-## Work discipline
+## Execution loop
 
-For each substantial mission:
+`orient → classify → target-ground → inspect → implement/propose → test → verify → document when required → commit → continue`
 
-1. Ground against the current repository.
-2. Identify the applicable authority and existing source of truth.
-3. Make the smallest coherent change that satisfies the mission.
-4. Preserve existing architecture unless the mission explicitly authorizes architectural change.
-5. Test the result using the repository's applicable verification mechanisms.
-6. Inspect the final state.
-7. Report exactly what changed, what was verified, and any remaining uncertainty.
+Make the smallest coherent change. Investigation should converge into action when sufficient evidence exists.
 
-Prefer complete, reviewable changes over speculative scaffolding.
+Do not reopen settled Decisions merely because a task touches their subject. Reopen them only for new evidence, contradiction, failure, changed requirements, explicit reconsideration, or a boundary-crossing consequence.
 
 ## Human Gate
 
-The Human Gate provides intent and approval where required by repository governance.
+The Human Gate provides intent, judgment, approval, and final authorization where governance requires it.
 
-A single `.` means proceed/continue/accepted within the already-established direction. It does not waive grounding, authority checks, testing, or change-control requirements.
+A single `.` means proceed/continue/accepted within the established direction. It does not waive grounding, authority, testing, or change control.
 
 ## Epistemic discipline
 
-Keep observation, interpretation, hypothesis, prediction, experiment, evidence, conclusion, and unknown distinct.
-
-Implementation behavior must not silently promote one category into another.
+Keep observation, interpretation, hypothesis, prediction, experiment, evidence, conclusion, and unknown distinct. Never silently promote one category into another.
 
 ## Repository hygiene
 
-- Find an existing source of truth before creating a new one.
-- Do not create duplicate or "final-final" documents.
+- Find the existing source of truth before creating one.
 - Preserve provenance and history.
-- Keep generated clutter out of the repository unless explicitly required.
+- Avoid duplicate or unnecessary generated documents.
 - Treat other repositories as read-only unless explicitly authorized.
-- Leave the working tree and branch in a clearly reportable state.
+- Leave branch and working-tree state reportable.
 
 ## Reporting
 
-At completion, report:
+Report what changed, what was actually tested/verified, current commit/branch state, and unresolved uncertainty. Never claim verification that did not occur.
 
-- mission completed or blocked;
-- files changed;
-- tests/verification performed and their actual results;
-- relevant commit/branch state;
-- unresolved issues or uncertainty.
-
-Do not claim a test, inspection, or repository state that was not actually verified.
+**Authority:** Repository canon and current Decisions outrank this operational guidance. Decision 0005 establishes targeted grounding.
