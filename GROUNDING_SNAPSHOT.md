@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 825b989767f5c5a200aaf3248d507b1fcdea0ee0
+**Source commit:** bc186bfdd50974326c91866ee89e1a0410fd96dd
 **Branch:** main
 
 ## Recent commits
 
+- bc186bf 2026-09-27 test: include relationship protocol design experiment
+- f633b3d 2026-09-27 experiment: document protocol design coverage
+- 90ebb11 2026-09-27 test: cover relationship protocol shapes
+- e156b1d 2026-09-27 experiment: compare relationship protocol shapes
+- 7f25796 2026-09-27 chore: refresh grounding snapshot
 - 825b989 2026-09-27 fix: preserve task source during broad grounding
 - 52be20f 2026-09-27 chore: refresh grounding snapshot
 - 69e9593 2026-09-27 test: include builder grounding experiment
-- 5b0734d 2026-09-27 chore: refresh grounding snapshot
-- 77a7161 2026-09-27 experiment: document builder grounding coverage
-- 80b7df4 2026-09-27 test: cover targeted builder grounding
-- b4e3530 2026-09-27 experiment: model targeted builder grounding
-- c19395b 2026-09-27 chore: refresh grounding snapshot
 
 ## Core documents
 
