@@ -1,6 +1,6 @@
 import unittest
 
-from protocol_design_experiment import CANDIDATES, missing_guarantees, passes_minimum_contract
+from relationship_protocol_design import CANDIDATES, missing_guarantees, passes_minimum_contract
 
 class ProtocolDesignExperimentTest(unittest.TestCase):
     def test_candidates_are_distinguishable(self):
