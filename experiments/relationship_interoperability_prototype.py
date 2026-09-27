@@ -60,6 +60,22 @@ def unwrap_to_episteme_relationship(envelope: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def build_unrelated_domain_relationship() -> dict[str, Any]:
+    """Representative relationship from a domain with unrelated semantics."""
+    return {
+        "id": "66666666-6666-4666-8666-666666666666",
+        "subject_id": "urn:astronomy:star:sol",
+        "predicate": "has_observed_spectrum",
+        "object_id": "urn:spectrum:observation:2026-09-26",
+        "provenance": [{
+            "source_id": "unrelated-domain-fixture",
+            "captured_at": "2026-09-26T00:00:00Z",
+        }],
+        "created_at": "2026-09-26T00:00:01Z",
+        "schema_version": 1,
+    }
+
+
 def copy_for_federation(
     relationship: dict[str, Any],
     destination: str,
