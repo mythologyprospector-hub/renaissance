@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 77a71619776f1124a096dd1701990680330f4e15
+**Source commit:** 69e95932a83546097c465caec82cbe366388c858
 **Branch:** main
 
 ## Recent commits
 
+- 69e9593 2026-09-27 test: include builder grounding experiment
+- 5b0734d 2026-09-27 chore: refresh grounding snapshot
 - 77a7161 2026-09-27 experiment: document builder grounding coverage
 - 80b7df4 2026-09-27 test: cover targeted builder grounding
 - b4e3530 2026-09-27 experiment: model targeted builder grounding
 - c19395b 2026-09-27 chore: refresh grounding snapshot
 - e137b21 2026-09-27 refactor: streamline onboarding context
 - fb01e09 2026-09-27 refactor: make grounding task targeted
-- 550a8d6 2026-09-27 refactor: adopt targeted builder operating envelope
-- 35bbb9b 2026-09-27 chore: refresh grounding snapshot
 
 ## Core documents
 
