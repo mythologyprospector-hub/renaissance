@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 69e95932a83546097c465caec82cbe366388c858
+**Source commit:** 825b989767f5c5a200aaf3248d507b1fcdea0ee0
 **Branch:** main
 
 ## Recent commits
 
+- 825b989 2026-09-27 fix: preserve task source during broad grounding
+- 52be20f 2026-09-27 chore: refresh grounding snapshot
 - 69e9593 2026-09-27 test: include builder grounding experiment
 - 5b0734d 2026-09-27 chore: refresh grounding snapshot
 - 77a7161 2026-09-27 experiment: document builder grounding coverage
 - 80b7df4 2026-09-27 test: cover targeted builder grounding
 - b4e3530 2026-09-27 experiment: model targeted builder grounding
 - c19395b 2026-09-27 chore: refresh grounding snapshot
-- e137b21 2026-09-27 refactor: streamline onboarding context
-- fb01e09 2026-09-27 refactor: make grounding task targeted
 
 ## Core documents
 
