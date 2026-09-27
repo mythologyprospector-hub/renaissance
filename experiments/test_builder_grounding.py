@@ -29,16 +29,23 @@ class BuilderGroundingExperimentTest(unittest.TestCase):
         self.assertNotEqual(grounded, AUTHORITY_MAP)
 
     def test_foundational_task_requires_broad_grounding(self):
-        self.assertEqual(required_grounding(Mission(TaskClass.FOUNDATIONAL, "CONSTITUTION.md")), AUTHORITY_MAP)
+        grounded = required_grounding(Mission(TaskClass.FOUNDATIONAL, "CONSTITUTION.md"))
+        self.assertTrue(AUTHORITY_MAP.issubset(grounded))
 
     def test_uncertain_task_broadens_instead_of_guessing(self):
-        self.assertEqual(required_grounding(Mission(TaskClass.UNCERTAIN, "unknown-source")), AUTHORITY_MAP)
+        grounded = required_grounding(Mission(TaskClass.UNCERTAIN, "unknown-source"))
+        self.assertTrue(AUTHORITY_MAP.issubset(grounded))
+        self.assertIn("unknown-source", grounded)
 
     def test_boundary_crossing_broadens_routine_task(self):
-        self.assertEqual(required_grounding(Mission(TaskClass.ROUTINE, "experiments/example.py", experiment_promotion=True)), AUTHORITY_MAP)
+        grounded = required_grounding(Mission(TaskClass.ROUTINE, "experiments/example.py", experiment_promotion=True))
+        self.assertTrue(AUTHORITY_MAP.issubset(grounded))
+        self.assertIn("experiments/example.py", grounded)
 
     def test_repository_wide_impact_broadens_grounding(self):
-        self.assertEqual(required_grounding(Mission(TaskClass.ROUTINE, "AGENTS.md", repository_wide=True)), AUTHORITY_MAP)
+        grounded = required_grounding(Mission(TaskClass.ROUTINE, "AGENTS.md", repository_wide=True))
+        self.assertTrue(AUTHORITY_MAP.issubset(grounded))
+        self.assertIn("AGENTS.md", grounded)
 
     def test_settled_decision_stays_closed_without_trigger(self):
         self.assertFalse(should_reopen_decision())
