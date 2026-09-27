@@ -2,6 +2,7 @@ import unittest
 
 from relationship_interoperability_prototype import (
     build_episteme_relationship,
+    build_unrelated_domain_relationship,
     translate_relationship,
     round_trip,
     unwrap_to_episteme_relationship,
@@ -86,6 +87,20 @@ class RelationshipInteroperabilityTest(unittest.TestCase):
         self.assertEqual(copied["federation"]["source_relationship_id"], relationship["id"])
         self.assertEqual(copied["federation"]["destination"], "domain-b")
         self.assertEqual(copied["federation"]["copy_type"], "federated_copy")
+
+    def test_unrelated_domain_relationship_survives_without_shared_ontology(self):
+        relationship = build_unrelated_domain_relationship()
+        envelope = wrap_episteme_relationship(relationship)
+        _, imported, _ = round_trip(envelope)
+
+        self.assertEqual(imported["relationship_type"], "has_observed_spectrum")
+        self.assertEqual(imported["participants"]["subject"], "urn:astronomy:star:sol")
+        self.assertEqual(
+            imported["participants"]["object"],
+            "urn:spectrum:observation:2026-09-26",
+        )
+        self.assertNotIn("ontology", imported)
+        self.assertNotIn("epistemic_status", imported)
 
     def test_conflicting_assertions_remain_distinct(self):
         first = build_episteme_relationship()
