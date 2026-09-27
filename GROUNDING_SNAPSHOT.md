@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 9abcf50af397fa7036ae9285b2225cecce8e8b2a
+**Source commit:** e866a1c7b0f735cab43b7cb1577b3145a0aaa322
 **Branch:** main
 
 ## Recent commits
 
+- e866a1c 2026-09-27 proposal: define minimal relationship interoperability contract
+- 353969e 2026-09-27 chore: refresh grounding snapshot
 - 9abcf50 2026-09-27 experiment: record unrelated domain coverage
 - 43068ee 2026-09-27 experiment: test unrelated domain interoperability
 - 3a12cb8 2026-09-27 experiment: add unrelated domain fixture
 - 89a5353 2026-09-26 chore: refresh grounding snapshot
 - 3e3711f 2026-09-26 experiment: record federation coverage
 - 7efaf3b 2026-09-26 experiment: stabilize federation test
-- bf60b3a 2026-09-26 experiment: test federated copy lineage
-- 0d9b277 2026-09-26 experiment: model federated relationship copies
 
 ## Core documents
 
