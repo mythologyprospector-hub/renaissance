@@ -1,133 +1,118 @@
 # Renaissance — Grounding Protocol
 
 **Status:** Operational guidance  
-**Authority:** Implementation / operating procedure  
-**Relationship to canon:** This document does not establish or amend Renaissance canon. It implements the existing onboarding, change-control, provenance, and authority requirements.
+**Authority:** Implementation / operating procedure
 
 ## Purpose
 
-A returning Architect/Builder must not rely on conversational memory as the source of truth.
+The repository is the source of truth. Grounding restores the **relevant** current context; it is not a ritual of rereading the entire project.
 
-The repository is the source of truth.
+Decision 0005 establishes targeted grounding as the normal operating procedure.
 
-Grounding is therefore a repeatable operating procedure for restoring current project context before consequential work.
+## 1. Orient
 
-## Grounding rule
+Establish enough current repository state to avoid stale work:
 
-Before consequential work, the working agent MUST reconcile:
-
-1. current repository state;
-2. current authority documents;
-3. current recorded decisions;
-4. current architectural and capability documents relevant to the task;
-5. recent repository history;
-6. any generated grounding snapshot available in the repository.
-
-If these disagree, stop and resolve the discrepancy before treating the disagreement as settled fact.
-
-## Mandatory grounding moments
-
-Re-ground:
-
-- at the beginning of a new work session;
-- after a substantial conversation or context transition;
-- after another builder, Codex, or contributor may have changed the repository;
-- after pulling or fetching new repository state;
-- when moving between major architectural areas;
-- when moving from experiment to architecture or implementation;
-- after any governing document or Decision changes;
-- before a consequential architectural, implementation, or repository-wide change;
-- whenever the current state is uncertain;
-- whenever the Human Gate says `ground`, `onboard`, `refresh`, or `check canon`.
-
-Do not wait for a context limit to force a re-ground.
-
-## Authority reading order
-
-At minimum, inspect:
-
-1. `STATUS.md`
-2. `CHARTER.md`
-3. `CONSTITUTION.md`
-4. `PRINCIPLES.md`
-5. `BOUNDARIES.md`
-6. `EPISTEMOLOGY.md`
-7. `GOVERNANCE.md`
-8. `CHANGE_CONTROL.md`
-9. applicable `DECISIONS/` records
-10. `ARCHITECTURE.md`
-11. applicable capability and project documents
-
-The full repository tree must be considered when determining whether a more specific source of truth exists.
-
-## Repository-state check
-
-Before modifying anything, establish:
-
-- repository identity;
-- default branch;
+- repository identity and branch;
 - current commit;
-- whether local state is clean or modified;
-- whether local state differs from the remote;
-- recent commits;
-- files relevant to the mission;
-- applicable tests and verification mechanisms.
+- recent relevant changes;
+- files directly relevant to the mission;
+- applicable tests/verification.
 
-Never assume that a remembered path, branch, commit, document, or architecture is still current.
+Use the generated `GROUNDING_SNAPSHOT.md` when present for rapid orientation. It is not authority and is not mandatory to reread after every turn.
 
-## Reconciliation
+## 2. Classify the mission
 
-Grounding is not merely rereading.
+### Routine
 
-The agent should explicitly distinguish:
+Examples: implementation of an established requirement, local bug fix, test addition, or documentation synchronization that does not change established architecture.
 
-- **Established:** supported by current repository authority.
-- **Proposed:** under consideration.
-- **Experiment:** bounded exploration.
-- **Implementation:** current machinery.
-- **Unknown:** not established.
-- **Stale:** remembered or previously observed, but not confirmed against current repository state.
+Read the direct source of truth, affected implementation/tests, and only the authority needed to verify the task fits existing boundaries.
+
+### Architectural
+
+Examples: interface changes, capability boundaries, cross-project interoperability, runtime topology, or changes to established architecture.
+
+Read the affected architecture and applicable Decisions plus the higher-level authority needed to verify compatibility.
+
+### Foundational / constitutional
+
+Examples: purpose, constitutional constraints, governance, change-control rules, foundational principles, or repository-wide authority.
+
+Perform broad grounding and follow the applicable change-control process.
+
+### Uncertain
+
+If classification or source-of-truth ownership is unclear, broaden inspection until the uncertainty is resolved. Do not guess.
+
+## 3. Authority routing
+
+The repository authority map is:
+
+- `STATUS.md` — state and authority classes
+- `CHARTER.md` — purpose and scope
+- `CONSTITUTION.md` — constitutional constraints
+- `PRINCIPLES.md` — established principles
+- `BOUNDARIES.md` — boundaries
+- `EPISTEMOLOGY.md` — epistemic distinctions
+- `GOVERNANCE.md` — authority and decision process
+- `CHANGE_CONTROL.md` — change requirements
+- `DECISIONS/` — recorded decisions
+- `ARCHITECTURE.md` — current architecture
+- applicable capability/project documents — task-specific requirements
+
+These are a **routing map**, not a mandatory reading list for every task.
+
+## 4. Repository and source-of-truth rules
+
+The full repository tree is not a mandatory step for every mission.
+
+Inspect broader tree structure when:
+- the canonical source is unknown;
+- duplicate sources may exist;
+- repository-wide impact is plausible;
+- a cross-project or architectural boundary is involved.
 
 A previous conversation is historical context, not authority.
 
-## Generated grounding snapshot
+## 5. Re-grounding triggers
 
-The repository may contain a generated `GROUNDING_SNAPSHOT.md`.
+Broaden or refresh grounding when:
 
-This snapshot is an orientation aid only. It may summarize repository state, recent commits, document inventory, and verification metadata.
+- repository state may have changed;
+- another builder/contributor changed relevant files;
+- the task moves into a new architectural area;
+- an experiment becomes architecture or implementation;
+- a governing document or applicable Decision changes;
+- new evidence creates a conflict;
+- current state becomes uncertain;
+- the Human Gate says `ground`, `onboard`, `refresh`, or `check canon`.
 
-It does **not** become canon and must never override the underlying documents.
+A context transition alone does not require rereading unrelated authority.
 
-When present, inspect the snapshot first for rapid orientation, then verify consequential claims against the underlying repository sources.
+## 6. Reconciliation
 
-## Conflict rule
+Distinguish:
 
-If memory, a previous conversation, a generated snapshot, local state, and repository documents disagree:
+- **Established** — supported by current authority;
+- **Proposed** — under consideration;
+- **Experiment** — bounded exploration;
+- **Implementation** — current machinery;
+- **Unknown** — not established;
+- **Stale** — previously observed but not confirmed current.
 
-**the applicable current repository authority wins, subject to the documented change-control process.**
+If applicable current authority conflicts, stop and resolve through change control.
 
-If authority itself is ambiguous, preserve the ambiguity and ask the Human Gate when a decision is required.
+## 7. Settled decisions
 
-## Builder behavior
+Do not reopen established Decisions merely because a task touches their subject.
 
-A builder should begin substantial work by recording internally:
+Reopen only for new evidence, contradiction, implementation/test failure, changed requirement, explicit reconsideration, or a consequence that crosses an established authority boundary.
 
-> **Grounded at:** `<commit or equivalent repository state>`
+## 8. Final verification
 
-and should re-check that state before final verification.
-
-A builder must not silently continue from stale context after detecting repository drift.
-
-## Automation boundary
-
-Automation can keep orientation material current, detect repository drift, and make grounding cheap.
-
-Automation cannot grant authority or manufacture context.
-
-The working agent remains responsible for actually reading the current repository and reconciling it before consequential work.
+Before reporting completion, verify against the current repository state and applicable tests. If drift occurred, refresh the relevant grounding before final verification.
 
 ## Human Gate shorthand
 
-A single `.` means proceed/continue/accepted within the already-established direction.
-
-It does not waive grounding, authority checks, testing, or the distinction between implementation and canon.
+A single `.` means proceed/continue/accepted within the established direction. It does not waive authority, testing, or change-control requirements.
