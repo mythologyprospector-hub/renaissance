@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** ecbb9a453aaa916a9f2f6dc2174d6bdc0042330b
+**Source commit:** e137b215efbbc95929e4c50502ae23091d52ba71
 **Branch:** main
 
 ## Recent commits
 
+- e137b21 2026-09-27 refactor: streamline onboarding context
+- fb01e09 2026-09-27 refactor: make grounding task targeted
+- 550a8d6 2026-09-27 refactor: adopt targeted builder operating envelope
+- 35bbb9b 2026-09-27 chore: refresh grounding snapshot
 - ecbb9a4 2026-09-27 decision: adopt targeted builder grounding
 - 39e8726 2026-09-27 chore: refresh grounding snapshot
 - 5170bf1 2026-09-27 proposal: define targeted builder operating envelope
 - 556bd07 2026-09-27 chore: refresh grounding snapshot
-- e866a1c 2026-09-27 proposal: define minimal relationship interoperability contract
-- 353969e 2026-09-27 chore: refresh grounding snapshot
-- 9abcf50 2026-09-27 experiment: record unrelated domain coverage
-- 43068ee 2026-09-27 experiment: test unrelated domain interoperability
 
 ## Core documents
 
