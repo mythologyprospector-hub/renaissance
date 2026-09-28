@@ -60,11 +60,11 @@ Organs is a general-purpose service substrate built around independently deploya
 
 Its architecture maps naturally onto Renaissance's need for reusable infrastructure beneath domain-specific capabilities.
 
-However, it currently contains historical architectural material that predates Renaissance, including references to Forge and Akasha-era development. Forge has already been removed from the live system, but the repository still requires a deliberate source/documentation cleanup pass.
+Its historical development material predates Renaissance in places, but the current runtime-substrate hardening and alignment checkpoint has been completed. Historical references remain where they preserve provenance rather than define current purpose.
 
 **Relationship:** Strong architectural candidate as Renaissance's reusable runtime substrate, but not itself the definition of Renaissance.
 
-**Action:** Keep public. Later perform a Renaissance-alignment audit and remove stale historical assumptions from active documentation without erasing legitimate history.
+**Action:** Keep public. Preserve the current Renaissance runtime role while retaining legitimate historical provenance.
 
 ---
 
@@ -399,7 +399,6 @@ No answer is being forced by this audit.
 # Recommended Next Work
 
 1. Ratify or revise the constellation model only after Human Gate review.
-2. Perform a dedicated `organs` cleanup/alignment audit, especially stale Forge/Akasha-era references.
 3. Convert the completed Episteme archaeology into explicit integration documentation only if a concrete boundary is needed; do not duplicate its existing provenance/lineage mechanisms.
 4. Convert the completed Tiger Den archaeology into explicit integration documentation only if a concrete boundary is needed.
 5. Treat AI Foundry similarly: preserve its independent laboratory boundary unless a demonstrated interoperability need emerges.
