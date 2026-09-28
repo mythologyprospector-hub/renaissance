@@ -1,7 +1,8 @@
 # Renaissance Repository Constellation Audit
 
 **Status:** Proposed working audit — not canon  
-**Date:** 2026-09-23  
+**Original snapshot:** 2026-09-23  
+**Refresh:** 2026-09-28  
 **Scope:** Public/private repositories currently visible under `mythologyprospector-hub`
 
 ## Purpose
@@ -84,7 +85,9 @@ Episteme's own README explicitly states that it is an independent project and th
 
 **Relationship:** Strong candidate for a Renaissance core capability while remaining independently governed as software.
 
-**Action:** Keep public. Do not rewrite Episteme's identity prematurely. Establish the relationship through architecture/integration documentation first.
+**Evidence update (2026-09-28):** A dedicated Renaissance archaeology pass inspected Episteme's current contract, provenance model, capture lineage, transformation records, and artifact execution lineage. The evidence demonstrates concrete realization of Renaissance-required distinctions between material provenance, transformations, and computational execution history. No Renaissance-owned duplicate provenance/lineage subsystem is justified by that evidence.
+
+**Action:** Keep public. Preserve Episteme's independent identity. Treat the observed relationship as established architectural evidence, not as authorization for repository absorption or a new cross-project subsystem.
 
 ---
 
@@ -99,7 +102,9 @@ Its principles — evidence before assertion, provenance, preservation of meanin
 
 **Relationship:** Strong candidate for a Renaissance capability concerned with discovering and mapping existing computational knowledge.
 
-**Action:** Keep public. Treat as a candidate core/satellite capability pending explicit architecture work.
+**Evidence update (2026-09-28):** A dedicated archaeology pass inspected Tiger Den's computational-cartography role, provenance/evidence handling, uncertainty boundaries, corpus discipline, and research protocol. The relationship to Renaissance discovery capability is now demonstrated by concrete project evidence. Its integration remains deliberately deferred; no shared schema, runtime, or forced Episteme integration is established.
+
+**Action:** Keep public and independently governed. Treat the relationship as demonstrated, with integration deferred pending a concrete architectural need.
 
 ---
 
@@ -116,7 +121,9 @@ It is nevertheless an engineering laboratory rather than Renaissance itself.
 
 **Relationship:** Potential Renaissance experimental/engineering infrastructure.
 
-**Action:** Keep public. Do not force it into the core until the architecture demonstrates an actual dependency or integration need.
+**Evidence update (2026-09-28):** A dedicated archaeology pass inspected AI Foundry's foundation, terminology, artifact model, persistence rules, evaluation/comparison workflow, and explicit Run provenance. AI Foundry concretely preserves an Experiment → Run → Result → Evaluation chain and runtime/dataset/test-case provenance within its laboratory boundary. This demonstrates architectural compatibility with Renaissance provenance and reproducibility principles without establishing a Renaissance-owned integration layer.
+
+**Action:** Keep public and independently governed. Treat the relationship as demonstrated at the evidence level, while deferring formal integration until a concrete dependency or interoperability need exists.
 
 ---
 
@@ -333,9 +340,11 @@ Trying to collapse every project into one repository would erase useful domain b
 
 Organs supplies reusable runtime infrastructure.
 
-Episteme supplies a concrete discovery/inquiry capability.
+Episteme supplies a concrete discovery/inquiry capability and now has independently inspected evidence showing that its existing provenance, transformation, and execution-lineage mechanisms already realize several Renaissance-required distinctions.
 
-Tiger Den appears to occupy another potentially important discovery/mapping layer.
+Tiger Den supplies a concrete specialized discovery/mapping instrument, with its Renaissance relationship demonstrated but integration deliberately deferred.
+
+AI Foundry supplies a concrete AI-engineering laboratory with explicit local provenance and reproducibility mechanisms; its Renaissance relationship is likewise demonstrated at the evidence level without a formal integration contract.
 
 The exact interfaces between these projects remain an architecture question and should not be invented merely because the conceptual fit is attractive.
 
@@ -353,7 +362,13 @@ Historical lessons can be recovered deliberately.
 
 Architecture must be earned independently.
 
-## Finding 6 — Repository branding should follow architecture, not replace it
+## Finding 6 — Relationship interoperability now has an explicit minimum boundary
+
+The relationship-interoperability experiment chain was consolidated into Decision 0006 on 2026-09-28. That decision establishes a minimum architectural boundary covering identity, references, meaning, origin/provenance, transformation, history, epistemic neutrality, security separation, failure transparency, and domain independence.
+
+It does **not** select a final serialization, wire protocol, universal identifier scheme, ontology, vocabulary, transport, or security mechanism. The constellation therefore has a stable interoperability boundary without a prematurely frozen universal protocol.
+
+## Finding 7 — Repository branding should follow architecture, not replace it
 
 A shared visual language may eventually make the constellation recognizable as one world.
 
@@ -383,12 +398,29 @@ No answer is being forced by this audit.
 
 # Recommended Next Work
 
-1. Ratify the constellation model only after Human Gate review.
+1. Ratify or revise the constellation model only after Human Gate review.
 2. Perform a dedicated `organs` cleanup/alignment audit, especially stale Forge/Akasha-era references.
-3. Perform a dedicated Episteme integration audit against Renaissance's epistemology and authority hierarchy.
-4. Perform a Tiger Den integration audit.
-5. Define the minimum Renaissance-to-project relationship contract.
-6. Only then finalize the Renaissance visual identity and social preview.
-7. Do not move, delete, or rename repositories merely for aesthetic uniformity.
+3. Convert the completed Episteme archaeology into explicit integration documentation only if a concrete boundary is needed; do not duplicate its existing provenance/lineage mechanisms.
+4. Convert the completed Tiger Den archaeology into explicit integration documentation only if a concrete boundary is needed.
+5. Treat AI Foundry similarly: preserve its independent laboratory boundary unless a demonstrated interoperability need emerges.
+6. Use Decision 0006 as the current minimum relationship-interoperability boundary; do not infer a final protocol from it.
+7. Only then finalize the Renaissance visual identity and social preview.
+8. Do not move, delete, or rename repositories merely for aesthetic uniformity.
 
 **Current status:** Proposed working document. No repository classification in this document is constitutional canon.
+
+
+---
+
+## Refresh Record — 2026-09-28
+
+This refresh preserves the 2026-09-23 audit as repository history while incorporating evidence gathered through subsequent Renaissance work. The refresh records observations and relationship status; it does not amend constitutional canon, select final integration protocols, or authorize repository restructuring.
+
+Completed evidence work incorporated here:
+
+- Relationship interoperability: Decision 0006 establishes the minimum architectural boundary without freezing a final protocol.
+- Episteme: current provenance, transformation, capture-lineage, and artifact-execution-lineage mechanisms were inspected; no duplicate Renaissance provenance subsystem is justified.
+- Tiger Den: computational-cartography/discovery relationship to Renaissance is demonstrated; integration remains deferred.
+- AI Foundry: local experiment/run/result/evaluation provenance is demonstrated; formal Renaissance integration remains deferred.
+
+These findings remain subordinate to the repository's existing authority hierarchy and change-control process.
