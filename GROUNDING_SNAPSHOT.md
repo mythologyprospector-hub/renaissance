@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** c1be55b5c96b6c766c92463cdbf9b87e553e0011
+**Source commit:** 6c43775a92c894475b86ea246fcec5c80282944d
 **Branch:** main
 
 ## Recent commits
 
+- 6c43775 2026-09-28 docs: resolve runtime event ledger bookmark (#8)
+- 3ff5a57 2026-09-28 chore: refresh grounding snapshot
 - c1be55b 2026-09-28 Merge pull request #6 from mythologyprospector-hub/docs/work-ledger
 - 4bd6d04 2026-09-28 docs: add work continuation ledger
 - 722b229 2026-09-28 chore: refresh grounding snapshot
 - 870535d 2026-09-28 Merge pull request #5 from mythologyprospector-hub/maintenance/refresh-constellation-audit
 - 61a7f97 2026-09-28 docs: refresh constellation audit with completed archaeology
 - 54b7743 2026-09-28 chore: refresh grounding snapshot
-- b14944b 2026-09-28 Merge pull request #4 from mythologyprospector-hub/ci/pull-request-experiment-tests
-- eede341 2026-09-28 ci: align PR test branch with merged conformance test
 
 ## Core documents
 
