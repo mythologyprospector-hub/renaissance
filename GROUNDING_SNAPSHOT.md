@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** d042994683196f41e6b0ce2ed8595720e0052ef7
+**Source commit:** b14944bb6214064afa03b890cd498be32392f632
 **Branch:** main
 
 ## Recent commits
 
+- b14944b 2026-09-28 Merge pull request #4 from mythologyprospector-hub/ci/pull-request-experiment-tests
+- eede341 2026-09-28 ci: align PR test branch with merged conformance test
+- 7a4b11b 2026-09-28 chore: refresh grounding snapshot
 - d042994 2026-09-28 Merge pull request #2 from mythologyprospector-hub/implementation/relationship-boundary-conformance
 - e803a0e 2026-09-28 test: encode Decision 0006 relationship boundary
 - a4c4681 2026-09-28 chore: refresh grounding snapshot
 - 1a5d241 2026-09-28 Merge pull request #1 from mythologyprospector-hub/proposal/relationship-contract-authorization
 - 26134a2 2026-09-28 docs: record relationship boundary authorization
-- 681b335 2026-09-28 decision: establish minimum relationship interoperability boundary
-- 82846a4 2026-09-28 proposal: consolidate relationship interoperability evidence
-- 54fd600 2026-09-28 chore: refresh grounding snapshot
 
 ## Core documents
 
