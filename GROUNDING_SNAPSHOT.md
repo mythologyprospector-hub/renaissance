@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 6f7c8247fba74345c51eae099c98b254e3548c85
+**Source commit:** fa7ecad9587f27f38f340118345445a60efa0fe7
 **Branch:** main
 
 ## Recent commits
 
+- fa7ecad 2026-09-28 test: include protocol transport experiment
+- 55e9e9f 2026-09-28 document: record protocol transport coverage
+- 8d57463 2026-09-28 test: cover relationship protocol transport semantics
+- 32ccb44 2026-09-28 experiment: test relationship protocol transport
+- 553e1ba 2026-09-28 chore: refresh grounding snapshot
 - 6f7c824 2026-09-28 test: include protocol versioning experiment
 - 469b5e6 2026-09-28 document: record protocol versioning coverage
 - 7c7cb73 2026-09-28 test: cover relationship protocol version negotiation
-- c0ff383 2026-09-28 experiment: test relationship protocol version negotiation
-- c8bb423 2026-09-28 chore: refresh grounding snapshot
-- a69ced4 2026-09-27 test: include protocol identity experiment
-- c702916 2026-09-27 document: record protocol identity coverage
-- 8c811fb 2026-09-27 test: cover relationship protocol identity
 
 ## Core documents
 
