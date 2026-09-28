@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 130dcae02958ba688f996e1df56950c2ea38824a
+**Source commit:** a9a06690560cbd86117cb3873a59529e553f53af
 **Branch:** main
 
 ## Recent commits
 
+- a9a0669 2026-09-28 docs: correct constellation audit numbering
+- 81827fa 2026-09-28 chore: refresh grounding snapshot
 - 130dcae 2026-09-28 docs: fix constellation audit numbering
 - 11d8e3d 2026-09-28 docs: align constellation audit with organs checkpoint
 - 4a767ee 2026-09-28 chore: refresh grounding snapshot
 - 37e7bb7 2026-09-28 docs: update work ledger after organs hardening
 - 7981e27 2026-09-28 chore: refresh grounding snapshot
 - 6c43775 2026-09-28 docs: resolve runtime event ledger bookmark (#8)
-- 3ff5a57 2026-09-28 chore: refresh grounding snapshot
-- c1be55b 2026-09-28 Merge pull request #6 from mythologyprospector-hub/docs/work-ledger
 
 ## Core documents
 
