@@ -3,7 +3,7 @@
 **Status:** Proposed  
 **Authority:** Proposal  
 **Relationship to canon:** This document does not amend Renaissance canon, Decision 0004, or the current architecture.  
-**Basis:** Decision 0004 and the completed relationship-interoperability experiment.
+**Basis:** Decision 0004 and the completed relationship-interoperability experiment chain.
 
 ## 1. Purpose
 
@@ -13,21 +13,24 @@ This proposal exists to make the architectural question reviewable. It is not it
 
 ## 2. Evidence
 
-The bounded experiment exercised all eleven behaviors identified by Decision 0004:
+The relationship-interoperability experiment chain has now exercised the boundary in bounded stages covering:
 
-1. relationship semantics survive transport;
-2. transport does not add epistemic authority;
-3. the source relationship is not hidden inside an opaque payload;
-4. unfamiliar relationship types remain opaque;
-5. references to objects not locally present remain preservable;
-6. conflicting assertions remain distinct;
-7. status history survives transport without rewriting history;
-8. translation can be represented without replacing the source semantics;
-9. federation preserves source identity and provenance;
-10. relationships from unrelated domains can cross the boundary without a shared ontology;
-11. an unfaithful translation fails rather than silently changing meaning.
+- relationship identity;
+- version negotiation and preservation of unknown fields;
+- transport semantics;
+- provenance and transformation lineage;
+- extension and conditional-field preservation;
+- security separation from epistemic status;
+- candidate protocol shapes;
+- and Renaissance-level versus project-level requirement scope.
 
-The final experiment-test run and final grounding snapshot both passed in CI for the completed experiment state.
+The completed experiments consistently preserve the boundary established by Decision 0004: meaning, origin, lineage, history, and epistemic neutrality are protected at the interoperability boundary, while domain vocabulary, semantics, serialization, transport, identifiers, and security mechanisms remain project-level choices.
+
+The candidate-shape experiment distinguishes representations that satisfy the accumulated minimum guarantees from representations that lose source semantics. It does not select a final protocol or serialization.
+
+The requirement-scope experiment likewise explicitly classifies a bounded candidate set without establishing a universal protocol, field names, identifier scheme, transport standard, security standard, or architectural amendment.
+
+The CI workflow was extended to include the relationship requirement-scope experiment.
 
 ## 3. Proposed minimum guarantees
 
@@ -76,6 +79,8 @@ A later status must not require erasing the earlier record.
 Transport alone must not imply truth, agreement, verification, validity, ownership, or authority.
 
 The interoperability layer must not manufacture epistemic status that was absent from the source representation.
+
+Security properties such as authentication and authorization must remain distinct from epistemic status.
 
 ### 3.8 Failure transparency
 
@@ -149,29 +154,33 @@ This proposal does not establish:
 - ownership of participating projects' domain semantics;
 - or a requirement that every project implement every part of the candidate envelope.
 
-## 9. Architectural questions still open
+## 9. Experimental questions now covered
 
-Before a final protocol is authorized, the following questions should be considered separately:
+The following questions were previously identified as protocol-design questions and have now received bounded experimental treatment:
 
-1. What is the smallest stable identity requirement?
-2. Which envelope elements are mandatory versus conditional?
-3. How should unknown extensions be preserved?
-4. How should version negotiation work, if needed?
-5. What constitutes a faithful translation?
-6. How should provenance and transformation lineage be represented?
-7. What transport mechanisms, if any, should Renaissance standardize?
-8. How should security, authenticity, and authorization relate to—but remain distinct from—epistemic authority?
-9. Which requirements belong at Renaissance level versus individual project contracts?
+1. **Smallest stable identity:** identity remains opaque to the interoperability layer and stable across transport; origin plus identity distinguishes otherwise identical identity text from different origins.
+2. **Conditional envelope elements:** identity, participants, and relationship meaning form the experiment-level core; provenance and status history can remain conditional where applicable.
+3. **Unknown extensions:** unfamiliar fields/extensions can survive the boundary without requiring interpretation.
+4. **Version negotiation:** incompatible versions fail explicitly; a highest common supported version can be selected; unknown fields can survive the version boundary.
+5. **Faithful translation:** transformations remain distinguishable from source assertions; lossy translation must not silently replace source meaning.
+6. **Lineage:** transformations can retain source and output relationship identities and preserve lineage.
+7. **Transport:** transport metadata remains separate from relationship meaning, provenance, authority, and agreement.
+8. **Security boundary:** authentication and authorization remain security metadata rather than epistemic status or agreement.
+9. **Requirement scope:** boundary invariants can be separated from project-level vocabulary, semantics, and implementation choices using an explicit classification rule.
 
-These are protocol-design questions, not assumptions to be resolved by implementation.
+These experiments are evidence, not automatic authorization for architecture or implementation.
 
-## 10. Recommendation for next stage
+## 10. Proposed next-stage decision
 
-Treat this document as a **proposal for review**, not as an accepted architectural requirement.
+The experimental chain is sufficiently developed to return the minimum-boundary question to the Human Gate for an explicit architectural decision.
 
-If the Human Gate accepts the direction, the next bounded work should be a protocol-design experiment comparing candidate representations against the established guarantees.
+The proposed decision would authorize Renaissance to establish the experimentally supported minimum interoperability invariants as an architectural boundary, while explicitly preserving the unresolved implementation questions.
 
-Any resulting substantive architectural requirement should receive its own Decision record before implementation becomes authoritative.
+The decision should **not** authorize a final protocol, serialization, identifier scheme, transport standard, universal vocabulary, or security mechanism.
+
+If accepted, implementation work should begin only from the authorized boundary and should remain subordinate to the established change-control process.
+
+If rejected or returned for revision, the experimental record remains intact and no implementation is implied.
 
 ## 11. Relationship to existing authority
 
