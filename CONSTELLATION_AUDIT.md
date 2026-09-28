@@ -400,11 +400,11 @@ No answer is being forced by this audit.
 
 1. Ratify or revise the constellation model only after Human Gate review.
 3. Convert the completed Episteme archaeology into explicit integration documentation only if a concrete boundary is needed; do not duplicate its existing provenance/lineage mechanisms.
-4. Convert the completed Tiger Den archaeology into explicit integration documentation only if a concrete boundary is needed.
-5. Treat AI Foundry similarly: preserve its independent laboratory boundary unless a demonstrated interoperability need emerges.
-6. Use Decision 0006 as the current minimum relationship-interoperability boundary; do not infer a final protocol from it.
-7. Only then finalize the Renaissance visual identity and social preview.
-8. Do not move, delete, or rename repositories merely for aesthetic uniformity.
+3. Convert the completed Tiger Den archaeology into explicit integration documentation only if a concrete boundary is needed.
+4. Treat AI Foundry similarly: preserve its independent laboratory boundary unless a demonstrated interoperability need emerges.
+5. Use Decision 0006 as the current minimum relationship-interoperability boundary; do not infer a final protocol from it.
+6. Only then finalize the Renaissance visual identity and social preview.
+7. Do not move, delete, or rename repositories merely for aesthetic uniformity.
 
 **Current status:** Proposed working document. No repository classification in this document is constitutional canon.
 
