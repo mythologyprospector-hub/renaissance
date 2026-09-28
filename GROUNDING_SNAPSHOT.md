@@ -2,26 +2,26 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 9c78bcb5c5ef0bfaa8240a5c72be190230ae8b06
+**Source commit:** 1a5d241a15b875948d0e26e4be9d53eb3b4a39f5
 **Branch:** main
 
 ## Recent commits
 
+- 1a5d241 2026-09-28 Merge pull request #1 from mythologyprospector-hub/proposal/relationship-contract-authorization
+- 26134a2 2026-09-28 docs: record relationship boundary authorization
+- 681b335 2026-09-28 decision: establish minimum relationship interoperability boundary
+- 82846a4 2026-09-28 proposal: consolidate relationship interoperability evidence
+- 54fd600 2026-09-28 chore: refresh grounding snapshot
 - 9c78bcb 2026-09-28 test: include relationship requirement scope experiment
 - 7395803 2026-09-28 experiment: classify relationship requirement scope
 - 8737cea 2026-09-28 experiment: classify relationship requirement scope
-- 16f2f64 2026-09-28 experiment: classify relationship requirement scope
-- d8488b9 2026-09-28 chore: refresh grounding snapshot
-- 9794bbf 2026-09-28 test: include protocol security experiment
-- e9f8413 2026-09-28 document: record protocol security coverage
-- 8238a19 2026-09-28 test: cover relationship protocol security boundary
 
 ## Core documents
 
 - `STATUS.md` — present\n- `CHARTER.md` — present\n- `CONSTITUTION.md` — present\n- `PRINCIPLES.md` — present\n- `BOUNDARIES.md` — present\n- `EPISTEMOLOGY.md` — present\n- `GOVERNANCE.md` — present\n- `CHANGE_CONTROL.md` — present\n- `ARCHITECTURE.md` — present\n- `AGENTS.md` — present\n- `ONBOARDING_PROMPT.md` — present\n
 ## Decision records
 
-- 0002-tightening-authority-and-terminology.md\n0005-targeted-builder-grounding.md\n0004-relationship-interoperability.md\n0003-establish-organs-as-renaissance-runtime.md\n0001-initial-foundation.md\n
+- 0006-minimum-relationship-interoperability-boundary.md\n0002-tightening-authority-and-terminology.md\n0005-targeted-builder-grounding.md\n0004-relationship-interoperability.md\n0003-establish-organs-as-renaissance-runtime.md\n0001-initial-foundation.md\n
 
 ## Working tree
 
