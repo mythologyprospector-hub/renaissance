@@ -399,7 +399,7 @@ No answer is being forced by this audit.
 # Recommended Next Work
 
 1. Ratify or revise the constellation model only after Human Gate review.
-3. Convert the completed Episteme archaeology into explicit integration documentation only if a concrete boundary is needed; do not duplicate its existing provenance/lineage mechanisms.
+2. Convert the completed Episteme archaeology into explicit integration documentation only if a concrete boundary is needed; do not duplicate its existing provenance/lineage mechanisms.
 3. Convert the completed Tiger Den archaeology into explicit integration documentation only if a concrete boundary is needed.
 4. Treat AI Foundry similarly: preserve its independent laboratory boundary unless a demonstrated interoperability need emerges.
 5. Use Decision 0006 as the current minimum relationship-interoperability boundary; do not infer a final protocol from it.
