@@ -18,4 +18,4 @@ jobs:
           python-version: "3.13"
       - name: Run relationship interoperability prototype tests
         working-directory: experiments
-        run: python -m unittest -v test_relationship_interoperability.py test_builder_grounding.py test_relationship_protocol_design.py test_relationship_protocol_extensions.py test_relationship_protocol_lineage.py test_relationship_protocol_translation.py test_relationship_protocol_identity.py test_relationship_protocol_versioning.py test_relationship_protocol_transport.py
+        run: python -m unittest -v test_relationship_interoperability.py test_builder_grounding.py test_relationship_protocol_design.py test_relationship_protocol_extensions.py test_relationship_protocol_lineage.py test_relationship_protocol_translation.py test_relationship_protocol_identity.py test_relationship_protocol_versioning.py test_relationship_protocol_transport.py test_relationship_protocol_security.py
