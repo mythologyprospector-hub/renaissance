@@ -45,17 +45,17 @@ When continuing this work:
    established.
 6. Update this ledger before stopping again.
 
-## Last Known Organs Open Boundary
+## Last Known Organs Boundary
 
-At the stopping point, Organs had a real Communications BUS carrying Memory
-events, but no current contract established which organ should consume those
-topics.
+Organs has a real Communications BUS carrying Memory events, but current
+Renaissance requirements do not establish a consumer for those topics.
 
-That boundary was deliberately left unresolved rather than inventing a
-subscriber.
+Archaeology confirmed that this is an available integration seam, not a missing
+component or current architectural defect. No subscriber, organ, protocol, or
+Decision is required at this time.
 
-If work resumes there, establish the responsible contract or Decision before
-implementing a consumer.
+If a concrete capability later requires one of these events, establish the
+responsible contract at that time before implementing the consumer.
 
 ## Ledger Rule
 
