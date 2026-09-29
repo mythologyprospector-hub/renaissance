@@ -15,7 +15,7 @@ This document records a provisional architectural hypothesis that four human-fac
 3. **Create**
 4. **Learn**
 
-The names describe responsibilities, not implementations.
+The names describe human-facing capabilities, not implementations.
 
 A capability may be implemented by repositories, services, specialist instruments, runtime mechanisms, humans, or combinations of these.
 
