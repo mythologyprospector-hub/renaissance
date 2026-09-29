@@ -129,11 +129,18 @@ Runtime mechanisms may implement Renaissance requirements, but they may not sile
 
 ## 6. Capability layer
 
-A capability is a kind of work Renaissance can perform or support.
+Renaissance uses two related but distinct capability vocabularies.
 
-Capabilities are conceptual boundaries first. They do not automatically imply separate services or repositories.
+**Human-facing capabilities** describe the human abilities Renaissance seeks to increase. The current provisional model names:
 
-Relevant capabilities currently include:
+- Understand;
+- Explore;
+- Create;
+- Learn.
+
+**System responsibilities** describe classes of useful work that Renaissance may perform or support. Some bounded system responsibilities may be recognized as **system capabilities** when they warrant an explicit architectural contract.
+
+The current conceptual system-responsibility set includes:
 
 - discovery;
 - provenance and lineage;
@@ -145,9 +152,15 @@ Relevant capabilities currently include:
 - verification and contradiction analysis;
 - interoperability.
 
-These capabilities may be implemented together where that is architecturally appropriate.
+These responsibilities may be implemented together where that is architecturally appropriate. They should not be split merely because they have distinct names.
 
-They should not be split merely because they have distinct names.
+The two vocabularies do not imply a one-to-one mapping:
+
+- one implementation may perform several system responsibilities;
+- one system responsibility may support several human-facing capabilities;
+- a human-facing capability does not automatically require a separate repository, service, or organ.
+
+The human-facing model remains provisional, and the system-responsibility list is conceptual. Neither establishes a mandatory implementation decomposition.
 
 ---
 
