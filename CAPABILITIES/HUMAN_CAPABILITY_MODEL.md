@@ -474,7 +474,7 @@ The model does not replace the existing capability framework.
 It applies that framework at a higher, human-facing level:
 
 ```
-Renaissance human-facing responsibilities
+Renaissance human-facing capabilities
         │
         ├── Understand
         ├── Explore
@@ -488,9 +488,9 @@ Renaissance human-facing responsibilities
        implementations / instruments
 ```
 
-Existing lower-level responsibilities such as provenance, discovery, relationships, unknowns, hypotheses, predictions, experiments, and verification may be composed inside these broader responsibilities.
+Existing lower-level system responsibilities such as provenance, discovery, relationships, unknowns, hypotheses, predictions, experiments, and verification may be composed in service of these broader human-facing capabilities.
 
-They do not need to become separate top-level systems merely because they have distinct names.
+They do not need to become separate system capabilities or top-level systems merely because they have distinct names.
 
 ## 8. Relationship to Organs
 
