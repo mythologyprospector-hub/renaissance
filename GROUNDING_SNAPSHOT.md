@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** e610a418b16e63687af43499dbc4c0c09814a7f9
+**Source commit:** 26746092016a26ef995a371ab84675204e028f68
 **Branch:** main
 
 ## Recent commits
 
+- 2674609 2026-09-29 docs: update work ledger after constellation decision
+- 53d083c 2026-09-29 chore: refresh grounding snapshot
 - e610a41 2026-09-29 docs: accept Renaissance constellation shape
 - 12575c0 2026-09-28 chore: refresh grounding snapshot
 - a9a0669 2026-09-28 docs: correct constellation audit numbering
 - 81827fa 2026-09-28 chore: refresh grounding snapshot
 - 130dcae 2026-09-28 docs: fix constellation audit numbering
 - 11d8e3d 2026-09-28 docs: align constellation audit with organs checkpoint
-- 4a767ee 2026-09-28 chore: refresh grounding snapshot
-- 37e7bb7 2026-09-28 docs: update work ledger after organs hardening
 
 ## Core documents
 
