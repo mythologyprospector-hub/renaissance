@@ -2,7 +2,7 @@
 
 **Status:** Proposed working audit — not canon  
 **Original snapshot:** 2026-09-23  
-**Refresh:** 2026-09-28  
+**Refresh:** 2026-09-29  
 **Scope:** Public/private repositories currently visible under `mythologyprospector-hub`
 
 ## Purpose
@@ -11,7 +11,7 @@ This document records the first deliberate audit of the repository constellation
 
 It is an inventory and architectural assessment, not a declaration that every repository belongs inside Renaissance.
 
-No repository is being moved, deleted, renamed, made private, or otherwise altered by this document.
+Repository visibility and project boundaries are maintained separately from this audit. This document records the observed state and preserves historical relationships; it does not itself authorize repository restructuring.
 
 The governing question is:
 
@@ -129,8 +129,8 @@ It is nevertheless an engineering laboratory rather than Renaissance itself.
 
 ### 6. `esoteric-atlas`
 
-**Current status:** Public  
-**Working classification:** Domain satellite
+**Current status:** Private  
+**Working classification:** Independent/private domain project
 
 The Esoteric Atlas is a research and learning environment for esoteric and occult traditions, historical sources, structured systems, and computational research tools.
 
@@ -138,60 +138,60 @@ Its explicit distinction between evidence, traditional claims, scholarly interpr
 
 Its subject matter is domain-specific, however, and should not define Renaissance's general scope.
 
-**Relationship:** Good example of a domain-specific Renaissance satellite.
+**Relationship:** Domain-specific work with compatible principles, but no demonstrated need to remain within Renaissance's public constellation.
 
-**Action:** Keep public. Preserve its independent domain identity while allowing future Renaissance interoperability.
+**Action:** Keep private and independent. Preserve the historical relationship in this audit; future interoperability remains possible if a concrete relationship is established.
 
 ---
 
 ### 7. `android-dojo`
 
-**Current status:** Public  
-**Working classification:** Domain satellite / education
+**Current status:** Private  
+**Working classification:** Independent/private domain education project
 
 Android Dojo is a beginner-oriented educational environment for understanding Android internals and experimenting safely.
 
 Its emphasis on reproducibility, safety, evidence, recovery, and teaching rather than reckless execution fits Renaissance's broader human-capability mission.
 
-**Relationship:** Domain-specific educational satellite.
+**Relationship:** Domain-specific educational work that does not currently need to be presented as a public Renaissance component.
 
-**Action:** Keep public. Do not force its curriculum into Renaissance core architecture.
+**Action:** Keep private and independent. Do not force its curriculum into Renaissance architecture.
 
 ---
 
 ### 8. `android-dojo-toolkit`
 
-**Current status:** Public  
-**Working classification:** Domain tooling satellite
+**Current status:** Private  
+**Working classification:** Independent/private domain tooling project
 
 Android Dojo Toolkit is the lower-level diagnostic, recovery, firmware, partition, image, and repair workbench associated with Android Dojo.
 
 Its evidence-first workflow, safety boundaries, verification, and instructional character fit the broader Renaissance philosophy.
 
-**Relationship:** Technical satellite of Android Dojo and potentially an example of Renaissance tooling in practice.
+**Relationship:** Technical companion to Android Dojo, without a demonstrated need to remain within Renaissance's public constellation.
 
-**Action:** Keep public. Preserve the Android-specific identity.
+**Action:** Keep private and independent. Preserve its Android-specific identity and historical relationship.
 
 ---
 
 ### 9. `notation-transposer`
 
-**Current status:** Public  
-**Working classification:** Specialist domain satellite / presently independent
+**Current status:** Private  
+**Working classification:** Specialist/private domain project
 
 Notation Transposer is a music-technology project centered on a canonical musical representation, format interoperability, deterministic transformation, provenance, and explicit uncertainty.
 
 Those engineering principles are compatible with Renaissance, but the current repository does not establish a direct Renaissance dependency or architectural role.
 
-**Relationship:** Compatible with the wider Renaissance philosophy, but not presently demonstrated as core.
+**Relationship:** Compatible with the wider Renaissance philosophy, but not presently demonstrated as a Renaissance public component.
 
-**Action:** Keep public and independent for now. Revisit only when a concrete integration or constellation role exists.
+**Action:** Keep private and independent. Preserve the historical relationship; revisit only when a concrete integration or constellation role exists.
 
 ---
 
 ### 10. `namagiri`
 
-**Current status:** Public  
+**Current status:** Public (forensic work)  
 **Working classification:** Specialist / independent
 
 Namagiri is an orchestration and inspection layer for Shiva, with a tightly bounded mission around ELF inspection, capability discovery, validation, execution planning, and controlled execution.
@@ -200,37 +200,37 @@ It has its own explicit external technical authority: the Shiva source and relat
 
 **Relationship:** Valuable engineering work, but its present identity is specific to the Shiva/Namagiri problem.
 
-**Action:** Keep public and independent unless a later decision identifies a concrete Renaissance capability it implements.
+**Action:** Keep public and independent for the current forensic/reverse-engineering work. Its Issues are being used to record forensic evidence, so public visibility is operationally useful. A README notice establishes the boundary between this work and Renaissance.
 
 ---
 
 ### 11. `behemoth`
 
-**Current status:** Public  
-**Working classification:** Specialist research/support repository
+**Current status:** Public (forensic work)  
+**Working classification:** Specialist / independent forensic repository
 
 Behemoth is a read-only forensic/disassembly table supporting the Shiva/Namagiri work.
 
 It is operationally related to Namagiri rather than Renaissance directly.
 
-**Relationship:** Supporting repository for the Namagiri specialist constellation.
+**Relationship:** Supporting repository for the independent Namagiri/Leviathan forensic constellation.
 
-**Action:** Keep with that constellation. Do not pull it into Renaissance merely for visual uniformity.
+**Action:** Keep public while its Issues serve the forensic record. Preserve the explicit README boundary; do not pull it into Renaissance merely for visual uniformity.
 
 ---
 
 ### 12. `leviathan`
 
-**Current status:** Public  
-**Working classification:** Specialist implementation/support repository
+**Current status:** Public (forensic work)  
+**Working classification:** Specialist / independent implementation repository
 
 Leviathan is the implementation table for the AI Orchestration Workbench, explicitly constrained to accepted Behemoth findings.
 
 Like Behemoth, its present mission is tightly coupled to the Shiva/Namagiri investigation.
 
-**Relationship:** Supporting repository for the Namagiri/Behemoth specialist constellation.
+**Relationship:** Supporting repository for the independent Namagiri/Behemoth forensic constellation.
 
-**Action:** Keep with that constellation unless future architecture establishes otherwise.
+**Action:** Keep public while its Issues serve the forensic record. Preserve the explicit README boundary; do not pull it into Renaissance unless future architecture establishes a concrete relationship.
 
 ---
 
@@ -272,19 +272,20 @@ The current evidence suggests a layered world rather than a single monolithic so
                    constitutional foundation
                               |
               +---------------+---------------+
-              |               |               |
-        CORE CAPABILITIES   SHARED         SATELLITES
-              |           INFRASTRUCTURE        |
-          Episteme        Organs           Esoteric Atlas
-          Tiger Den       AI Foundry        Android Dojo
-                                           Android Dojo Toolkit
-                                           Notation Transposer
+              |               |
+        CORE CAPABILITIES   SHARED
+              |           INFRASTRUCTURE
+          Episteme        Organs
+          Tiger Den       AI Foundry
               |
-       SPECIALIST CONSTELLATIONS
               |
-       Namagiri
-       Behemoth
-       Leviathan
+       INDEPENDENT / SPECIALIST
+              |
+       Namagiri / Behemoth / Leviathan
+       (public for forensic evidence)
+       Esoteric Atlas
+       Notation Transposer
+       Android Dojo / Toolkit
 
        HISTORICAL / PRIVATE
               |
@@ -348,11 +349,11 @@ AI Foundry supplies a concrete AI-engineering laboratory with explicit local pro
 
 The exact interfaces between these projects remain an architecture question and should not be invented merely because the conceptual fit is attractive.
 
-## Finding 4 — Several projects should remain independent unless a concrete relationship is demonstrated
+## Finding 4 — Public Renaissance does not need to contain every compatible project
 
-Namagiri/Behemoth/Leviathan and Notation Transposer currently have sufficiently specific missions that forcing them into Renaissance would create artificial coupling.
+Namagiri/Behemoth/Leviathan, Notation Transposer, Esoteric Atlas, and Android Dojo/Toolkit currently have sufficiently specific missions that forcing them into Renaissance would create artificial coupling or visual symmetry.
 
-Their independence is compatible with a coherent larger constellation.
+The current evidence supports a smaller public Renaissance boundary while preserving independent projects and historical relationships. The three reverse-engineering repositories remain public for an operational reason: their Issues are being used as a forensic evidence record. Their README notices make the boundary explicit.
 
 ## Finding 5 — Akasha should remain historical/private
 
@@ -405,6 +406,7 @@ No answer is being forced by this audit.
 5. Use Decision 0006 as the current minimum relationship-interoperability boundary; do not infer a final protocol from it.
 6. Only then finalize the Renaissance visual identity and social preview.
 7. Do not move, delete, or rename repositories merely for aesthetic uniformity.
+8. Keep the public Renaissance surface focused on demonstrated architectural relationships; compatible independent work may remain outside it.
 
 **Current status:** Proposed working document. No repository classification in this document is constitutional canon.
 
@@ -423,3 +425,11 @@ Completed evidence work incorporated here:
 - AI Foundry: local experiment/run/result/evaluation provenance is demonstrated; formal Renaissance integration remains deferred.
 
 These findings remain subordinate to the repository's existing authority hierarchy and change-control process.
+
+---
+
+## Refresh Record — 2026-09-29
+
+This refresh records the current public-boundary clarification following Human Gate review. Android Dojo and Android Dojo Toolkit are now private. Esoteric Atlas and Notation Transposer are now private. Namagiri, Behemoth, and Leviathan remain public because their Issues are being used as a forensic evidence record for ongoing reverse-engineering work; their README notices explicitly distinguish that work from Renaissance.
+
+The resulting distinction is deliberate: public visibility does not imply Renaissance membership, and private visibility does not imply architectural rejection. Renaissance remains responsible for its own demonstrated foundation and relationships, while independent projects retain their own identities and purposes.
