@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 81d0ddf65650fba59d9a8e919a7fb2cf47dad7a4
+**Source commit:** c90c9f8619f1edad2b9c9238194feced93e46b4d
 **Branch:** main
 
 ## Recent commits
 
+- c90c9f8 2026-09-29 Align Episteme contract with clarified independent project boundary
+- 30d36e1 2026-09-29 chore: refresh grounding snapshot
 - 81d0ddf 2026-09-29 Align capability framework with Decision 0008
 - 81f7eab 2026-09-29 chore: refresh grounding snapshot
 - 1700f26 2026-09-29 Record Renaissance boundary clarification in work ledger
 - 717528d 2026-09-29 Align architecture with clarified project boundary
 - 01a39a7 2026-09-29 Align capability model with clarified project boundary
 - 912b7d8 2026-09-29 chore: refresh grounding snapshot
-- 52d5d7f 2026-09-29 Align README with clarified Renaissance project boundary
-- 9cc139d 2026-09-29 chore: refresh grounding snapshot
 
 ## Core documents
 
