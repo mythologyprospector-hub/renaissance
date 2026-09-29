@@ -186,16 +186,11 @@ Another capability may later be extracted or introduced if implementation eviden
 
 Renaissance may use or interoperate with independent instruments without absorbing them.
 
-Episteme therefore does not become the mandatory integration point for:
+Episteme does not become the mandatory integration point for independent projects merely because they exist elsewhere in the surrounding body of work.
 
-- Tiger Den;
-- AI Foundry;
-- Behemoth;
-- Leviathan;
-- Namagiri;
-- future independent projects.
+Integration with an independent project must be justified by a concrete Renaissance requirement and an explicit contract.
 
-Integration must be justified by an explicit contract.
+Behemoth, Leviathan, and Namagiri remain examples of independent projects whose boundaries are preserved.
 
 ## 8. Epistemic invariants
 
