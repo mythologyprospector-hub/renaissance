@@ -8,23 +8,23 @@ constitutional documents and recorded Decisions.
 
 ## Current Frontier
 
-**Status:** Renaissance constellation shape accepted by Human Gate; no next
+**Status:** Renaissance boundary clarification accepted by Human Gate; no next
 implementation task is currently established.
 
 ### Last verified stopping point
 
-The constellation review was completed and recorded as:
+The constellation review was followed by a boundary clarification:
 
-- **Decision:** 0007 — Accept Renaissance Constellation Shape
+- **Decision:** 0008 — Clarify Independent Project Boundaries
 - **Status:** Accepted
 - **Date:** 2026-09-29
 - **Authority:** Human Gate
-- **Commit:** e610a418b16e63687af43499dbc4c0c09814a7f9
+- **Commit:** c34f9cab906624a3e0bdd7219686cc8c82f330b4
 
-Decision 0007 accepts the current working shape under the principle **Unity
-without sameness**. It preserves independent project boundaries and does not
-authorize premature interfaces, universal protocols, repository absorption, or
-a Learn implementation.
+Decision 0008 establishes that Tiger Den and AI Foundry are outside the current
+Renaissance working constellation. It preserves Decision 0007 as historical
+record and does not authorize interfaces, adapters, repository absorption,
+replacement projects, or manufactured symmetry.
 
 ### Resume From Here
 
