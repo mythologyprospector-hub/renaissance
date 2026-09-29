@@ -183,23 +183,13 @@ Conversely, Episteme does not acquire authority to define Renaissance's architec
 
 ---
 
-## 8. Other instruments
+## 8. Specialist and independent instruments
 
-Renaissance may incorporate or interoperate with specialized instruments without absorbing them into the Renaissance runtime.
+Renaissance may encounter or interoperate with specialized instruments when a concrete architectural relationship is established.
 
-Examples include:
+An external project's similarity to a Renaissance capability does not, by itself, establish membership, implementation responsibility, or required integration.
 
-### Tiger Den
-
-A computational/discovery instrument with its own scope and implementation.
-
-### AI Foundry
-
-An AI experimentation and engineering laboratory concerned with models, configurations, runs, evaluations, comparisons, and reproducibility.
-
-These projects may contribute capabilities to Renaissance without becoming mandatory architectural subdivisions of Episteme or Organs.
-
-Future instruments may be added under the same principle.
+Future specialist instruments may be considered under the same principle: establish the responsibility and contract first, then determine whether a relationship is actually needed.
 
 ---
 
@@ -387,11 +377,11 @@ This architecture does **not** yet decide:
 - the complete autonomy model;
 - final governance beyond the existing constitutional process;
 - licensing strategy;
-- complete security and privacy architecture;
-- the final relationship between AI Foundry and Renaissance;
-- the final relationship between Tiger Den and Renaissance.
+- complete security and privacy architecture.
 
 These questions remain open until architectural evidence or requirements justify resolving them.
+
+The relationship of Tiger Den and AI Foundry to Renaissance is no longer an open Renaissance architectural question. Decision 0008 establishes that both are outside the current Renaissance working constellation.
 
 ---
 
@@ -428,8 +418,8 @@ Before introducing a new component or boundary:
               |                    |                   |
               |                 EPISTEME          OTHER TOOLS
               |                    |                   |
-              |              discovery, etc.     Tiger Den
-              |                                  AI Foundry
+              |              discovery, etc.     future specialist
+              |                                  instruments
               |
               +----------------------------------+
                               |
