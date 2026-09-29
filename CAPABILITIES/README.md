@@ -258,11 +258,11 @@ This is **provisional** and does not yet replace the conceptual responsibility l
 The current working evidence maps:
 
 - Episteme primarily toward **Understand**;
-- Tiger Den toward **Explore**;
-- AI Foundry toward **Create**;
-- no mature Renaissance implementation currently identified as primary for **Learn**.
+- no current Renaissance implementation is established as primary for **Explore**;
+- no current Renaissance implementation is established as primary for **Create**;
+- no mature Renaissance implementation is currently identified as primary for **Learn**.
 
-These mappings do not transfer ownership of those broader responsibilities to the named projects.
+The absence of an implementation is an intentional unresolved state. An independent project's similarity to a provisional responsibility does not establish an implementation relationship. Future recognition requires demonstrated need, an explicit boundary, and the applicable contract.
 
 ## 12. Architectural Rules
 
