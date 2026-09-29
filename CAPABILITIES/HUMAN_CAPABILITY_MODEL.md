@@ -135,7 +135,9 @@ A conforming implementation must distinguish exploration from validation, genera
 
 ### Current implementation evidence
 
-Tiger Den provides a concrete specialist example of exploration-oriented work: discovering, characterizing, relating, and locating existing computational primitives while preserving meaningful differences and provenance. Tiger Den remains its own project and is not thereby declared the universal implementation of Explore.
+No current Renaissance project is established as the primary implementation of Explore.
+
+This is an intentional unresolved boundary. A capability name does not establish an implementation relationship with an independent project whose work happens to resemble that responsibility.
 
 ## 3. Create
 
@@ -197,7 +199,9 @@ Artifacts should have appropriate lineage; generated and source material should 
 
 ### Current implementation evidence
 
-AI Foundry provides a concrete engineering-oriented example of Create, with experimental construction, configuration, execution, evaluation, comparison, packaging, and reproducibility. AI Foundry remains an independent project and does not define the complete Renaissance meaning of creation.
+No current Renaissance project is established as the primary implementation of Create.
+
+This is an intentional unresolved boundary. A capability name does not establish an implementation relationship with an independent engineering project whose work happens to resemble that responsibility.
 
 ## 4. Learn
 
@@ -507,9 +511,9 @@ A project may contribute to a capability through an explicit contract while reta
 In particular:
 
 - Episteme remains its own project and major Renaissance inquiry instrument.
-- Tiger Den remains its own computational/discovery instrument.
-- AI Foundry remains its own AI engineering laboratory.
 - Behemoth, Leviathan, and Namagiri remain independent Shiva-related projects.
+
+Independent projects are not treated as Renaissance implementations merely because their work resembles a provisional capability. A concrete relationship must be established before such a project becomes implementation evidence for Renaissance.
 
 ## 10. Architectural Status
 
