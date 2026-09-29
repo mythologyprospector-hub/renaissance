@@ -8,12 +8,20 @@ constitutional documents and recorded Decisions.
 
 ## Current Frontier
 
-**Status:** Renaissance boundary clarification accepted by Human Gate; no next
+**Status:** Capability terminology clarification completed; no next
 implementation task is currently established.
 
 ### Last verified stopping point
 
-The constellation review was followed by a boundary clarification:
+The capability-model review identified an ambiguity between the human-facing
+capability model and the lower-level system responsibility list. The clarification
+was made without introducing a new capability, interface, repository, or Decision:
+
+- `CAPABILITIES/README.md` — system capabilities/responsibilities distinguished from human-facing capabilities.
+- `CAPABILITIES/HUMAN_CAPABILITY_MODEL.md` — Understand, Explore, Create, and Learn explicitly framed as human-facing capabilities.
+- **Commits:** `293f8b07971a6b296eec967054d1d928131860d6`, `4b81ceeb93211b078d1e82f8b5a2127dc76fc48a3`
+
+The constellation review was followed by the earlier boundary clarification:
 
 - **Decision:** 0008 — Clarify Independent Project Boundaries
 - **Status:** Accepted
