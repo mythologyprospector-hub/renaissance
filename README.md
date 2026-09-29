@@ -91,6 +91,8 @@ Organs provides runtime infrastructure underneath these activities. Specialist i
 
 ## The Current Constellation
 
+The current Renaissance working constellation is deliberately smaller than the broader set of projects that exist elsewhere in the surrounding body of work.
+
 ### Episteme — Understand
 
 [episteme](https://github.com/mythologyprospector-hub/episteme) is the current major Renaissance inquiry instrument.
@@ -111,23 +113,25 @@ It is an open scientific discovery engine concerned with:
 
 Episteme is substantial already. Renaissance does **not** need to fracture it into artificial pieces merely because those responsibilities have separate names.
 
-### Tiger Den — Explore
+### Explore — An Honest Frontier
 
-[tiger-den](https://github.com/mythologyprospector-hub/tiger-den) is a specialized computational/discovery instrument.
+No current Renaissance project is established as the primary implementation of **Explore**.
 
-Its guiding idea is:
+That is intentional.
 
-> **The world contains the code. Tiger Den contains the map.**
+The capability remains part of the human-facing model, but Renaissance will not designate an existing independent project as its implementation merely because the conceptual responsibility resembles work performed elsewhere.
 
-It searches, characterizes, relates, and locates computational possibilities while retaining its own project identity.
+If genuine Renaissance work establishes a need for an exploration instrument, its responsibility and contract should emerge first.
 
-### AI Foundry — Create
+### Create — An Honest Frontier
 
-[ai-foundry](https://github.com/mythologyprospector-hub/ai-foundry) is an engineering laboratory for AI experimentation.
+No current Renaissance project is established as the primary implementation of **Create**.
 
-It deals with models, configurations, runs, evaluations, comparisons, reproducibility, and related experimental work.
+That is intentional.
 
-It contributes to the broader **Create** responsibility without defining everything that Creation can mean.
+Creation remains part of the human-facing model, but Renaissance will not designate an existing independent engineering project as its implementation merely to complete the constellation.
+
+If genuine Renaissance work establishes a need for a creation instrument, its responsibility and contract should emerge first.
 
 ### Organs — Runtime Substrate
 
@@ -277,7 +281,9 @@ Consequential changes are recorded through the project's documented decision pro
 
 Renaissance does not require every interesting project to become a Renaissance subsystem.
 
-Some projects remain deliberately independent.
+Some projects remain deliberately independent and outside the current Renaissance working field.
+
+The current architecture does not retroactively absorb pre-existing projects simply because their capabilities resemble one of the provisional human-facing responsibilities.
 
 For example, the Shiva-related constellation is its own body of work:
 
