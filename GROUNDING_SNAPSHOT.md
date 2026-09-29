@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** c90c9f8619f1edad2b9c9238194feced93e46b4d
+**Source commit:** 4b81ceeb93211b078d1e82f8b5a2127dc76fc48a
 **Branch:** main
 
 ## Recent commits
 
+- 4b81cee 2026-09-29 Clarify human-facing capability architecture
+- e60c7f8 2026-09-29 Clarify human-facing capability terminology
+- 293f8b0 2026-09-29 Clarify human-facing capabilities and system responsibilities
+- 1e8a45e 2026-09-29 chore: refresh grounding snapshot
 - c90c9f8 2026-09-29 Align Episteme contract with clarified independent project boundary
 - 30d36e1 2026-09-29 chore: refresh grounding snapshot
 - 81d0ddf 2026-09-29 Align capability framework with Decision 0008
 - 81f7eab 2026-09-29 chore: refresh grounding snapshot
-- 1700f26 2026-09-29 Record Renaissance boundary clarification in work ledger
-- 717528d 2026-09-29 Align architecture with clarified project boundary
-- 01a39a7 2026-09-29 Align capability model with clarified project boundary
-- 912b7d8 2026-09-29 chore: refresh grounding snapshot
 
 ## Core documents
 
