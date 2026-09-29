@@ -6,9 +6,11 @@
 
 ## Purpose
 
-A Renaissance **capability** is a bounded responsibility that Renaissance recognizes as useful work, with an explicit contract, without requiring a particular implementation.
+A Renaissance **system capability** is a bounded responsibility that Renaissance recognizes as useful work, with an explicit contract, without requiring a particular implementation.
 
-Renaissance defines capabilities by **responsibility, not implementation**.
+Renaissance defines system capabilities by **responsibility, not implementation**.
+
+Renaissance also uses **human-facing capability** to describe the human ability the project seeks to increase. Human-facing capabilities and system capabilities are related but are not required to map one-to-one.
 
 The purpose of this layer is to let Renaissance describe *what useful work exists* without prematurely deciding which repository, service, organ, algorithm, model, or project must perform it.
 
@@ -240,20 +242,24 @@ This list is **conceptual, not a mandate for separate repositories or services**
 
 Existing implementations may cover several responsibilities. Episteme is one such case.
 
-### Provisional human-facing model
+### Provisional human-facing capability model
 
 A separate provisional architectural model is now recorded in:
 
 `CAPABILITIES/HUMAN_CAPABILITY_MODEL.md`
 
-It proposes four broad human-facing responsibilities for further architectural testing:
+It proposes four broad **human-facing capabilities** for further architectural testing:
 
 - **Understand**
 - **Explore**
 - **Create**
 - **Learn**
 
-This is **provisional** and does not yet replace the conceptual responsibility list above or establish four formally recognized capabilities. It is being treated as a hypothesis to test against real workflows and implementation evidence.
+These describe the human capabilities Renaissance seeks to increase. They are distinct from the **system responsibilities** listed above, which describe classes of useful work that implementations may perform in service of one or more human-facing capabilities.
+
+This distinction does not establish a one-to-one mapping. A single implementation may perform several system responsibilities, and a system responsibility may support more than one human-facing capability.
+
+The human-facing model remains **provisional** and does not establish four formally recognized implementation boundaries. It is being treated as a hypothesis to test against real workflows and implementation evidence.
 
 The current working evidence maps:
 
