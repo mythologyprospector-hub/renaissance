@@ -8,48 +8,36 @@ constitutional documents and recorded Decisions.
 
 ## Current Frontier
 
-**Status:** Organs runtime-substrate hardening checkpoint complete; no next
+**Status:** Renaissance constellation shape accepted by Human Gate; no next
 implementation task is currently established.
 
 ### Last verified stopping point
 
-The work stopped in **Organs** after the Orchestrator live subprocess
-regression was merged:
+The constellation review was completed and recorded as:
 
-- **PR:** #1 — `test: add live Orchestrator subprocess regression`
-- **Merge:** `e4f71f256dd8ccb309123bf04b6d44dd476303cb`
-- **Repository:** `mythologyprospector-hub/organs`
-- **Verification:** `uv run pytest -q orchestrator/tests` → **32 passed, 33 warnings**
+- **Decision:** 0007 — Accept Renaissance Constellation Shape
+- **Status:** Accepted
+- **Date:** 2026-09-29
+- **Authority:** Human Gate
+- **Commit:** e610a418b16e63687af43499dbc4c0c09814a7f9
 
-The PR added a bounded live regression for the existing Orchestrator
-subprocess path. No runtime behavior or architecture changed.
+Decision 0007 accepts the current working shape under the principle **Unity
+without sameness**. It preserves independent project boundaries and does not
+authorize premature interfaces, universal protocols, repository absorption, or
+a Learn implementation.
 
-Before merge, the PR branch was synchronized with current Organs `main`,
-including the current hardening history. GitHub then merged the PR into
-`main`.
-
-### Why the work was in Organs
-
-Organs is Renaissance runtime infrastructure. Work may temporarily cross into
-Organs when Renaissance architectural requirements require runtime
-investigation, integration, or hardening.
-
-The move between repositories is therefore part of the working trail, not an
-architectural claim that the projects are the same thing.
-
-## Resume From Here
+### Resume From Here
 
 When continuing this work:
 
-1. Inspect the current Organs state from its repository.
-2. Identify whether any remaining concrete hardening pressure exists.
-3. If a task belongs to Organs implementation/hardening, establish it from
-   current repository evidence before changing anything.
-4. If the next task requires a Renaissance architectural decision, return to
-   the applicable Renaissance authority and Decision process.
+1. Inspect current Renaissance and relevant project state from their repositories.
+2. Identify whether a concrete architectural or implementation need now exists.
+3. If a task crosses a project boundary, establish the applicable contract and
+   authority before implementation.
+4. If the next task requires a substantive Renaissance architectural decision,
+   use the applicable Decision/change-control process.
 5. Do not manufacture work merely to maintain momentum.
-6. Preserve the authority boundary between Renaissance and Organs.
-7. Update this ledger when the next meaningful stopping point is established.
+6. Update this ledger when the next meaningful stopping point is established.
 
 ## Last Known Organs Boundary
 
