@@ -38,7 +38,7 @@ SYSTEM ARCHITECTURE
         |                    |
         v                    v
 RUNTIME                CAPABILITIES
-Organs                 Episteme and others
+Organs                 Episteme and future capabilities
         |                    |
         +----------+---------+
                    |
@@ -190,7 +190,7 @@ Episteme therefore should not be artificially decomposed into separate Renaissan
 
 Renaissance remains the architectural authority.
 
-If Episteme's existing structure conflicts with requirements established by Renaissance, Episteme may be changed.
+If Episteme's existing structure conflicts with requirements established by Renaissance, the Renaissance-facing contract or architectural boundary may be revised through the normal change-control process. That does not transfer ownership or day-to-day control of Episteme's independent repository to Renaissance.
 
 Conversely, Episteme does not acquire authority to define Renaissance's architecture merely because it is currently substantial or mature.
 
