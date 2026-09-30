@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 0fa2225c30824b804195c8c0799b9ceb6733060a
+**Source commit:** 644bccb7ed10d0981b472d95463c197925c5a739
 **Branch:** main
 
 ## Recent commits
 
+- 644bccb 2026-09-30 Clarify Episteme independence in architecture
+- cf529c2 2026-09-30 chore: refresh grounding snapshot
 - 0fa2225 2026-09-30 Align constellation audit with Decision 0008
 - fc5c1f8 2026-09-29 chore: refresh grounding snapshot
 - f6263f3 2026-09-29 Clarify human-facing capabilities and system responsibilities
 - cca0177 2026-09-29 chore: refresh grounding snapshot
 - 1b8d0f0 2026-09-29 Update work ledger after capability clarification
 - a4c47fc 2026-09-29 chore: refresh grounding snapshot
-- 4b81cee 2026-09-29 Clarify human-facing capability architecture
-- e60c7f8 2026-09-29 Clarify human-facing capability terminology
 
 ## Core documents
 
