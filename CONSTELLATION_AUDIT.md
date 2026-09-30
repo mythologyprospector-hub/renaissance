@@ -94,24 +94,24 @@ Episteme's own README explicitly states that it is an independent project and th
 ### 4. `tiger-den`
 
 **Current status:** Public  
-**Working classification:** Core-adjacent discovery infrastructure / likely Renaissance capability
+**Working classification:** Specialist / independent project — outside current Renaissance working constellation
 
 Tiger Den maps reusable computational primitives already present in the world rather than attempting to absorb them into one implementation.
 
 Its principles — evidence before assertion, provenance, preservation of meaningful differences, valid unknowns, discovery before synthesis, and respect for external licenses/governance — closely align with Renaissance's epistemic and interoperability goals.
 
-**Relationship:** Strong candidate for a Renaissance capability concerned with discovering and mapping existing computational knowledge.
+**Relationship:** Its discovery/mapping work is compatible with Renaissance and was examined as architectural evidence, but Tiger Den is outside the current Renaissance working constellation. Renaissance has no current dependency, capability membership, or integration requirement for it.
 
-**Evidence update (2026-09-28):** A dedicated archaeology pass inspected Tiger Den's computational-cartography role, provenance/evidence handling, uncertainty boundaries, corpus discipline, and research protocol. The relationship to Renaissance discovery capability is now demonstrated by concrete project evidence. Its integration remains deliberately deferred; no shared schema, runtime, or forced Episteme integration is established.
+**Evidence update (2026-09-28):** A dedicated archaeology pass inspected Tiger Den's computational-cartography role, provenance/evidence handling, uncertainty boundaries, corpus discipline, and research protocol. Those findings remain historical evidence of compatibility with Renaissance principles; they do not establish Renaissance membership or a current integration boundary.
 
-**Action:** Keep public and independently governed. Treat the relationship as demonstrated, with integration deferred pending a concrete architectural need.
+**Action:** Keep public and independently governed. Preserve the archaeology as historical evidence. Do not plan Renaissance integration unless a concrete future architectural relationship is independently established.
 
 ---
 
 ### 5. `ai-foundry`
 
 **Current status:** Public  
-**Working classification:** Supporting infrastructure / experimental laboratory
+**Working classification:** Specialist / independent project — outside current Renaissance working constellation
 
 AI Foundry is a local-first environment for constructing, configuring, testing, evaluating, and reproducing AI systems.
 
@@ -119,11 +119,11 @@ Its experimental framing is particularly compatible with Renaissance's emphasis 
 
 It is nevertheless an engineering laboratory rather than Renaissance itself.
 
-**Relationship:** Potential Renaissance experimental/engineering infrastructure.
+**Relationship:** Its laboratory practices are compatible with Renaissance provenance and reproducibility principles, but AI Foundry is outside the current Renaissance working constellation. Renaissance has no current dependency, capability membership, or integration requirement for it.
 
-**Evidence update (2026-09-28):** A dedicated archaeology pass inspected AI Foundry's foundation, terminology, artifact model, persistence rules, evaluation/comparison workflow, and explicit Run provenance. AI Foundry concretely preserves an Experiment → Run → Result → Evaluation chain and runtime/dataset/test-case provenance within its laboratory boundary. This demonstrates architectural compatibility with Renaissance provenance and reproducibility principles without establishing a Renaissance-owned integration layer.
+**Evidence update (2026-09-28):** A dedicated archaeology pass inspected AI Foundry's foundation, terminology, artifact model, persistence rules, evaluation/comparison workflow, and explicit Run provenance. AI Foundry concretely preserves an Experiment → Run → Result → Evaluation chain and runtime/dataset/test-case provenance within its laboratory boundary. Those findings remain historical evidence of compatibility; they do not establish Renaissance membership or a current integration boundary.
 
-**Action:** Keep public and independently governed. Treat the relationship as demonstrated at the evidence level, while deferring formal integration until a concrete dependency or interoperability need exists.
+**Action:** Keep public and independently governed. Preserve the archaeology as historical evidence. Do not plan Renaissance integration unless a concrete future architectural relationship is independently established.
 
 ---
 
@@ -276,11 +276,11 @@ The current evidence suggests a layered world rather than a single monolithic so
         CORE CAPABILITIES   SHARED
               |           INFRASTRUCTURE
           Episteme        Organs
-          Tiger Den       AI Foundry
               |
               |
        INDEPENDENT / SPECIALIST
               |
+       Tiger Den / AI Foundry
        Namagiri / Behemoth / Leviathan
        (public for forensic evidence)
        Esoteric Atlas
@@ -343,15 +343,13 @@ Organs supplies reusable runtime infrastructure.
 
 Episteme supplies a concrete discovery/inquiry capability and now has independently inspected evidence showing that its existing provenance, transformation, and execution-lineage mechanisms already realize several Renaissance-required distinctions.
 
-Tiger Den supplies a concrete specialized discovery/mapping instrument, with its Renaissance relationship demonstrated but integration deliberately deferred.
+Tiger Den and AI Foundry have been archaeologically examined and show compatibility with Renaissance principles, but Decision 0008 places both outside the current Renaissance working constellation. Their prior evidence remains useful historical context; it does not establish membership, dependency, or an integration requirement.
 
-AI Foundry supplies a concrete AI-engineering laboratory with explicit local provenance and reproducibility mechanisms; its Renaissance relationship is likewise demonstrated at the evidence level without a formal integration contract.
-
-The exact interfaces between these projects remain an architecture question and should not be invented merely because the conceptual fit is attractive.
+The exact interfaces between current Renaissance relationships remain an architecture question and should not be invented merely because conceptual fit is attractive.
 
 ## Finding 4 — Public Renaissance does not need to contain every compatible project
 
-Namagiri/Behemoth/Leviathan, Notation Transposer, Esoteric Atlas, and Android Dojo/Toolkit currently have sufficiently specific missions that forcing them into Renaissance would create artificial coupling or visual symmetry.
+Tiger Den, AI Foundry, Namagiri/Behemoth/Leviathan, Notation Transposer, Esoteric Atlas, and Android Dojo/Toolkit currently have sufficiently specific or independent missions that incorporating them into Renaissance would create artificial coupling or visual symmetry.
 
 The current evidence supports a smaller public Renaissance boundary while preserving independent projects and historical relationships. The three reverse-engineering repositories remain public for an operational reason: their Issues are being used as a forensic evidence record. Their README notices make the boundary explicit.
 
@@ -386,7 +384,7 @@ These are intentionally unresolved:
 1. Which capabilities constitute the first formal Renaissance core?
 2. What exact interfaces should exist between Renaissance, Organs, Episteme, and Tiger Den?
 3. Is AI Foundry infrastructure, an experimental satellite, or a future core capability?
-4. Should a formal Renaissance integration contract exist for satellite repositories?
+4. Should a formal Renaissance integration contract exist for any independent repository if a concrete future relationship emerges?
 5. What naming/branding conventions should shared projects follow?
 6. What license model should govern Renaissance and participating repositories?
 7. How should independent external authorities be represented when a Renaissance project integrates specialist software?
@@ -401,8 +399,8 @@ No answer is being forced by this audit.
 
 1. Ratify or revise the constellation model only after Human Gate review.
 2. Convert the completed Episteme archaeology into explicit integration documentation only if a concrete boundary is needed; do not duplicate its existing provenance/lineage mechanisms.
-3. Convert the completed Tiger Den archaeology into explicit integration documentation only if a concrete boundary is needed.
-4. Treat AI Foundry similarly: preserve its independent laboratory boundary unless a demonstrated interoperability need emerges.
+3. Preserve the completed Tiger Den archaeology as historical evidence; do not create integration documentation unless a concrete future boundary is needed.
+4. Preserve AI Foundry's independent laboratory boundary unless a demonstrated future interoperability need emerges.
 5. Use Decision 0006 as the current minimum relationship-interoperability boundary; do not infer a final protocol from it.
 6. Only then finalize the Renaissance visual identity and social preview.
 7. Do not move, delete, or rename repositories merely for aesthetic uniformity.
@@ -433,3 +431,11 @@ These findings remain subordinate to the repository's existing authority hierarc
 This refresh records the current public-boundary clarification following Human Gate review. Android Dojo and Android Dojo Toolkit are now private. Esoteric Atlas and Notation Transposer are now private. Namagiri, Behemoth, and Leviathan remain public because their Issues are being used as a forensic evidence record for ongoing reverse-engineering work; their README notices explicitly distinguish that work from Renaissance.
 
 The resulting distinction is deliberate: public visibility does not imply Renaissance membership, and private visibility does not imply architectural rejection. Renaissance remains responsible for its own demonstrated foundation and relationships, while independent projects retain their own identities and purposes.
+
+---
+
+## Refresh Record — 2026-09-29 — Decision 0008 Boundary Clarification
+
+Decision 0008 clarifies that **Tiger Den and AI Foundry are outside the current Renaissance working constellation**. Their prior archaeology remains historical evidence of compatibility with Renaissance principles, but neither is a Renaissance implementation of Explore or Create, Renaissance does not depend on either, and no current integration is authorized or required.
+
+This clarification preserves both projects' independent identities and does not reject the possibility of a future relationship. Any such relationship must be established independently from a concrete architectural need rather than inferred from compatibility alone.
