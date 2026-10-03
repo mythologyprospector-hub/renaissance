@@ -242,7 +242,7 @@ This list is **conceptual, not a mandate for separate repositories or services**
 
 Existing implementations may cover several responsibilities. Episteme is one such case.
 
-### Provisional human-facing capability model
+### Human-facing capability model
 
 A separate provisional architectural model is now recorded in:
 
@@ -259,18 +259,26 @@ These describe the human capabilities Renaissance seeks to increase. They are di
 
 This distinction does not establish a one-to-one mapping. A single implementation may perform several system responsibilities, and a system responsibility may support more than one human-facing capability.
 
-The human-facing model remains **provisional** and does not establish four formally recognized implementation boundaries. It is being treated as a hypothesis to test against real workflows and implementation evidence.
+The human-facing model remains **provisional** and does not establish one-to-one implementation boundaries. Create has now been tested as a system responsibility and given an explicit contract in `CAPABILITIES/CREATE_CONTRACT.md`; this does not designate an implementation repository.
 
 The current working evidence maps:
 
 - Episteme primarily toward **Understand**;
 - no current Renaissance implementation is established as primary for **Explore**;
-- no current Renaissance implementation is established as primary for **Create**;
+- **Create** is now recognized as a system capability, with implementation intentionally open;
 - no mature Renaissance implementation is currently identified as primary for **Learn**.
 
-The absence of an implementation is an intentional unresolved state. An independent project's similarity to a provisional responsibility does not establish an implementation relationship. Future recognition requires demonstrated need, an explicit boundary, and the applicable contract.
+The absence of an implementation is an intentional unresolved state. An independent project's similarity to a provisional responsibility does not establish an implementation relationship. Future capability recognition requires demonstrated need, an explicit boundary, and the applicable contract. Existing independent projects may later qualify as implementations where their actual responsibility satisfies the contract.
 
-## 12. Architectural Rules
+## 12. Create Capability
+
+The first capability established through the current boundary investigation is **Create**.
+
+The contract is intentionally implementation-neutral and defines constructive work as a responsibility distinct from inquiry, problem framing, and runtime infrastructure. No existing repository is automatically designated as its implementation.
+
+The immediate implementation task is therefore discovery and verification: inspect existing projects and real workflows for a coherent implementation, and build a new implementation only if the existing work cannot satisfy the contract without distorting its own purpose.
+
+## 13. Architectural Rules
 
 1. Define responsibilities before implementations.
 2. Do not infer authority from technical centrality.
@@ -283,7 +291,7 @@ The absence of an implementation is an intentional unresolved state. An independ
 9. Do not silently expand a capability's authority or scope.
 10. When uncertain, resolve the boundary explicitly rather than assuming.
 
-## 13. Status
+## 14. Status
 
 This document establishes the working Renaissance capability framework.
 
