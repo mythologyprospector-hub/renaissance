@@ -199,9 +199,13 @@ Artifacts should have appropriate lineage; generated and source material should 
 
 ### Current implementation evidence
 
-No current Renaissance project is established as the primary implementation of Create.
+AI Foundry is the first existing project identified as a concrete implementation instrument for part of this responsibility.
 
-This is an intentional unresolved boundary. A capability name does not establish an implementation relationship with an independent engineering project whose work happens to resemble that responsibility.
+AI Foundry is a local-first laboratory for engineering AI behavior and AI configurations. Its current contracts and implementation cover configuration as an engineered artifact, controlled construction/execution, durable results and evaluations, comparisons, provenance, and reproducibility. Its roadmap also explicitly includes construction, packaging, and maintenance of larger AI configurations.
+
+The relationship is intentionally scoped: AI Foundry remains an AI engineering laboratory and is not being redefined as a generic creation system. It therefore provides a specialized implementation of Create for AI-system construction rather than becoming synonymous with the Create capability.
+
+The capability contract remains broader than this implementation. Other creation domains may require additional instruments or implementations.
 
 ## 4. Learn
 
