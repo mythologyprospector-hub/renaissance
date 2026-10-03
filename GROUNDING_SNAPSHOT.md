@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** df22fa9b18890dd3ce459a031dec6d722e165ea0
+**Source commit:** f0f021c683cd0c47935b01da62ed75a0ddd4e5f5
 **Branch:** main
 
 ## Recent commits
 
+- f0f021c 2026-10-03 Establish Explore capability contract
+- ac2a770 2026-10-03 chore: refresh grounding snapshot
 - df22fa9 2026-10-03 Map AI Foundry as a specialized Create instrument
 - 7b5b95b 2026-10-03 chore: refresh grounding snapshot
 - 6f3fa46 2026-10-03 Recognize Create capability contract
 - 65a8364 2026-10-03 chore: refresh grounding snapshot
 - 8b4540b 2026-10-03 Establish Create capability contract
 - 6dd241d 2026-09-30 chore: refresh grounding snapshot
-- 3ca7a76 2026-09-30 Record Learn experiment execution frontier
-- 43d0d02 2026-09-30 Record Learn Experiment 001A execution
 
 ## Core documents
 
