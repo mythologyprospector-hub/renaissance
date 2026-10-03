@@ -135,9 +135,21 @@ A conforming implementation must distinguish exploration from validation, genera
 
 ### Current implementation evidence
 
-No current Renaissance project is established as the primary implementation of Explore.
+No general-purpose Renaissance implementation of Explore is established.
 
-This is an intentional unresolved boundary. A capability name does not establish an implementation relationship with an independent project whose work happens to resemble that responsibility.
+A historical Akasha implementation has now been examined as archaeological material. Its discovery subsystem contains a genuine specialized exploration mechanism: it defines bounded structural spaces, scans for unoccupied valid coordinates, detects graph/lattice gaps, searches for cross-domain bridges, generates candidate hypotheses, records exploration history, and keeps human review before canonical integration.
+
+This is useful implementation evidence for **part** of Explore, but not a reason to absorb Akasha or revive the archived repository. The mechanism is tightly coupled to Akasha's own knowledge and lattice models, and its scoring and hypothesis generation are specialized to that domain.
+
+The architectural conclusion is therefore:
+
+- Akasha remains archived and independent.
+- Its useful exploration concepts may be **reborn inside Renaissance** where they satisfy Renaissance contracts.
+- No Akasha repository, ontology, authority, or implementation is imported merely because it is historically useful.
+- Any reborn implementation must be redesigned and tested against the Explore contract, preserving the distinction between observations, generated possibilities, hypotheses, and evidence.
+- Explore remains broader than the recovered Akasha mechanism.
+
+This establishes Akasha as **specialized historical implementation evidence**, not as the Renaissance Explore implementation.
 
 ## 3. Create
 
