@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** e0ec7ca8254f010ac68da744bd7aece495833d19
+**Source commit:** b6bae44066c2a06bad81294c4acaa4d373691fef
 **Branch:** main
 
 ## Recent commits
 
+- b6bae44 2026-10-03 Define minimum Learn instrument model
+- 54a1179 2026-10-03 chore: refresh grounding snapshot
 - e0ec7ca 2026-10-03 Establish Learn capability boundary
 - c477be8 2026-10-03 chore: refresh grounding snapshot
 - c556ff8 2026-10-03 Test Explore model against AI configuration space
 - 5e45ed6 2026-10-03 chore: refresh grounding snapshot
 - 64de92c 2026-10-03 Refine Explore around reusable exploration model
 - f5c0997 2026-10-03 chore: refresh grounding snapshot
-- 838ddba 2026-10-03 Record Akasha as archaeological Explore evidence
-- 38950b7 2026-10-03 chore: refresh grounding snapshot
 
 ## Core documents
 
