@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 64de92cd2de8522416af12d6c565192f43196a44
+**Source commit:** c556ff88e909182b9aef10e0215864de4d110cb1
 **Branch:** main
 
 ## Recent commits
 
+- c556ff8 2026-10-03 Test Explore model against AI configuration space
+- 5e45ed6 2026-10-03 chore: refresh grounding snapshot
 - 64de92c 2026-10-03 Refine Explore around reusable exploration model
 - f5c0997 2026-10-03 chore: refresh grounding snapshot
 - 838ddba 2026-10-03 Record Akasha as archaeological Explore evidence
 - 38950b7 2026-10-03 chore: refresh grounding snapshot
 - f0f021c 2026-10-03 Establish Explore capability contract
 - ac2a770 2026-10-03 chore: refresh grounding snapshot
-- df22fa9 2026-10-03 Map AI Foundry as a specialized Create instrument
-- 7b5b95b 2026-10-03 chore: refresh grounding snapshot
 
 ## Core documents
 
