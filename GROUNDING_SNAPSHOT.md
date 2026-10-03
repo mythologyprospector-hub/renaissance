@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 6f3fa4665e11169799de96a5b42b2ed323b37359
+**Source commit:** df22fa9b18890dd3ce459a031dec6d722e165ea0
 **Branch:** main
 
 ## Recent commits
 
+- df22fa9 2026-10-03 Map AI Foundry as a specialized Create instrument
+- 7b5b95b 2026-10-03 chore: refresh grounding snapshot
 - 6f3fa46 2026-10-03 Recognize Create capability contract
 - 65a8364 2026-10-03 chore: refresh grounding snapshot
 - 8b4540b 2026-10-03 Establish Create capability contract
 - 6dd241d 2026-09-30 chore: refresh grounding snapshot
 - 3ca7a76 2026-09-30 Record Learn experiment execution frontier
 - 43d0d02 2026-09-30 Record Learn Experiment 001A execution
-- a01885e 2026-09-30 chore: refresh grounding snapshot
-- 644bccb 2026-09-30 Clarify Episteme independence in architecture
 
 ## Core documents
 
