@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** c7aa567d5d4ee32e44cd2c30d33b87cea42891ac
+**Source commit:** 35fef37dfccdd6cc56091a7b242c65d0ae2db5af
 **Branch:** main
 
 ## Recent commits
 
+- 35fef37 2026-10-04 Record verified Organs Human Doorway transport integration
+- 3e88ee0 2026-10-04 chore: refresh grounding snapshot
 - c7aa567 2026-10-04 Record first executable Human Doorway slice
 - c1854aa 2026-10-04 chore: refresh grounding snapshot
 - c09cc0a 2026-10-04 Test Human Doorway runtime in CI
 - 8d69c31 2026-10-04 chore: refresh grounding snapshot
 - 187cbd3 2026-10-04 Add Human Doorway runtime contract tests
 - 1d82595 2026-10-04 chore: refresh grounding snapshot
-- 99f9c5f 2026-10-04 Implement minimal Human Doorway runtime boundary
-- ec7c068 2026-10-04 Implement minimal Human Doorway runtime boundary
 
 ## Core documents
 
