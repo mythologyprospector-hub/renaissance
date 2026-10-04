@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 561c42ace73bd2416337699fa949c433a23533eb
+**Source commit:** 9ea662bdfbacd51184898501340f5c93793e9149
 **Branch:** main
 
 ## Recent commits
 
+- 9ea662b 2026-10-04 Update frontier: knowledge-growth cycle hypothesis
+- b3e2966 2026-10-04 chore: refresh grounding snapshot
 - 561c42a 2026-10-04 Record human-facing interaction discovery frontier
 - 4a5f8fe 2026-10-04 chore: refresh grounding snapshot
 - 6725c4e 2026-10-04 Remove stale private-project references from public README
 - 3fa0c13 2026-10-04 chore: refresh grounding snapshot
 - 14b8c0d 2026-10-04 Remove stale private-project references from public architecture
 - 897bf6c 2026-10-04 chore: refresh grounding snapshot
-- 9c6ee67 2026-10-04 Remove remaining private project references
-- 49f7b6a 2026-10-04 chore: refresh grounding snapshot
 
 ## Core documents
 
