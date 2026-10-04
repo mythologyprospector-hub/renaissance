@@ -79,6 +79,30 @@ That question is grounded directly in the existing Renaissance epistemic model a
 
 **Important restraint:** do not build self-talk, autonomy, an "auto-glean" subsystem, or a new memory architecture merely because the concept is attractive. First establish the minimum durable record and cycle semantics needed to preserve provenance, uncertainty, contradictions, and epistemic status across repeated exploration.
 
+
+### Investigation result — the missing piece is attention, not epistemic memory
+
+A direct inspection of the current Episteme boundary shows that the knowledge-growth substrate is already substantially present:
+
+- discovery findings preserve bounded gaps, tensions, contradictions, unresolved questions, inputs, methods, and reproducibility;
+- hypotheses and predictions preserve their motivating findings, grounded inputs, assumptions, and generation method;
+- experiments, results, evaluations, and renewed discovery preserve the distinction between grounded evidence and generated interpretation;
+- finite workflows preserve declared procedure, execution history, step lineage, failures, and reproducibility;
+- external acquisition and capture preserve the received material and its operational lineage;
+- Praxis evidence can now cross into Episteme through an explicit human-admitted handoff.
+
+The remaining pressure relevant to the autonomous knowledge-growth hypothesis is therefore **not another memory/provenance object**.
+
+The missing question is **attention**:
+
+> Given everything the system already knows, what deserves investigation next, and why?
+
+Episteme's existing discovery model already says significance is an attention problem rather than a truth problem, and deliberately rejects universal importance/ranking scores. That is an important boundary for the future cycle.
+
+This suggests a smaller and safer direction than an autonomous-agent framework: a future knowledge-growth cycle may need a durable, inspectable **reason for choosing a next investigation** while leaving truth, importance, and human consequential decisions outside that mechanism.
+
+No new subsystem or architecture decision is justified yet. The next investigation is to determine the minimum semantics of a proposed next step — including its originating gap/question, supporting inputs, method or selection rule, alternatives considered, and whether the system is asking, suggesting, or executing — so that autonomous continuation can remain inspectable without becoming silent prioritization or truth selection.
+
 ## Last Known Organs Boundary
 
 Organs has a real Communications BUS carrying Memory events, but current
