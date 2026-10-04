@@ -66,9 +66,7 @@ class LearnVerticalSliceTests(unittest.TestCase):
             capability_target="justify classifications",
             baseline=self.baseline(),
         )
-        episode.record_performance(
-            Performance("practice", "correct", "guided", True)
-        )
+        self.prepare_episode(episode)
 
         self.assertEqual(
             episode.capability_evidence(),
@@ -96,7 +94,7 @@ class LearnVerticalSliceTests(unittest.TestCase):
         episode.record_transfer(
             Transfer(
                 "transfer",
-                Performance("transfer", "wrong", "reduced", False),
+                Performance("transfer", "wrong", "reduced", False, "did not apply criterion"),
                 materially_different=True,
                 reduced_scaffolding=True,
             )
