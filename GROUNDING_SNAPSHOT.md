@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** e84e6ef586f00278f2ea39394aeab8f1fcdfe763
+**Source commit:** c8f2c521486edce6d02c999abe2d41b54eec2362
 **Branch:** main
 
 ## Recent commits
 
+- c8f2c52 2026-10-04 Keep Human Doorway registry heartbeat inside Renaissance
+- 06d3515 2026-10-04 chore: refresh grounding snapshot
 - e84e6ef 2026-10-04 Keep Human Doorway registration alive
 - e6bf4f7 2026-10-04 chore: refresh grounding snapshot
 - 226332f 2026-10-04 Add Human Doorway local runtime launcher
 - f91f0ba 2026-10-04 chore: refresh grounding snapshot
 - 8cc1d41 2026-10-04 Record live Attention Choice transport verification
 - 57c0c16 2026-10-04 chore: refresh grounding snapshot
-- 848ae11 2026-10-04 Install uvicorn for live Organs integration test
-- d0bbec8 2026-10-04 chore: refresh grounding snapshot
 
 ## Core documents
 
