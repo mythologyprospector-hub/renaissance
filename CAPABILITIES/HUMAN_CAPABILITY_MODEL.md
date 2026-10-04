@@ -211,13 +211,13 @@ Artifacts should have appropriate lineage; generated and source material should 
 
 ### Current implementation evidence
 
-AI Foundry is the first existing project identified as a concrete implementation instrument for part of this responsibility.
+AI Foundry is historical/specialist implementation evidence for part of this responsibility, not a current Renaissance implementation.
 
-AI Foundry is a local-first laboratory for engineering AI behavior and AI configurations. Its current contracts and implementation cover configuration as an engineered artifact, controlled construction/execution, durable results and evaluations, comparisons, provenance, and reproducibility. Its roadmap also explicitly includes construction, packaging, and maintenance of larger AI configurations.
+AI Foundry is a local-first laboratory for engineering AI behavior and AI configurations. Its current contracts and implementation provide useful evidence about configuration as an engineered artifact, controlled construction/execution, durable results and evaluations, comparisons, provenance, and reproducibility.
 
-The relationship is intentionally scoped: AI Foundry remains an AI engineering laboratory and is not being redefined as a generic creation system. It therefore provides a specialized implementation of Create for AI-system construction rather than becoming synonymous with the Create capability.
+The relationship is intentionally scoped: AI Foundry remains an independent AI engineering laboratory and is **outside the current Renaissance working constellation**. Its evidence does not establish Renaissance membership, dependency, or a requirement to create a Renaissance Create subsystem around it.
 
-The capability contract remains broader than this implementation. Other creation domains may require additional instruments or implementations.
+The capability contract remains broader than this historical/specialist evidence. Other creation domains may require additional instruments or implementations.
 
 ## 4. Learn
 
@@ -440,7 +440,7 @@ A real activity may invoke several at once.
 
 For example:
 
-```
+```text
                 UNDERSTAND
                     │
                     ▼
@@ -489,7 +489,7 @@ The model does not replace the existing capability framework.
 
 It applies that framework at a higher, human-facing level:
 
-```
+```text
 Renaissance human-facing capabilities
         │
         ├── Understand
