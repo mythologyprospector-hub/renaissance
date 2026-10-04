@@ -8,7 +8,7 @@ constitutional documents and recorded Decisions.
 
 ## Current Frontier
 
-**Status:** Autonomous knowledge-growth hypothesis — discovery cycle under examination.
+**Status:** Attention Choice contract validated; formal decision gate pending.
 
 ### Last verified stopping point
 
@@ -57,7 +57,7 @@ Examples tested:
 
 The important finding is broader than question answering: a human-facing Renaissance must be able to recognize the kind of moment it is in and respond proportionately. Sometimes that means investigation, sometimes learning, sometimes conceptual exploration, and sometimes simply participating in a human moment without turning it into a task.
 
-### New hypothesis — knowledge-growth cycle
+### Knowledge-growth hypothesis
 
 The latest discussion points toward a stronger hypothesis:
 
@@ -71,79 +71,88 @@ A further possibility is that the system can generate some of its own next quest
 
 This is **not yet an architecture decision** and does not justify a new repository or subsystem by itself.
 
-The immediate design question is narrower:
+The investigation that followed established that the missing pressure is **attention**, not another epistemic-memory object.
 
-> **What must a knowledge-growth cycle preserve so that accumulated material remains distinguishable as observation, evidence, interpretation, hypothesis, prediction, experiment, result, conclusion, or unknown even after repeated autonomous exploration?**
+### Attention Choice investigation
 
-That question is grounded directly in the existing Renaissance epistemic model and is the next place to investigate.
+The grounded investigation established:
 
-**Important restraint:** do not build self-talk, autonomy, an "auto-glean" subsystem, or a new memory architecture merely because the concept is attractive. First establish the minimum durable record and cycle semantics needed to preserve provenance, uncertainty, contradictions, and epistemic status across repeated exploration.
+- Episteme already preserves findings, hypotheses, predictions, experiments, results, evaluations, workflow lineage, acquisition lineage, and provenance.
+- The missing seam is the transition:
+  `represented pressure → choice of what to attend to → declared work`
+- Renaissance has no existing request/intent/selection contract that owns this seam.
+- A universal importance score or global ranking mechanism is neither present nor justified.
+- The smallest useful semantic unit is an **Attention Choice**: a declared decision to give an identified matter attention.
+- The choice belongs above Episteme's scientific execution machinery.
+- Episteme remains responsible for the investigation it receives and its scientific provenance.
 
-### Investigation result — the missing piece is attention, not epistemic memory
+The proposed contract was created at:
 
-A direct inspection of the current Episteme boundary shows that the knowledge-growth substrate is already substantially present:
+`PROPOSALS/ATTENTION_CHOICE_CONTRACT.md`
 
-- discovery findings preserve bounded gaps, tensions, contradictions, unresolved questions, inputs, methods, and reproducibility;
-- hypotheses and predictions preserve their motivating findings, grounded inputs, assumptions, and generation method;
-- experiments, results, evaluations, and renewed discovery preserve the distinction between grounded evidence and generated interpretation;
-- finite workflows preserve declared procedure, execution history, step lineage, failures, and reproducibility;
-- external acquisition and capture preserve the received material and its operational lineage;
-- Praxis evidence can now cross into Episteme through an explicit human-admitted handoff.
+It remains explicitly **Proposed — not canon**.
 
-The remaining pressure relevant to the autonomous knowledge-growth hypothesis is therefore **not another memory/provenance object**.
+### Attention Choice record validation
 
-The missing question is **attention**:
+The proposed referential record was tested against seven knowledge-growth cases.
 
-> Given everything the system already knows, what deserves investigation next, and why?
+The record shape is:
 
-Episteme's existing discovery model already says significance is an attention problem rather than a truth problem, and deliberately rejects universal importance/ranking scores. That is an important boundary for the future cycle.
+```
+AttentionChoice
+  id
+  pressure_ref
+  target_ref
+  supporting_refs[]
+  selection_basis
+  alternative_refs[]
+  mode
+  authorization_ref?
+  outcome_ref?
+```
 
-This suggests a smaller and safer direction than an autonomous-agent framework: a future knowledge-growth cycle may need a durable, inspectable **reason for choosing a next investigation** while leaving truth, importance, and human consequential decisions outside that mechanism.
+The tests established:
 
-### Investigation result — attention should be a declared choice, not a hidden score
+- human curiosity can supply pressure directly;
+- an Episteme gap can motivate a suggestion without making Episteme the agenda setter;
+- multiple candidates can be handled without universal ranking;
+- unrelated novelty does not justify investigation;
+- rejection remains a valid outcome;
+- investigation results remain separate from the original choice;
+- a choice does not become permission merely because execution follows.
 
-A further inspection of Episteme's completed orchestration boundary sharpens this.
+The authorization test exposed and resolved one real provenance seam: when execution requires separate authorization, the choice must preserve a reference to that established authorization without becoming an authority object itself.
 
-Phase 12 already requires workflows to preserve selected input identifiers, parameters, assumptions, method/version, branching, and alternatives. It also explicitly forbids universal importance scores, global confidence, and automatic selection of the "best" discovery path.
+Validation records:
 
-That means the missing seam does **not** need a new ranking mechanism.
+- `experiments/ATTENTION_CHOICE_MVT.md`
+- `experiments/ATTENTION_CHOICE_RECORD_MVT.md`
+- `experiments/ATTENTION_CHOICE_AUTHORIZATION_MVT.md`
 
-The smallest plausible semantic unit is a **declared next-step choice**:
+Latest validation commit:
 
-- what unresolved question, gap, or other represented pressure gave rise to the choice;
-- what represented inputs support considering it;
-- what method or explicit selection rule produced the proposal;
-- what alternatives were considered or left available;
-- whether the system is asking the human, suggesting a next investigation, or actually executing one;
-- what happened afterward.
+**`3b040d21150e24ca864034983b26bdd6c72409d2`**
 
-The choice itself is not evidence and must not alter the epistemic status of the thing it points toward.
+### Current decision boundary
 
-This gives us an anti-daffodil boundary: the system may notice a daffodil, but noticing is not sufficient reason to spend the investigation cycle on it. A proposed investigation needs a traceable relationship to the represented knowledge state or an explicit human curiosity.
+The Attention Choice concept and its minimum record shape have now survived the concrete validation cases examined so far.
 
-**No implementation yet.** The next grounded question is whether this choice can be represented using an existing workflow/request boundary, or whether a genuinely new durable object is required.
+The next step is **not implementation**.
 
-### Investigation result — the choice sits before execution
+Because adopting this as an established Renaissance architectural contract would be a substantive change, the project's `CHANGE_CONTROL.md` requires a decision record and `GOVERNANCE.md` places final authority with the Human Gate during the founding phase.
 
-Inspecting the actual Episteme implementation sharpened the boundary.
+Therefore the next grounded task is to prepare the formal decision record for human review, preserving the current proposal and experiments as evidence.
 
-Episteme already has the machinery to preserve the **chosen work**: workflow steps carry method/version, selected input identifiers, parameters, assumptions, and execution lineage; proposal helpers carry explicit rationale and source identifiers. Discovery findings preserve the unresolved question/gap that can motivate work.
+Do **not**:
 
-What is absent is the durable semantic event **between those two things**:
+- implement storage;
+- create a runtime Attention organ;
+- create a universal ranking or importance engine;
+- make Attention Choice an authorization mechanism;
+- make Episteme responsible for global agenda selection;
+- silently promote the proposal to canon.
 
-`represented pressure → choice of what to attend to → declared workflow`
-
-A workflow can explain what was run, but it should not retroactively pretend to be the reason it was chosen. Likewise, a discovery finding can explain what remains unresolved, but it does not decide that this is the next thing to pursue.
-
-This suggests the attention boundary may belong **above Episteme's scientific execution machinery**, at the Renaissance knowledge-growth layer, with Episteme receiving a declared investigation when one is chosen. That keeps Episteme from becoming a global agenda setter while still allowing its existing provenance/execution machinery to record the resulting work.
-
-No implementation yet. The next question is whether Renaissance can define this choice semantics without creating a universal ranking system or duplicating Episteme's epistemic artifacts.
-
-### Investigation result — no existing Renaissance request/choice boundary
-
-A targeted search of the current Renaissance repository found no established request, intent, attention, selection, or investigation-choice contract that already owns the missing transition. GROUNDING_PROTOCOL.md defines how work is grounded and classified, but it is an operating procedure, not a knowledge-growth choice record. BOUNDARIES.md constrains authority and automation, but does not define attention semantics.
-
-The result is therefore stronger than "we have not found the right file": **the attention-choice seam is currently unrepresented at the Renaissance level.** This still does not justify implementation. The next step is to define the minimum semantics of that seam as a proposed Renaissance architectural contract, then test whether the contract can remain small enough to avoid becoming a ranking system, duplicate Episteme artifacts, or an autonomous agenda setter.
+If the Human Gate does not adopt the contract, the proposal and experiments remain useful historical evidence and no implementation follows.
 
 ## Last Known Organs Boundary
 
