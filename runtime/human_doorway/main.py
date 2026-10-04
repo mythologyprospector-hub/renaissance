@@ -19,7 +19,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "shared"))
-from organ_client import attach_to_registry  # noqa: E402
+from registry_client import attach_to_registry  # noqa: E402
 
 ORGAN_NAME = "renaissance"
 ORGAN_VERSION = "0.1.0"
