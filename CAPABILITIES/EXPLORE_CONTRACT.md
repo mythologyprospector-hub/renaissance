@@ -146,7 +146,7 @@ No primary Renaissance implementation is designated by this contract.
 
 Existing independent projects may satisfy part or all of this responsibility if their actual behavior conforms without distorting their own purpose.
 
-Historical Akasha work provides archaeological evidence for one specialized form of this responsibility: explicit structural spaces, gap/frontier detection, cross-domain bridge discovery, candidate generation, exploration history, and human review before canonical integration. That work remains in the archived Akasha repository and is not imported as Renaissance architecture. Useful mechanisms may be independently reborn where they satisfy this contract.
+Historical retired projects may contain useful ideas for specialized forms of this responsibility. Such material is not imported as Renaissance architecture or authority. Useful mechanisms may be independently established where they satisfy this contract.
 
 The current architectural conclusion is therefore **model before implementation**. Renaissance has enough evidence to define the reusable Explore boundary, but not enough evidence to justify a general-purpose Explore repository or runtime.
 
