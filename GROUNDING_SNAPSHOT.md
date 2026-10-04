@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 68fee1b1e50117ad85e5ae61f725e80afd5f6f51
+**Source commit:** 8d0e6e9ef53b6b579ab387f95c3656eb522f2779
 **Branch:** main
 
 ## Recent commits
 
+- 8d0e6e9 2026-10-04 Refine Attention Choice proposal with separate authorization provenance reference.
+- ac832dd 2026-10-04 chore: refresh grounding snapshot
 - 68fee1b 2026-10-04 Validate minimal Attention Choice record shape; identify authorization provenance boundary.
 - b9d6a6f 2026-10-04 chore: refresh grounding snapshot
 - 2809773 2026-10-04 Refine proposed Attention Choice contract with minimal referential record shape; proposal remains non-canon.
 - dd1dc0f 2026-10-04 chore: refresh grounding snapshot
 - 37079bb 2026-10-04 Narrow attention choice to minimum durable record
 - 47f8f4b 2026-10-04 chore: refresh grounding snapshot
-- ccb58ce 2026-10-04 Validate attention choice contract
-- 340e70a 2026-10-04 chore: refresh grounding snapshot
 
 ## Core documents
 
