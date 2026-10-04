@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** cf8c50656e079e9398f30d9bfe8aa94850d28eaa
+**Source commit:** 6b205e12ca6ca9ddb3337fa76fef3ef9d589f9c9
 **Branch:** main
 
 ## Recent commits
 
+- 6b205e1 2026-10-04 Run human doorway harness in experiment CI
+- 3c7d474 2026-10-04 Align doorway harness test with experiment runner
+- e017c6a 2026-10-04 chore: refresh grounding snapshot
 - cf8c506 2026-10-04 Test human doorway harness invariants
 - c487ea7 2026-10-04 Add deterministic human doorway harness
 - 9579e6e 2026-10-04 chore: refresh grounding snapshot
 - d14132c 2026-10-04 Clarify Learn implementation evidence status
 - 85bb4b8 2026-10-04 Clarify Learn implementation evidence status
-- f045c25 2026-10-04 chore: refresh grounding snapshot
-- 021c214 2026-10-04 Record Human Doorway MVT result
-- 2bca25e 2026-10-04 Validate human doorway semantic boundary
 
 ## Core documents
 
