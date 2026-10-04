@@ -331,3 +331,20 @@ This resolves the prior open question:
 The absence is now established rather than guessed. The next step, if warranted, is to determine the smallest contract for a Renaissance semantic interaction surface without creating a second operational front door or moving Renaissance semantics into Organs.
 
 No implementation was created from this finding.
+
+
+### Investigation result — Renaissance semantic interaction boundary
+
+The concrete front-door inspection establishes four candidate placements. Organs I/O directly owning Renaissance capability semantics would violate its established operational-routing boundary. The Organs TUI is presentation/consumer infrastructure and must not become a second semantic front door. Creating a new Renaissance operational front door would duplicate existing topology without a demonstrated runtime need.
+
+The smallest justified shape is therefore a **Renaissance-owned semantic boundary behind the existing human-facing front door**. It receives a human expression only when Renaissance capability work is actually present, produces a Capability Request under the accepted contract, and hands the request to the appropriate capability or instrument. Ordinary conversation remains possible without manufacturing a request.
+
+Conceptually:
+
+`human expression → existing front door → Renaissance semantic boundary → Capability Request → capability/instrument`
+
+For investigation:
+
+`Capability Request → Attention Choice → authorization when required → Episteme`
+
+**Result: PASS conceptually; implementation location unresolved.** No new runtime, API, persistence layer, Organs capability, or second front door is justified yet. The next concrete evidence needed is a real Renaissance capability invocation need that establishes where this semantic boundary must live.
