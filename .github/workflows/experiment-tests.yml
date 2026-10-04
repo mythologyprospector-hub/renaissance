@@ -34,7 +34,9 @@ jobs:
         with:
           python-version: "3.13"
       - name: Install runtime dependencies
-        run: python -m pip install fastapi pytest
-      - name: Run Human Doorway runtime tests
-        working-directory: runtime/human_doorway
-        run: python -m pytest -q
+        run: python -m pip install fastapi pytest httpx2
+      - name: Run Human Doorway and Attention Choice runtime tests
+        working-directory: runtime
+        env:
+          PYTHONPATH: human_doorway:.
+        run: python -m pytest -q human_doorway/test_main.py test_attention_choice_publisher.py
