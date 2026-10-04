@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 8c8f48b2d4ea7a34adba7ae92aba9b5b3180cda8
+**Source commit:** 848ae11df98b2649fc3ca19d3c32a173321dee46
 **Branch:** main
 
 ## Recent commits
 
+- 848ae11 2026-10-04 Install uvicorn for live Organs integration test
+- d0bbec8 2026-10-04 chore: refresh grounding snapshot
 - 8c8f48b 2026-10-04 Verify Attention Choice against real Organs services
 - 0f299cb 2026-10-04 chore: refresh grounding snapshot
 - dd298d1 2026-10-04 Add live Attention Choice bus integration test
 - 0181c50 2026-10-04 chore: refresh grounding snapshot
 - fdac513 2026-10-04 Fix runtime CI dependencies and cover Attention Choice tests
 - 7f101f1 2026-10-04 chore: refresh grounding snapshot
-- d81b440 2026-10-04 Test Renaissance Attention Choice publisher
-- 114e070 2026-10-04 chore: refresh grounding snapshot
 
 ## Core documents
 
