@@ -1,18 +1,12 @@
 # Learn Experiment 001A — Delayed Retention Check
 
-**Status:** Protocol only — no result asserted
+**Status:** Result recorded — delayed retention observed
 
 ## Purpose
 
 Test whether the Linux-path capability remains available after a delay without re-teaching the rule.
 
-## Rule
-
-Do not repeat or hint at the original instruction before the retest.
-
 ## Retest conditions
-
-Use a new directory layout:
 
 - Current directory: `/opt/service/config`
 - Known directories:
@@ -20,33 +14,37 @@ Use a new directory layout:
   - `/opt/logs`
   - `/opt/service/config/templates`
 
-Ask:
+### Learner responses
 
-1. What does `../data` refer to?
-2. What does `../../logs` refer to?
-3. What does `./templates` refer to?
-4. Which path is absolute: `logs/archive`, `/opt/logs`, or `../logs`?
+1. `../data` — "to a folder named data in the parent directory"
+2. `../../logs` — "to a folder named logs in the parent of the parent directory"
+3. `./templates` — "to a folder named templates in my CWD"
+4. Absolute path — `/opt/logs`
 
-Then ask:
+Reflection:
 
-> Without looking back at the earlier lesson, explain how you determine where a relative path points.
+> "by the paths number of dots"
 
-## Record
+## Observation
 
-Record the learner's answers verbatim, whether any hint was given, and any uncertainty or correction.
+All four path-resolution questions were answered correctly.
 
-Do not convert the result into a universal learning score.
+No hints or re-teaching were provided during the retest.
+
+The reflection was brief, but correctly identified the dots as the relevant navigation markers for resolving a relative path from the current working directory.
 
 ## Interpretation
 
-- Correct delayed transfer supports retention.
-- Incorrect delayed transfer does not erase earlier evidence; it shows that the capability was not retained under this test condition.
-- Hints or re-teaching invalidate the retest as a clean delayed-retention observation.
+This retest provides bounded evidence of delayed retention and transfer of the tested Linux-path capability under these conditions.
+
+It does not establish permanent retention or a universal learning score.
+
+**Evidence remains bounded to the tested capability, task conditions, and learner interaction.**
 
 ## Safety
 
-Conceptual/read-only. No filesystem changes are required.
+Conceptual/read-only. No filesystem changes were required.
 
 ## Relationship to 001A
 
-This is a follow-up to the existing Linux-path experiment. It deliberately does not change the existing execution record or invent a result.
+This is the completed follow-up to the Linux-path experiment. The original execution record remains unchanged.
