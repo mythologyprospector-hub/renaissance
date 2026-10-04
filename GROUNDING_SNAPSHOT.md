@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 187cbd3e47d2e1235ab0a288a37a266c8e2f7b8f
+**Source commit:** c09cc0a0687e41c835b8778b91ab95c92bc6d007
 **Branch:** main
 
 ## Recent commits
 
+- c09cc0a 2026-10-04 Test Human Doorway runtime in CI
+- 8d69c31 2026-10-04 chore: refresh grounding snapshot
 - 187cbd3 2026-10-04 Add Human Doorway runtime contract tests
 - 1d82595 2026-10-04 chore: refresh grounding snapshot
 - 99f9c5f 2026-10-04 Implement minimal Human Doorway runtime boundary
 - ec7c068 2026-10-04 Implement minimal Human Doorway runtime boundary
 - e28a058 2026-10-04 chore: refresh grounding snapshot
 - bedab8d 2026-10-04 Record Human Doorway runtime decision
-- f64c940 2026-10-04 Record Human Doorway runtime boundary
-- c88eb1e 2026-10-04 chore: refresh grounding snapshot
 
 ## Core documents
 
