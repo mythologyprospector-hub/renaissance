@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** e61d80392043a1f1d6fdce2fc44514c3e25e1df6
+**Source commit:** 021c21478fa054d76647bab47af7e3e6a028cc7f
 **Branch:** main
 
 ## Recent commits
 
+- 021c214 2026-10-04 Record Human Doorway MVT result
+- 2bca25e 2026-10-04 Validate human doorway semantic boundary
+- 5b03b61 2026-10-04 chore: refresh grounding snapshot
 - e61d803 2026-10-04 Add human doorway minimum viable test
 - 402b303 2026-10-04 chore: refresh grounding snapshot
 - 3c3718c 2026-10-04 Record boundary maturity and stop condition
 - 06be82e 2026-10-04 chore: refresh grounding snapshot
 - 5908f2c 2026-10-04 Record second real Capability Request boundary validation
-- 8b9f895 2026-10-04 Validate Capability Request through Attention Choice into Episteme
-- 0cefd60 2026-10-04 chore: refresh grounding snapshot
-- f830d29 2026-10-04 Record public-reference hygiene cleanup
 
 ## Core documents
 
