@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** dd298d1f3cc2bc71db8307eccc44e0605296d95d
+**Source commit:** 8c8f48b2d4ea7a34adba7ae92aba9b5b3180cda8
 **Branch:** main
 
 ## Recent commits
 
+- 8c8f48b 2026-10-04 Verify Attention Choice against real Organs services
+- 0f299cb 2026-10-04 chore: refresh grounding snapshot
 - dd298d1 2026-10-04 Add live Attention Choice bus integration test
 - 0181c50 2026-10-04 chore: refresh grounding snapshot
 - fdac513 2026-10-04 Fix runtime CI dependencies and cover Attention Choice tests
 - 7f101f1 2026-10-04 chore: refresh grounding snapshot
 - d81b440 2026-10-04 Test Renaissance Attention Choice publisher
 - 114e070 2026-10-04 chore: refresh grounding snapshot
-- 74bf3d7 2026-10-04 Add Renaissance Attention Choice publisher
-- 06c7545 2026-10-04 chore: refresh grounding snapshot
 
 ## Core documents
 
