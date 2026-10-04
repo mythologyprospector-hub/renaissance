@@ -127,7 +127,7 @@ Its principles — evidence before assertion, provenance, preservation of meanin
 
 ### 6. `ai-foundry`
 
-**Current status:** Public  
+**Current status:** Private  
 **Working classification:** Specialist / independent project — outside current Renaissance working constellation
 
 AI Foundry is a local-first environment for constructing, configuring, testing, evaluating, and reproducing AI systems.
