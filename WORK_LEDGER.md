@@ -123,6 +123,22 @@ This gives us an anti-daffodil boundary: the system may notice a daffodil, but n
 
 **No implementation yet.** The next grounded question is whether this choice can be represented using an existing workflow/request boundary, or whether a genuinely new durable object is required.
 
+### Investigation result — the choice sits before execution
+
+Inspecting the actual Episteme implementation sharpened the boundary.
+
+Episteme already has the machinery to preserve the **chosen work**: workflow steps carry method/version, selected input identifiers, parameters, assumptions, and execution lineage; proposal helpers carry explicit rationale and source identifiers. Discovery findings preserve the unresolved question/gap that can motivate work.
+
+What is absent is the durable semantic event **between those two things**:
+
+`represented pressure → choice of what to attend to → declared workflow`
+
+A workflow can explain what was run, but it should not retroactively pretend to be the reason it was chosen. Likewise, a discovery finding can explain what remains unresolved, but it does not decide that this is the next thing to pursue.
+
+This suggests the attention boundary may belong **above Episteme's scientific execution machinery**, at the Renaissance knowledge-growth layer, with Episteme receiving a declared investigation when one is chosen. That keeps Episteme from becoming a global agenda setter while still allowing its existing provenance/execution machinery to record the resulting work.
+
+No implementation yet. The next question is whether Renaissance can define this choice semantics without creating a universal ranking system or duplicating Episteme's epistemic artifacts.
+
 ## Last Known Organs Boundary
 
 Organs has a real Communications BUS carrying Memory events, but current
