@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 6b205e12ca6ca9ddb3337fa76fef3ef9d589f9c9
+**Source commit:** 3ac2bf925be1a21fdd3884c28dfe8f650feca522
 **Branch:** main
 
 ## Recent commits
 
+- 3ac2bf9 2026-10-04 Verify expanded doorway variant corpus
+- 41c1436 2026-10-04 Expand human doorway corpus with natural-language variants
+- 7405592 2026-10-04 chore: refresh grounding snapshot
 - 6b205e1 2026-10-04 Run human doorway harness in experiment CI
 - 3c7d474 2026-10-04 Align doorway harness test with experiment runner
 - e017c6a 2026-10-04 chore: refresh grounding snapshot
 - cf8c506 2026-10-04 Test human doorway harness invariants
 - c487ea7 2026-10-04 Add deterministic human doorway harness
-- 9579e6e 2026-10-04 chore: refresh grounding snapshot
-- d14132c 2026-10-04 Clarify Learn implementation evidence status
-- 85bb4b8 2026-10-04 Clarify Learn implementation evidence status
 
 ## Core documents
 
