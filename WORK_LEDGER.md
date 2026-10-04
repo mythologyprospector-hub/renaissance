@@ -384,3 +384,10 @@ The repository's workflow-run lookup did not report a run for the resulting comm
 GitHub Actions executed the updated Learn workflow on commit `be699a4924aa271faf245869ed3b6af72973bff3`. The `learn-vertical` job completed successfully, including the new `test_capability_request_learn_boundary.py` test.
 
 **Result: PASS in CI.** The Capability Request boundary is now both represented in code and verified by the repository's existing automated Learn workflow.
+
+
+### Public-reference hygiene sweep
+
+A targeted search found stale retired/private project references in two Renaissance capability contracts: Explore referenced historical Akasha work, and Episteme named Behemoth, Leviathan, and Namagiri. These references conflicted with the current world rule that retired/private projects are not current Renaissance architecture or public navigation material.
+
+Removed both references without changing the capability semantics. A follow-up repository search found no remaining occurrences of `Akasha`, `Behemoth`, `Leviathan`, or `Namagiri` in Renaissance.
