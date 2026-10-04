@@ -155,15 +155,15 @@ Organs is **not** the authority that decides what Renaissance means.
 
 Technical centrality does not create sovereignty.
 
-### Learn — An Honest Gap
+### Learn — Experimental Evidence
 
-We have not yet identified a mature Renaissance project whose primary responsibility is **Learn**.
+The **Learn** capability has an experimental Renaissance vertical slice, but no mature standalone Learn instrument has yet been established. The existing slice is implementation evidence used to test the capability contract, not a claim that the broader Learn responsibility is solved.
 
-That is intentional.
+That distinction is intentional.
 
 We are not going to manufacture a repository merely to make the diagram symmetrical.
 
-If a genuine Learning instrument is needed, its responsibility and contract should emerge first.
+If a genuine Learning instrument is needed, its responsibility and contract should emerge from real human-facing use.
 
 ---
 
