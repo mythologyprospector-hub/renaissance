@@ -213,3 +213,19 @@ Move the pointer rather than turning this into a diary. The useful question is:
 
 Git is the long-term record. The ledger is the bookmark. Conversation is the
 scratchpad.
+
+
+### Attention Choice event contract
+
+The smallest Renaissance-facing integration contract is now defined in `PROPOSALS/ATTENTION_CHOICE_EVENT_CONTRACT.md`.
+
+It fixes the transport vocabulary for the first implementation boundary:
+
+- topic: `renaissance.attention`
+- event type: `attention_choice`
+- publisher: `renaissance`
+- payload: the accepted Attention Choice record, unchanged
+
+The contract explicitly keeps Communications as transport/persistence infrastructure. It does not create an Attention registry, agenda, queue, ranking engine, new database, Episteme record type, or permission mechanism.
+
+The next step is the smallest implementation/test of a Renaissance-side publisher using the existing Organs discovery convention.
