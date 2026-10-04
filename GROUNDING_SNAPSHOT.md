@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 0b06c74022e8c53bf73994301546277ef03f2903
+**Source commit:** a9c056a91478c67f83ce348620039bbc88f7109d
 **Branch:** main
 
 ## Recent commits
 
+- a9c056a 2026-10-04 Record implementation-boundary investigation for Attention Choice
+- b31d89e 2026-10-04 chore: refresh grounding snapshot
 - 0b06c74 2026-10-04 Advance ledger: Decision 0009 ratified; inspect smallest implementation boundary
 - a8bf426 2026-10-04 Mark Attention Choice proposal accepted by Decision 0009
 - c4c3d01 2026-10-04 Sync architecture with Decision 0009 Attention Choice boundary
 - 571b675 2026-10-04 chore: refresh grounding snapshot
 - e62a976 2026-10-04 Ratify Decision 0009: establish Attention Choice boundary
 - 153c56a 2026-10-04 chore: refresh grounding snapshot
-- b6fe822 2026-10-04 Advance ledger: Attention Choice contract validated; formal decision gate is next.
-- 902eeee 2026-10-04 chore: refresh grounding snapshot
 
 ## Core documents
 
