@@ -504,3 +504,21 @@ The Organs integration workflow completed successfully on commit `8284c471ee7bd3
 **Result: PASS — the Decision 0010 boundary is now demonstrated across the real service boundary, not merely at the contract or local harness level.**
 
 **Next:** inspect the adapter and runtime for contract drift and failure semantics, then run a compact interaction-boundary regression set. Do not broaden the classifier or add autonomy.
+
+### Human Doorway transport hardening
+
+The real Organs transport boundary was hardened after exercising failure cases at the Renaissance handoff.
+
+Verified on Organs commit `1cfee77d9e1253095e6a6c92fc1c877023aecb24`:
+
+- Renaissance discovery and direct doorway transport still pass.
+- Malformed Renaissance responses fail closed without breaking the Organs front door.
+- An unavailable Renaissance endpoint fails back without execution.
+- The Organs test workflow and Human Doorway integration workflow both completed successfully.
+
+The earlier failure on `eb131635e39242b045b320cb3844297116497be4` was a real integration-run failure at the Registry discovery assertion; it is preserved by Git history rather than being treated as current state.
+
+**Current result: PASS — transport, ambiguity, and handoff failure semantics are covered without expanding Renaissance authority or adding autonomy.**
+
+**Next:** inspect the broader world boundary for the next concrete seam. Do not add more Human Doorway machinery unless a demonstrated interaction requires it.
+
