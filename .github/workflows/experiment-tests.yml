@@ -39,7 +39,7 @@ jobs:
           repository: mythologyprospector-hub/organs
           path: organs
       - name: Install runtime dependencies
-        run: python -m pip install fastapi pytest httpx
+        run: python -m pip install fastapi pytest httpx uvicorn
       - name: Start real Registry, Critic, and Communications organs
         env:
           ORGAN_REGISTRY_URL: http://localhost:8000
