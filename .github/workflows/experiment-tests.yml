@@ -33,10 +33,52 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.13"
+      - name: Check out Organs
+        uses: actions/checkout@v4
+        with:
+          repository: mythologyprospector-hub/organs
+          path: organs
       - name: Install runtime dependencies
-        run: python -m pip install fastapi pytest httpx2
-      - name: Run Human Doorway and Attention Choice runtime tests
+        run: python -m pip install fastapi pytest httpx
+      - name: Start real Registry, Critic, and Communications organs
+        env:
+          ORGAN_REGISTRY_URL: http://localhost:8000
+          ORGAN_HEARTBEAT_INTERVAL: "1"
+          COMM_BASE_URL: http://localhost:8002
+          CRITIC_BASE_URL: http://localhost:8007
+          ORGAN_TELEMETRY_ENABLED: "0"
+          COMM_DATA_DIR: /tmp/renaissance-communications
+        run: |
+          set -euo pipefail
+          mkdir -p "$COMM_DATA_DIR"
+          (cd organs/registry && python -m uvicorn main:app --host 127.0.0.1 --port 8000 >/tmp/registry.log 2>&1 & echo $! >/tmp/registry.pid)
+          (cd organs/critic && python -m uvicorn main:app --host 127.0.0.1 --port 8007 >/tmp/critic.log 2>&1 & echo $! >/tmp/critic.pid)
+          (cd organs/communications && python -m uvicorn main:app --host 127.0.0.1 --port 8002 >/tmp/communications.log 2>&1 & echo $! >/tmp/communications.pid)
+          python - <<'PY'
+          import time, urllib.request
+          for url in (
+              "http://localhost:8000/health",
+              "http://localhost:8007/health",
+              "http://localhost:8002/health",
+          ):
+              for _ in range(60):
+                  try:
+                      urllib.request.urlopen(url, timeout=1)
+                      break
+                  except Exception:
+                      time.sleep(0.5)
+              else:
+                  raise SystemExit(f"service did not become ready: {url}")
+          PY
+      - name: Run Human Doorway, contract, and live Attention Choice tests
         working-directory: runtime
         env:
           PYTHONPATH: human_doorway:.
-        run: python -m pytest -q human_doorway/test_main.py test_attention_choice_publisher.py
+          ORGAN_REGISTRY_URL: http://localhost:8000
+        run: python -m pytest -q human_doorway/test_main.py test_attention_choice_publisher.py test_attention_choice_live.py
+      - name: Show service logs on failure
+        if: failure()
+        run: |
+          cat /tmp/registry.log || true
+          cat /tmp/critic.log || true
+          cat /tmp/communications.log || true
