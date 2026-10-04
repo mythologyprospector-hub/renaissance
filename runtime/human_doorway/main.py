@@ -10,13 +10,16 @@ runtime slice. It must be replaced or extended only when evidence requires it.
 from __future__ import annotations
 
 import os
-import urllib.error
-import urllib.request
-import json
 from typing import Any
 
 from fastapi import FastAPI
 from pydantic import BaseModel, Field
+
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "shared"))
+from organ_client import attach_to_registry  # noqa: E402
 
 ORGAN_NAME = "renaissance"
 ORGAN_VERSION = "0.1.0"
@@ -136,25 +139,6 @@ def interpret(text: str) -> DoorwayResponse:
     return _response(text, "clarify")
 
 
-def _register() -> None:
-    payload = json.dumps({
-        "name": ORGAN_NAME,
-        "base_url": BASE_URL,
-        "version": ORGAN_VERSION,
-        "capabilities": CAPABILITIES,
-    }).encode("utf-8")
-    request = urllib.request.Request(
-        f"{REGISTRY_URL}/registry/register",
-        data=payload,
-        headers={
-            "Content-Type": "application/json",
-            "X-Telemetry-Internal": "1",
-        },
-        method="POST",
-    )
-    with urllib.request.urlopen(request, timeout=5.0):
-        return
-
 
 @app.get("/health")
 def health() -> dict[str, Any]:
@@ -177,12 +161,4 @@ def doorway(req: DoorwayRequest) -> DoorwayResponse:
     return interpret(req.text)
 
 
-@app.on_event("startup")
-async def register_with_organs() -> None:
-    # Registry failure must not make the semantic service fabricate authority.
-    # A deployment may retry registration externally; the service itself
-    # remains available for direct contract testing.
-    try:
-        _register()
-    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError):
-        pass
+attach_to_registry(app, name=ORGAN_NAME, base_url=BASE_URL, version=ORGAN_VERSION, capabilities=CAPABILITIES)
