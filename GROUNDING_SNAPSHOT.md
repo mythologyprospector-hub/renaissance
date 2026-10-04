@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** ccb58ce554ff261e80bc2a193ff4d7e76a0b65f9
+**Source commit:** 37079bb9939127e411acab2bfaf2ad5f6a48eec7
 **Branch:** main
 
 ## Recent commits
 
+- 37079bb 2026-10-04 Narrow attention choice to minimum durable record
+- 47f8f4b 2026-10-04 chore: refresh grounding snapshot
 - ccb58ce 2026-10-04 Validate attention choice contract
 - 340e70a 2026-10-04 chore: refresh grounding snapshot
 - 8c41b08 2026-10-04 Propose minimal attention choice contract
 - 389bddc 2026-10-04 chore: refresh grounding snapshot
 - fb96877 2026-10-04 Record attention-choice boundary finding
 - 7e61309 2026-10-04 chore: refresh grounding snapshot
-- a56c05e 2026-10-04 Clarify attention boundary before execution
-- 7a57b3c 2026-10-04 chore: refresh grounding snapshot
 
 ## Core documents
 
