@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** f55cf9b873c5dbc67dd47d279371e87b2b5efe77
+**Source commit:** a467a021454ec23981a17fc2c9277f1357b15d5a
 **Branch:** main
 
 ## Recent commits
 
+- a467a02 2026-10-04 Record Renaissance semantic interaction boundary
+- 222d597 2026-10-04 chore: refresh grounding snapshot
 - f55cf9b 2026-10-04 Record Renaissance interaction surface investigation
 - f918257 2026-10-04 chore: refresh grounding snapshot
 - fd612a2 2026-10-04 Record retired architecture reference cleanup
 - 3d2184f 2026-10-04 Remove retired implementation from current capability model
 - 3495b61 2026-10-04 chore: refresh grounding snapshot
 - 32a0888 2026-10-04 Record Capability Request boundary validation
-- 92ad917 2026-10-04 chore: refresh grounding snapshot
-- 2bab298 2026-10-04 Validate Capability Request against real interaction boundaries
 
 ## Core documents
 
