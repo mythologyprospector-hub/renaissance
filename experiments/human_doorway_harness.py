@@ -59,6 +59,35 @@ CASES = (
     ),
 )
 
+MUTATION_TEMPLATES = {
+    "hedging": ("I think maybe ", ""),
+    "politeness": ("Could you help me ", "?"),
+    "uncertainty": ("I'm not sure, but ", ""),
+    "colloquial": ("Can you help me figure out ", "?"),
+}
+
+
+def mutate_case(case: Case, mutation: str) -> Case:
+    """Create a semantic-preserving human-language variant of a case.
+
+    This is intentionally a small deterministic mutator. It does not claim to
+    understand language; it only supplies controlled mess for a future doorway
+    adapter to face.
+    """
+    if mutation not in MUTATION_TEMPLATES:
+        raise ValueError(f"unknown mutation: {mutation}")
+    prefix, suffix = MUTATION_TEMPLATES[mutation]
+    expression = f"{prefix}{case.expression[0].lower() + case.expression[1:] if prefix else case.expression}{suffix}"
+    return Case(
+        name=f"{case.name}__{mutation}",
+        expression=expression,
+        expected_path=case.expected_path,
+        expected_capability=case.expected_capability,
+        expected_mode=case.expected_mode,
+        attention_allowed=case.attention_allowed,
+    )
+
+
 # Variants deliberately exercise ordinary human mess without changing the
 # semantic target of the seed case. These are corpus entries, not a classifier.
 VARIANT_CASES = (
