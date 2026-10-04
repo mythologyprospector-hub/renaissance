@@ -8,8 +8,7 @@ constitutional documents and recorded Decisions.
 
 ## Current Frontier
 
-**Status:** Learn Experiment 001A execution completed and recorded; no new
-implementation task is currently established.
+**Status:** Learn Experiment 001A execution completed and delayed-retention follow-up completed; no new implementation task is currently established.
 
 ### Last verified stopping point
 
@@ -39,12 +38,14 @@ The architecture review then clarified Episteme's independence:
 - **Commit:** `644bccb7ed10d0981b472d95463c197925c5a739`
 - Renaissance may revise its Renaissance-facing contract or architectural boundary through change control without acquiring ownership or day-to-day control of Episteme's independent repository.
 
-The concrete Learn experiment was then executed:
+The concrete Learn experiment was then executed and followed by delayed retention testing:
 
 - **Experiment:** `CAPABILITIES/LEARN_EXPERIMENT_001A_LINUX_PATHS.md`
-- **Execution record:** `CAPABILITIES/LEARN_EXPERIMENT_001A_LINUX_PATHS_RESULT.md`
-- **Execution commit:** `43d0d02a7b6a839945996818169c0e33a1dd4f2b`
-- The run recorded baseline, instruction, immediate performance, transfer, and reflection without inventing a universal learning score or binary pass/fail judgment.
+- **Initial execution record:** `CAPABILITIES/LEARN_EXPERIMENT_001A_LINUX_PATHS_RESULT.md`
+- **Delayed-retention protocol/result:** `CAPABILITIES/LEARN_EXPERIMENT_001A_RETENTION.md`
+- The initial run recorded baseline, instruction, immediate performance, transfer, and reflection without inventing a universal learning score or binary pass/fail judgment.
+- The delayed retest used a new directory layout, with no hints or re-teaching. All four path-resolution questions were answered correctly, providing bounded evidence of delayed retention and transfer.
+- **Delayed-retention commit:** `e1926b106e8c07b80b9a9baf67fa2dd24fe5f24b`
 - No implementation of Learn was introduced.
 
 ### Resume From Here
@@ -52,7 +53,7 @@ The concrete Learn experiment was then executed:
 When continuing this work:
 
 1. Inspect current Renaissance and relevant project state from their repositories.
-2. Treat the Learn 001A execution record as evidence, not as an architectural verdict.
+2. Treat the Learn 001A execution and retention records as evidence, not as an architectural verdict.
 3. Identify whether the recorded experiment exposes a concrete architectural requirement that is actually established.
 4. If a task crosses a project boundary, establish the applicable contract and authority before implementation.
 5. If the next task requires a substantive Renaissance architectural decision, use the applicable Decision/change-control process.
