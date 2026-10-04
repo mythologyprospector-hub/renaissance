@@ -8,7 +8,7 @@ constitutional documents and recorded Decisions.
 
 ## Current Frontier
 
-**Status:** Cross-repository catch-up review in progress.
+**Status:** Cross-repository catch-up review — Praxis boundary synchronized.
 
 ### Last verified stopping point
 
@@ -22,40 +22,33 @@ The Learn 001A experiment and delayed-retention follow-up are complete:
 
 ### Cross-repository catch-up finding
 
-A fresh world-level review found that the surrounding constellation has moved since the
-last Renaissance review.
-
-**Praxis and Episteme completed their first explicit evidence handoff boundary on
-2026-10-03.**
+A world-level review found that Praxis and Episteme completed their first explicit evidence handoff boundary on 2026-10-03.
 
 - Praxis records the problem/intervention/test/result domain semantics.
 - Praxis explicitly admits evidence through a human decision boundary.
-- Episteme now has a canonical Praxis handoff adapter that preserves the supplied
-  Praxis evidence and admission objects, assigns an Episteme-owned identity, and
-  preserves provenance without making Praxis a runtime dependency.
+- Episteme has a canonical Praxis handoff adapter that preserves the supplied Praxis evidence and admission objects, assigns an Episteme-owned identity, and preserves provenance without making Praxis a runtime dependency.
 - Praxis commits: `7baa1db6`, `1aca6554`, `873c54e8`, `740ff5bf`, `e3bb5b8b`
 - Episteme commits: `ce3d5464`, `a0c3a347`, `72cd2555`, `0ea499c1`, `8f88274f`
 
-The important catch-up point is **not** that Renaissance should automatically absorb
-Praxis or add a new interface. Renaissance's current architecture and constellation
-documents do not yet clearly record this newly completed boundary.
+The Renaissance-facing relationship was checked against `ARCHITECTURE.md` and `CONSTELLATION_AUDIT.md`.
 
-Therefore the next grounded task is to inspect the Renaissance-facing relationship
-and determine whether this is:
+**Result:** this is documentation synchronization, not a missing Renaissance architecture boundary.
 
-1. documentation that simply needs synchronization;
-2. an existing relationship that needs explicit evidence recorded; or
-3. a substantive architectural boundary requiring Renaissance change control.
+The smallest justified change was made in `CONSTELLATION_AUDIT.md`:
 
-No architectural relationship is being invented by this ledger entry.
+- Praxis is recorded as a supporting/satellite project.
+- The concrete Praxis→Episteme handoff is recorded as an existing constellation relationship.
+- No Renaissance runtime interface, dependency, or ownership was introduced.
+- The audit now explicitly records that the existing Renaissance interoperability and authority rules are sufficient for this relationship.
+
+**Commit:** `c3ff5d0b1fb32788b36094c853f8b55e00cc91bf`
 
 ### Resume From Here
 
-1. Inspect the current Renaissance-facing Praxis relationship against the completed Praxis↔Episteme handoff.
-2. Check whether the World map and Renaissance constellation documentation agree.
-3. Make the smallest synchronization change that is actually justified.
-4. If a substantive Renaissance architectural decision is required, use the applicable Decision/change-control process.
-5. Do not manufacture additional work merely to maintain momentum.
+1. Treat the Praxis catch-up item as closed unless new evidence appears.
+2. Look for the next cross-repository mismatch that represents a real architectural or evidence gap.
+3. Prefer a missing relationship, capability boundary, or concrete workflow over another inventory exercise.
+4. If no justified next task is found after checking the relevant world, stop inventing work and ask the world-level gap question.
 
 ## Last Known Organs Boundary
 
