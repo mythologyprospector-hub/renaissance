@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import unittest
 
-from human_doorway_harness import CASES, VARIANT_CASES, evaluate
+from human_doorway_harness import CASES, VARIANT_CASES, MUTATION_TEMPLATES, evaluate, mutate_case
 
 
 class HumanDoorwayHarnessTests(unittest.TestCase):
@@ -61,6 +61,15 @@ class HumanDoorwayHarnessTests(unittest.TestCase):
 
         self.assertFalse(result["passed"])
         self.assertIn("expression was not preserved exactly", result["failures"])
+
+    def test_semantic_mutations_preserve_expected_boundary(self) -> None:
+        for case in CASES[:4]:
+            for mutation in MUTATION_TEMPLATES:
+                mutated = mutate_case(case, mutation)
+                self.assertEqual(mutated.expected_path, case.expected_path)
+                self.assertEqual(mutated.expected_capability, case.expected_capability)
+                self.assertEqual(mutated.expected_mode, case.expected_mode)
+                self.assertNotEqual(mutated.expression, case.expression)
 
 
 if __name__ == "__main__":
