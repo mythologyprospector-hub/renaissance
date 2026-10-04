@@ -143,9 +143,23 @@ Decision 0009 ratified the Attention Choice contract as a Renaissance architectu
 - The contract does not authorize a storage format, runtime organ, universal ranking engine, autonomous agenda subsystem, or Episteme redesign.
 - Authorization remains distinct from attention choice.
 
-The next grounded task is therefore to determine the **smallest implementation boundary** required to make an Attention Choice durable and inspectable, without inventing infrastructure prematurely.
+### Implementation-boundary investigation
 
-Do **not** build a new subsystem merely because the contract exists. First inspect existing request, workflow, persistence, and provenance mechanisms across Renaissance and Episteme to determine whether the contract can be implemented through an existing boundary.
+The first implementation inspection is complete across Renaissance, Episteme, and the existing Organs runtime substrate.
+
+**Finding:** there is no existing Renaissance-side Attention Choice persistence or request/selection object to reuse directly.
+
+- Renaissance currently defines capability contracts and architecture, but has no runtime persistence layer for this semantic object.
+- Episteme has mature durable SQLite persistence, workflow definitions/executions, provenance, and lineage, but its grounded `Record` model is explicitly epistemic and its record kinds are source/observation/measurement/dataset/experiment/result. Attention Choice does not belong there without distorting Episteme's responsibility.
+- Episteme workflow execution preserves what ran and how; it should not be made responsible for the prior Renaissance choice that selected the work.
+- Organs Communications already provides a durable SQLite event history with topic, event type, publisher, payload, independent consumer cursors, replay/debug inspection, and no requirement that the publisher's semantic object become an Organs-owned epistemic artifact.
+- Organs Memory also has durable ledgers and structured state, but its model is specifically memory/facts/scars/promises/relations and is not an appropriate owner for Attention Choice semantics.
+
+Therefore the smallest currently justified implementation boundary appears to be **an Attention Choice event carried through the existing Communications persistence mechanism**, while Renaissance retains ownership of the semantic contract. This is an integration hypothesis, not yet an implementation decision.
+
+The next concrete check is whether the existing Communications event contract can carry the minimum Attention Choice record without losing referential integrity, mode/authorization distinctions, inspectability, or replay semantics. If it can, no new persistence subsystem is justified. If it cannot, the missing requirement should be recorded before designing anything new.
+
+Do **not** turn Communications into an Attention organ, move Attention Choice semantics into Organs, or modify Episteme merely to gain storage.
 
 ## Last Known Organs Boundary
 
