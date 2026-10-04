@@ -181,6 +181,48 @@ The human-facing model remains provisional, and the system-responsibility list i
 
 ## 7. Episteme
 
+### Human Doorway runtime boundary
+
+Decision 0010 establishes an executable Renaissance Human Doorway runtime boundary behind the existing Organs human-facing front door.
+
+Organs I/O remains the transport/front-door host and retains ownership of recognized operational requests. Renaissance owns semantic interpretation of non-operational human expressions for Renaissance capabilities.
+
+The initial runtime relationship is:
+
+```
+human
+  |
+  v
+Organs I/O
+  |
+  +--> recognized operational intent --> existing Organs path
+  |
+  +--> non-operational expression
+          |
+          v
+   Renaissance semantic runtime
+          |
+          v
+   conversation / clarification / Capability Request
+```
+
+The Renaissance semantic runtime may use the existing Organs runtime convention for lifecycle, registry/discovery, health, and transport infrastructure. This does not transfer semantic ownership to Organs.
+
+The boundary preserves:
+
+- exact recovery of the original human expression;
+- ordinary conversation without forced capability classification;
+- clarification for ambiguity;
+- explicit Capability Request representation when capability work is present;
+- separation of interpretation from authorization;
+- separation of Attention Choice from authorization and investigation;
+- separation of interpretation from evidence;
+- fail-closed behavior when unsupported or unavailable.
+
+The runtime boundary does not establish a second human-facing front door, universal ranking, autonomous agenda generation, new persistence, a new authorization mechanism, or automatic cross-repository execution.
+
+Implementation remains constrained to the smallest service and adapter surface capable of passing the existing Human Doorway harness against the real Organs transport.
+
 Episteme is currently a major Renaissance capability/instrument.
 
 Its existing architecture already encompasses substantial work across:
