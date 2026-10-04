@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 226332fc42ab812c49badf3ad5488c5fc1387136
+**Source commit:** e84e6ef586f00278f2ea39394aeab8f1fcdfe763
 **Branch:** main
 
 ## Recent commits
 
+- e84e6ef 2026-10-04 Keep Human Doorway registration alive
+- e6bf4f7 2026-10-04 chore: refresh grounding snapshot
 - 226332f 2026-10-04 Add Human Doorway local runtime launcher
 - f91f0ba 2026-10-04 chore: refresh grounding snapshot
 - 8cc1d41 2026-10-04 Record live Attention Choice transport verification
 - 57c0c16 2026-10-04 chore: refresh grounding snapshot
 - 848ae11 2026-10-04 Install uvicorn for live Organs integration test
 - d0bbec8 2026-10-04 chore: refresh grounding snapshot
-- 8c8f48b 2026-10-04 Verify Attention Choice against real Organs services
-- 0f299cb 2026-10-04 chore: refresh grounding snapshot
 
 ## Core documents
 
