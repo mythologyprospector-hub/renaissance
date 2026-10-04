@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 53ad79ebdabc3a6cd10fd5474fed7b3fb7f2069c
+**Source commit:** d7386216971e9f50cfdcaf295118f1ab8ba576b4
 **Branch:** main
 
 ## Recent commits
 
+- d738621 2026-10-04 Add repository social preview image
+- ccc8c9a 2026-10-04 chore: refresh grounding snapshot
 - 53ad79e 2026-10-04 Refine Capability Request as optional contextual boundary
 - 95369f3 2026-10-04 chore: refresh grounding snapshot
 - 8e09536 2026-10-04 Record Capability Request proposal and validation
 - 7179d2a 2026-10-04 chore: refresh grounding snapshot
 - 8fe9c97 2026-10-04 Add Capability Request minimum viable test
 - 45ecb58 2026-10-04 Propose Renaissance capability request boundary
-- 0d114e5 2026-10-04 chore: refresh grounding snapshot
-- 8177ba5 2026-10-04 Record human-facing runtime boundary finding
 
 ## Core documents
 
