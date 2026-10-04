@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 7a3cf4342be74144de3f0d62c9f5083e2c1cdb90
+**Source commit:** 206501f8db9c4b1f43b8f6c2cea971b1d6107b07
 **Branch:** main
 
 ## Recent commits
 
+- 206501f 2026-10-04 Record attention-choice design finding
+- 4a7be05 2026-10-04 chore: refresh grounding snapshot
 - 7a3cf43 2026-10-04 Record attention as next knowledge-growth seam
 - a4b0f2e 2026-10-04 chore: refresh grounding snapshot
 - 9ea662b 2026-10-04 Update frontier: knowledge-growth cycle hypothesis
 - b3e2966 2026-10-04 chore: refresh grounding snapshot
 - 561c42a 2026-10-04 Record human-facing interaction discovery frontier
 - 4a5f8fe 2026-10-04 chore: refresh grounding snapshot
-- 6725c4e 2026-10-04 Remove stale private-project references from public README
-- 3fa0c13 2026-10-04 chore: refresh grounding snapshot
 
 ## Core documents
 
