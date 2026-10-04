@@ -60,6 +60,14 @@ class LearningEpisode:
     adaptations: list[str] = field(default_factory=list)
     transfer: Transfer | None = None
 
+    def __post_init__(self) -> None:
+        if not self.goal.strip():
+            raise ValueError("goal must be non-empty")
+        if not self.capability_target.strip():
+            raise ValueError("capability target must be non-empty")
+        if not self.baseline.task_id.strip():
+            raise ValueError("baseline task id must be non-empty")
+
     def add_activity(self, activity: LearningMaterial) -> None:
         if not activity.content.strip():
             raise ValueError("activity content must be non-empty")
@@ -87,6 +95,10 @@ class LearningEpisode:
             raise ValueError("transfer task must be materially different")
         if not transfer.reduced_scaffolding:
             raise ValueError("transfer task must reduce or change scaffolding")
+        if not transfer.task_id.strip():
+            raise ValueError("transfer task id must be non-empty")
+        if not transfer.performance.rationale.strip():
+            raise ValueError("transfer performance rationale must be non-empty")
         self.transfer = transfer
 
     def capability_evidence(self) -> CapabilityEvidence | dict[str, str]:
