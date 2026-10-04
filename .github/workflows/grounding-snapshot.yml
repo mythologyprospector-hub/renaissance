@@ -70,17 +70,16 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Another workflow may have advanced main since checkout. Rebase the
-          # snapshot commit onto the current tip so concurrent repository writes
-          # do not turn a harmless refresh into a failed workflow.
+          # The generated snapshot is intentionally uncommitted at this point.
+          # Stage it first, then rebase so the generated change travels with us.
           git fetch origin main
+          git add -f GROUNDING_SNAPSHOT.md
+          git commit -m "chore: refresh grounding snapshot"
           git rebase origin/main
 
-          if git diff --quiet -- GROUNDING_SNAPSHOT.md && git diff --cached --quiet -- GROUNDING_SNAPSHOT.md && git ls-files --error-unmatch GROUNDING_SNAPSHOT.md >/dev/null 2>&1; then
+          if git diff-tree --quiet HEAD^ HEAD -- GROUNDING_SNAPSHOT.md && git ls-files --error-unmatch GROUNDING_SNAPSHOT.md >/dev/null 2>&1; then && git diff --cached --quiet -- GROUNDING_SNAPSHOT.md && git ls-files --error-unmatch GROUNDING_SNAPSHOT.md >/dev/null 2>&1; then
             echo "Grounding snapshot unchanged."
             exit 0
           fi
 
-          git add -f GROUNDING_SNAPSHOT.md
-          git commit -m "chore: refresh grounding snapshot"
           git push
