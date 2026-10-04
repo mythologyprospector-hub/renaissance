@@ -25,3 +25,5 @@ jobs:
       - name: Run Learn vertical tests
         working-directory: experiments
         run: python -m unittest -v test_learn_model.py
+
+# Verification trigger: execute the current mainline Learn vertical slice.
