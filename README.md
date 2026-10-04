@@ -1,3 +1,5 @@
+![Renaissance social preview](renaissance.jpeg)
+
 # Renaissance
 
 > **Renaissance exists to increase humanity's ability to understand, explore, create, and flourish.**
