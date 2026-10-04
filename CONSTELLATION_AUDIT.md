@@ -144,23 +144,6 @@ It is nevertheless an engineering laboratory rather than Renaissance itself.
 
 ---
 
-### 7. `esoteric-atlas`
-
-**Current status:** Private  
-**Working classification:** Independent/private domain project
-
-The Esoteric Atlas is a research and learning environment for esoteric and occult traditions, historical sources, structured systems, and computational research tools.
-
-Its explicit distinction between evidence, traditional claims, scholarly interpretations, modern interpretations, and speculation is compatible with Renaissance's epistemic principles.
-
-Its subject matter is domain-specific, however, and should not define Renaissance's general scope.
-
-**Relationship:** Domain-specific work with compatible principles, but no demonstrated need to remain within Renaissance's public constellation.
-
-**Action:** Keep private and independent. Preserve the historical relationship in this audit; future interoperability remains possible if a concrete relationship is established.
-
----
-
 ### 8. `android-dojo`
 
 **Current status:** Private  
@@ -203,51 +186,6 @@ Those engineering principles are compatible with Renaissance, but the current re
 **Relationship:** Compatible with the wider Renaissance philosophy, but not presently demonstrated as a Renaissance public component.
 
 **Action:** Keep private and independent. Preserve the historical relationship; revisit only when a concrete integration or constellation role exists.
-
----
-
-### 11. `namagiri`
-
-**Current status:** Public (forensic work)  
-**Working classification:** Specialist / independent
-
-Namagiri is an orchestration and inspection layer for Shiva, with a tightly bounded mission around ELF inspection, capability discovery, validation, execution planning, and controlled execution.
-
-It has its own explicit external technical authority: the Shiva source and related source-grounded evidence.
-
-**Relationship:** Valuable engineering work, but its present identity is specific to the Shiva/Namagiri problem.
-
-**Action:** Keep public and independent for the current forensic/reverse-engineering work. Its Issues are being used to record forensic evidence, so public visibility is operationally useful. A README notice establishes the boundary between this work and Renaissance.
-
----
-
-### 12. `behemoth`
-
-**Current status:** Public (forensic work)  
-**Working classification:** Specialist / independent forensic repository
-
-Behemoth is a read-only forensic/disassembly table supporting the Shiva/Namagiri work.
-
-It is operationally related to Namagiri rather than Renaissance directly.
-
-**Relationship:** Supporting repository for the independent Namagiri/Leviathan forensic constellation.
-
-**Action:** Keep public while its Issues serve the forensic record. Preserve the explicit README boundary; do not pull it into Renaissance merely for visual uniformity.
-
----
-
-### 13. `leviathan`
-
-**Current status:** Public (forensic work)  
-**Working classification:** Specialist / independent implementation repository
-
-Leviathan is the implementation table for the AI Orchestration Workbench, explicitly constrained to accepted Behemoth findings.
-
-Like Behemoth, its present mission is tightly coupled to the Shiva/Namagiri investigation.
-
-**Relationship:** Supporting repository for the independent Namagiri/Behemoth forensic constellation.
-
-**Action:** Keep public while its Issues serve the forensic record. Preserve the explicit README boundary; do not pull it into Renaissance unless future architecture establishes a concrete relationship.
 
 ---
 
@@ -302,7 +240,6 @@ The current evidence suggests a layered world rather than a single monolithic so
               |
        Tiger Den
        Namagiri / Behemoth / Leviathan
-       Esoteric Atlas
        Notation Transposer
        Android Dojo / Toolkit
 
@@ -370,7 +307,7 @@ The exact interfaces between current Renaissance relationships remain an archite
 
 ## Finding 4 — Public Renaissance does not need to contain every compatible project
 
-Tiger Den, AI Foundry, Namagiri/Behemoth/Leviathan, Notation Transposer, Esoteric Atlas, and Android Dojo/Toolkit currently have sufficiently specific or independent missions that incorporating them into Renaissance would create artificial coupling or visual symmetry.
+Tiger Den, AI Foundry, Notation Transposer, and Android Dojo/Toolkit currently have sufficiently specific or independent missions that incorporating them into Renaissance would create artificial coupling or visual symmetry.
 
 Praxis is different: its concrete Episteme handoff is now recorded as an actual constellation relationship, while Praxis itself remains independent.
 
