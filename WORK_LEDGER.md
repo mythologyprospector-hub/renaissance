@@ -79,7 +79,6 @@ That question is grounded directly in the existing Renaissance epistemic model a
 
 **Important restraint:** do not build self-talk, autonomy, an "auto-glean" subsystem, or a new memory architecture merely because the concept is attractive. First establish the minimum durable record and cycle semantics needed to preserve provenance, uncertainty, contradictions, and epistemic status across repeated exploration.
 
-
 ### Investigation result — the missing piece is attention, not epistemic memory
 
 A direct inspection of the current Episteme boundary shows that the knowledge-growth substrate is already substantially present:
@@ -101,7 +100,28 @@ Episteme's existing discovery model already says significance is an attention pr
 
 This suggests a smaller and safer direction than an autonomous-agent framework: a future knowledge-growth cycle may need a durable, inspectable **reason for choosing a next investigation** while leaving truth, importance, and human consequential decisions outside that mechanism.
 
-No new subsystem or architecture decision is justified yet. The next investigation is to determine the minimum semantics of a proposed next step — including its originating gap/question, supporting inputs, method or selection rule, alternatives considered, and whether the system is asking, suggesting, or executing — so that autonomous continuation can remain inspectable without becoming silent prioritization or truth selection.
+### Investigation result — attention should be a declared choice, not a hidden score
+
+A further inspection of Episteme's completed orchestration boundary sharpens this.
+
+Phase 12 already requires workflows to preserve selected input identifiers, parameters, assumptions, method/version, branching, and alternatives. It also explicitly forbids universal importance scores, global confidence, and automatic selection of the "best" discovery path.
+
+That means the missing seam does **not** need a new ranking mechanism.
+
+The smallest plausible semantic unit is a **declared next-step choice**:
+
+- what unresolved question, gap, or other represented pressure gave rise to the choice;
+- what represented inputs support considering it;
+- what method or explicit selection rule produced the proposal;
+- what alternatives were considered or left available;
+- whether the system is asking the human, suggesting a next investigation, or actually executing one;
+- what happened afterward.
+
+The choice itself is not evidence and must not alter the epistemic status of the thing it points toward.
+
+This gives us an anti-daffodil boundary: the system may notice a daffodil, but noticing is not sufficient reason to spend the investigation cycle on it. A proposed investigation needs a traceable relationship to the represented knowledge state or an explicit human curiosity.
+
+**No implementation yet.** The next grounded question is whether this choice can be represented using an existing workflow/request boundary, or whether a genuinely new durable object is required.
 
 ## Last Known Organs Boundary
 
