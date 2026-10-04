@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** f830d2916bdcbd03ebeb2b86ca662480558fba08
+**Source commit:** 5908f2cc8ef63ff78cfa8953bda087029e2b3a8b
 **Branch:** main
 
 ## Recent commits
 
+- 5908f2c 2026-10-04 Record second real Capability Request boundary validation
+- 8b9f895 2026-10-04 Validate Capability Request through Attention Choice into Episteme
+- 0cefd60 2026-10-04 chore: refresh grounding snapshot
 - f830d29 2026-10-04 Record public-reference hygiene cleanup
 - 8e7b081 2026-10-04 chore: refresh grounding snapshot
 - 7494a21 2026-10-04 Remove private-project references from Episteme contract
 - 0f41229 2026-10-04 Remove retired-project reference from Explore contract
 - 7b9597a 2026-10-04 chore: refresh grounding snapshot
-- 30634d6 2026-10-04 Record CI verification of Capability Request Learn boundary
-- d88adc3 2026-10-04 chore: refresh grounding snapshot
-- e8477f9 2026-10-04 Record Capability Request Learn boundary test
 
 ## Core documents
 
