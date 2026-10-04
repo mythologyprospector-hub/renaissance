@@ -50,6 +50,22 @@ The smallest justified change was made in `CONSTELLATION_AUDIT.md`:
 3. Prefer a missing relationship, capability boundary, or concrete workflow over another inventory exercise.
 4. If no justified next task is found after checking the relevant world, stop inventing work and ask the world-level gap question.
 
+## Current Frontier — Human-Facing Interaction Discovery
+
+The next justified line of inquiry is the human-facing experience of Renaissance.
+
+Recent role-play produced three deliberately different natural-language inputs:
+
+- a curiosity that could become a small self-run experiment (color and mood);
+- a request for a way into an unfamiliar subject (systems);
+- a conceptual question requiring exploration and boundary-checking ("anti-magnets").
+
+The emerging pattern is a curiosity-first interaction that does not require the human to classify the request into a capability or workflow before receiving useful help.
+
+The current hypothesis is that this is an interaction/session pattern drawing on existing capabilities, not a new engine or repository.
+
+**Important:** Do not implement or name a new subsystem yet. Continue with natural examples until the behavior is sufficiently understood to justify a boundary.
+
 ## Last Known Organs Boundary
 
 Organs has a real Communications BUS carrying Memory events, but current
