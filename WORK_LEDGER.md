@@ -305,3 +305,29 @@ Because Akasha is retired historical archaeology, it should not remain presented
 The Explore section was reduced to the established current truth: no current Renaissance Explore implementation is established; future implementation must be justified and tested against the Explore contract rather than inherited from retired archaeology.
 
 **Result:** current public capability documentation now respects the retired-project boundary.
+
+
+### Renaissance-facing interaction surface investigation
+
+The remaining Capability Request question was resolved by inspecting the actual interaction surfaces.
+
+**Finding: no existing Renaissance-facing semantic host currently exists.**
+
+Organs does provide a real human-facing surface:
+
+- `tui/organs_tui.py` has an **Input** tab.
+- The Input tab sends human text to Organs' `/io/handle` front door, or `/io/interpret` for dry-run.
+- Organs' I/O Interface deliberately performs deterministic matching against a fixed operational catalog.
+- Unknown requests fail closed rather than being interpreted into arbitrary API calls.
+
+That surface is therefore a valid **operational front door**, but it is not a Renaissance Capability Request interpreter and should not be turned into one merely for convenience.
+
+Renaissance itself currently has no runtime/service/package surface capable of hosting Capability Request interpretation. The repository remains architectural/documentary rather than an executable front door.
+
+This resolves the prior open question:
+
+> **No existing Renaissance-facing interaction surface is currently available.**
+
+The absence is now established rather than guessed. The next step, if warranted, is to determine the smallest contract for a Renaissance semantic interaction surface without creating a second operational front door or moving Renaissance semantics into Organs.
+
+No implementation was created from this finding.
