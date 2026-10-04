@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 778ff7cb573b50ef5c9f1f043d36ce35131cb979
+**Source commit:** 28d57c221fe74e05ae57fe722240cbff8fdc3989
 **Branch:** main
 
 ## Recent commits
 
+- 28d57c2 2026-10-04 renaissance: record AI Foundry privacy boundary
+- b7f2a8e 2026-10-04 chore: refresh grounding snapshot
 - 778ff7c 2026-10-04 docs: clarify Explore test uses independent AI Foundry evidence
 - f4f30d8 2026-10-04 chore: refresh grounding snapshot
 - c1f6424 2026-10-04 docs: align capability evidence with AI Foundry boundary
 - 1cddcd2 2026-10-04 chore: refresh grounding snapshot
 - 4005cb4 2026-10-04 docs: close Praxis catch-up review
 - 4854396 2026-10-04 chore: refresh grounding snapshot
-- c3ff5d0 2026-10-04 docs: record Praxis evidence boundary in constellation audit
-- cf8512e 2026-10-04 chore: refresh grounding snapshot
 
 ## Core documents
 
