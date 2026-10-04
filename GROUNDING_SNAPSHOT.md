@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 14b8c0d0b3d86886ea7ab46f752f31e8c6c7b8d3
+**Source commit:** 6725c4e48b73be859841d837cf7d8e63b5c42dab
 **Branch:** main
 
 ## Recent commits
 
+- 6725c4e 2026-10-04 Remove stale private-project references from public README
+- 3fa0c13 2026-10-04 chore: refresh grounding snapshot
 - 14b8c0d 2026-10-04 Remove stale private-project references from public architecture
 - 897bf6c 2026-10-04 chore: refresh grounding snapshot
 - 9c6ee67 2026-10-04 Remove remaining private project references
 - 49f7b6a 2026-10-04 chore: refresh grounding snapshot
 - 0010600 2026-10-04 Remove private forensic repository references
 - 5a85c4f 2026-10-04 Remove private projects from public constellation audit
-- e914a4e 2026-10-04 chore: refresh grounding snapshot
-- 80eb917 2026-10-04 renaissance: correct AI Foundry privacy status
 
 ## Core documents
 
