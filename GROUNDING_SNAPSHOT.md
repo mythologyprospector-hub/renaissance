@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** f854552ac1900622c678fd0069308e4d6debc07d
+**Source commit:** 49818bb053ad9ddebc70a72a65f45ea4e00b3e77
 **Branch:** main
 
 ## Recent commits
 
+- 49818bb 2026-10-04 Defer Attention publisher pending Renaissance runtime boundary
+- 9b93b25 2026-10-04 chore: refresh grounding snapshot
 - f854552 2026-10-04 Record Attention Choice event contract boundary
 - 837edd6 2026-10-04 Define Attention Choice event integration contract
 - e0dddb3 2026-10-04 chore: refresh grounding snapshot
 - 0fbf09c 2026-10-04 Record Attention Choice publisher boundary finding
 - ce8af1d 2026-10-04 chore: refresh grounding snapshot
 - 8113a4f 2026-10-04 Validate Attention Choice event transport boundary
-- 31c20f4 2026-10-04 chore: refresh grounding snapshot
-- 8a8a502 2026-10-04 Validate Communications as Attention Choice transport boundary
 
 ## Core documents
 
