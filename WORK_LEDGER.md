@@ -485,3 +485,22 @@ Executable tests cover the existing Human Doorway corpus, exact expression prese
 CI was extended to run the runtime tests. The first workflow result is not yet available for verification at the time of this ledger update.
 
 **Next:** verify the new CI run. If green, exercise the doorway against the real Organs transport rather than expanding the service.
+
+
+### Human Doorway — real Organs transport integration verified
+
+The Renaissance doorway was exercised through the actual Organs I/O HTTP interface with the Registry and both services running in the integration workflow.
+
+Verified cases:
+- Registry discovery found the Renaissance service.
+- Direct Renaissance doorway request succeeded.
+- Organs I/O forwarded non-operational human expression to Renaissance with the expression preserved.
+- Existing operational catalog routing retained precedence and remained Organs-owned.
+- Ambiguous expression returned clarification through the real transport with `action_taken: false`.
+- No semantic handoff authorized or executed an operation.
+
+The Organs integration workflow completed successfully on commit `8284c471ee7bd33c7912cddfd2e25321c0763b6d`; all transport job steps passed. The Organs test workflow on the same commit also completed successfully.
+
+**Result: PASS — the Decision 0010 boundary is now demonstrated across the real service boundary, not merely at the contract or local harness level.**
+
+**Next:** inspect the adapter and runtime for contract drift and failure semantics, then run a compact interaction-boundary regression set. Do not broaden the classifier or add autonomy.
