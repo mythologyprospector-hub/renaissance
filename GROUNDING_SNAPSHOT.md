@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 068d016e22f92f3738d916e6127d45a076ad7904
+**Source commit:** e1926b106e8c07b80b9a9baf67fa2dd24fe5f24b
 **Branch:** main
 
 ## Recent commits
 
+- e1926b1 2026-10-04 learn: record delayed retention result
+- 6e995f2 2026-10-04 chore: refresh grounding snapshot
 - 068d016 2026-10-04 Add delayed retention protocol for Learn experiment 001A
 - d578115 2026-10-04 chore: refresh grounding snapshot
 - 05780d2 2026-10-04 Align Learn tests with complete episode requirements
 - 27af19e 2026-10-04 chore: refresh grounding snapshot
 - 5e0ec08 2026-10-04 Test complete-episode evidence requirements
 - d9a1497 2026-10-04 Require a complete learning episode before capability evidence
-- b81cae1 2026-10-04 chore: refresh grounding snapshot
-- 42ba974 2026-10-04 ci: verify current Learn vertical slice
 
 ## Core documents
 
