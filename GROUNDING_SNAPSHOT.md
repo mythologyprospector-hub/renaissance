@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 30634d6792758b56b85257fb1f41a9f894146c08
+**Source commit:** 7494a2171f78dcd0ff9b982ef720f5fe9ae1b94b
 **Branch:** main
 
 ## Recent commits
 
+- 7494a21 2026-10-04 Remove private-project references from Episteme contract
+- 0f41229 2026-10-04 Remove retired-project reference from Explore contract
+- 7b9597a 2026-10-04 chore: refresh grounding snapshot
 - 30634d6 2026-10-04 Record CI verification of Capability Request Learn boundary
 - d88adc3 2026-10-04 chore: refresh grounding snapshot
 - e8477f9 2026-10-04 Record Capability Request Learn boundary test
 - f0ea407 2026-10-04 chore: refresh grounding snapshot
 - be699a4 2026-10-04 Include boundary test on pull requests
-- 15f0590 2026-10-04 chore: refresh grounding snapshot
-- ade1e74 2026-10-04 Run Capability Request Learn boundary test in CI
-- a161510 2026-10-04 Test Capability Request handoff to Learn vertical
 
 ## Core documents
 
