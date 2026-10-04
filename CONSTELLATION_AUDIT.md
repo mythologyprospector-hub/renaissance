@@ -239,7 +239,6 @@ The current evidence suggests a layered world rather than a single monolithic so
        INDEPENDENT / SPECIALIST
               |
        Tiger Den
-       Namagiri / Behemoth / Leviathan
        Notation Transposer
        Android Dojo / Toolkit
 
@@ -387,7 +386,6 @@ These findings remain subordinate to the repository's existing authority hierarc
 
 ## Refresh Record — 2026-09-29
 
-This refresh records the current public-boundary clarification following Human Gate review. Android Dojo and Android Dojo Toolkit are now private. Esoteric Atlas and Notation Transposer are now private. Namagiri, Behemoth, and Leviathan remain public because their Issues are being used as a forensic evidence record for ongoing reverse-engineering work; their README notices explicitly distinguish that work from Renaissance.
 
 The resulting distinction is deliberate: public visibility does not imply Renaissance membership, and private visibility does not imply architectural rejection. Renaissance remains responsible for its own demonstrated foundation and relationships, while independent projects retain their own identities and purposes.
 
