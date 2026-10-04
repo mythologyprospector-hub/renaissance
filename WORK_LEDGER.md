@@ -348,3 +348,14 @@ For investigation:
 `Capability Request → Attention Choice → authorization when required → Episteme`
 
 **Result: PASS conceptually; implementation location unresolved.** No new runtime, API, persistence layer, Organs capability, or second front door is justified yet. The next concrete evidence needed is a real Renaissance capability invocation need that establishes where this semantic boundary must live.
+
+
+### Investigation result — first real Capability Request workflow evidence
+
+Learn Experiment 001A (Linux paths) has an actual conversational execution record dated 2026-09-30. It provides the first concrete Renaissance capability workflow against which the Capability Request boundary can be tested.
+
+The workflow can be represented as a Capability Request for `learn` without creating an Attention Choice, authorization, new front door, or epistemic artifact. The execution record remains the record of the learning interaction and its evidence; the Capability Request remains the semantic interpretation of the originating human expression.
+
+**Result: PASS.** The Capability Request contract is now grounded by a real Renaissance capability workflow rather than conceptual tests alone.
+
+The remaining implementation question is narrower: where should the Renaissance-owned semantic boundary live when this kind of capability interaction becomes operational beyond conversational execution?
