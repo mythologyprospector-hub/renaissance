@@ -2,57 +2,65 @@
 
 from __future__ import annotations
 
-from experiments.human_doorway_harness import CASES, evaluate
+import unittest
+
+from human_doorway_harness import CASES, evaluate
 
 
-def test_corpus_is_deterministic_and_covers_boundary_cases() -> None:
-    names = [case.name for case in CASES]
+class HumanDoorwayHarnessTests(unittest.TestCase):
+    def test_corpus_is_deterministic_and_covers_boundary_cases(self) -> None:
+        names = [case.name for case in CASES]
 
-    assert len(CASES) >= 8
-    assert len(names) == len(set(names))
+        self.assertGreaterEqual(len(CASES), 8)
+        self.assertEqual(len(names), len(set(names)))
 
-    required = {
-        "conversation",
-        "learning",
-        "inquiry",
-        "problem_solving",
-        "ambiguous",
-        "operational",
-        "unsupported",
-        "correction",
-        "compound",
-    }
-    assert required.issubset(names)
-
-
-def test_harness_enforces_negative_authority_invariants() -> None:
-    case = CASES[1]
-
-    def bad_adapter(_case):
-        return {
-            "path": "capability_request",
-            "capability": "learn",
-            "mode": "answer",
-            "expression": case.expression,
-            "authorized": True,
-            "evidence": False,
-            "attention_choice": False,
-            "executed": False,
+        required = {
+            "conversation",
+            "learning",
+            "inquiry",
+            "problem_solving",
+            "ambiguous",
+            "operational",
+            "unsupported",
+            "correction",
+            "compound",
         }
+        self.assertTrue(required.issubset(names))
 
-    result = evaluate(bad_adapter, (case,))[0]
+    def test_harness_enforces_negative_authority_invariants(self) -> None:
+        case = next(case for case in CASES if case.name == "learning")
 
-    assert not result["passed"]
-    assert "classification must not create authorization" in result["failures"]
+        def bad_adapter(_case):
+            return {
+                "path": "capability_request",
+                "capability": "learn",
+                "mode": "answer",
+                "expression": case.expression,
+                "authorized": True,
+                "evidence": False,
+                "attention_choice": False,
+                "executed": False,
+            }
+
+        result = evaluate(bad_adapter, (case,))[0]
+
+        self.assertFalse(result["passed"])
+        self.assertIn(
+            "classification must not create authorization",
+            result["failures"],
+        )
+
+    def test_harness_enforces_expression_preservation(self) -> None:
+        case = next(case for case in CASES if case.name == "conversation")
+
+        def bad_adapter(_case):
+            return {"path": "conversation", "expression": "rewritten"}
+
+        result = evaluate(bad_adapter, (case,))[0]
+
+        self.assertFalse(result["passed"])
+        self.assertIn("expression was not preserved exactly", result["failures"])
 
 
-def test_harness_enforces_expression_preservation() -> None:
-    case = CASES[0]
-
-    def bad_adapter(_case):
-        return {"path": "conversation", "expression": "rewritten"}
-
-    result = evaluate(bad_adapter, (case,))[0]
-
-    assert not result["passed"]
-    assert "expression was not preserved exactly" in result["failures"]
+if __name__ == "__main__":
+    unittest.main()
