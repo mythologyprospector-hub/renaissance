@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** dd7da0bedaeba4cfdceb0bd5be7392e886d73ba5
+**Source commit:** 48db116066347fd39f78b4d11525322ef1d2ca1f
 **Branch:** main
 
 ## Recent commits
 
+- 48db116 2026-10-04 docs: record cross-repo catch-up finding
+- ae0384d 2026-10-04 chore: refresh grounding snapshot
 - dd7da0b 2026-10-04 learn: update work ledger stopping point
 - 5f28b64 2026-10-04 chore: refresh grounding snapshot
 - e1926b1 2026-10-04 learn: record delayed retention result
 - 6e995f2 2026-10-04 chore: refresh grounding snapshot
 - 068d016 2026-10-04 Add delayed retention protocol for Learn experiment 001A
 - d578115 2026-10-04 chore: refresh grounding snapshot
-- 05780d2 2026-10-04 Align Learn tests with complete episode requirements
-- 27af19e 2026-10-04 chore: refresh grounding snapshot
 
 ## Core documents
 
