@@ -20,6 +20,16 @@ class LearnVerticalSliceTests(unittest.TestCase):
             rationale="baseline attempt",
         )
 
+    def prepare_episode(self, episode):
+        episode.add_activity(
+            LearningMaterial("bounded instruction", "instruction", "test-fixture")
+        )
+        episode.record_performance(
+            Performance("practice", "response", "guided", True, "practice rationale")
+        )
+        episode.add_feedback(Feedback("criteria", "specific feedback"))
+        episode.adapt("reduce one prompt")
+
     def test_complete_episode_requires_and_records_transfer(self):
         episode = LearningEpisode(
             goal="distinguish support from inference",
@@ -65,12 +75,24 @@ class LearnVerticalSliceTests(unittest.TestCase):
             {"status": "unresolved", "reason": "no valid transfer demonstration"},
         )
 
+    def test_incomplete_episode_cannot_claim_capability(self):
+        episode = LearningEpisode(
+            goal="reason",
+            capability_target="justify classifications",
+            baseline=self.baseline(),
+        )
+        self.assertEqual(
+            episode.capability_evidence(),
+            {"status": "unresolved", "reason": "no learning activity recorded"},
+        )
+
     def test_failed_transfer_remains_unresolved(self):
         episode = LearningEpisode(
             goal="reason",
             capability_target="justify classifications",
             baseline=self.baseline(),
         )
+        self.prepare_episode(episode)
         episode.record_transfer(
             Transfer(
                 "transfer",
