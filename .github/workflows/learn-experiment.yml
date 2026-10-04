@@ -6,6 +6,7 @@ on:
     paths:
       - "experiments/learn_model.py"
       - "experiments/test_learn_model.py"
+      - "experiments/test_capability_request_learn_boundary.py"
       - ".github/workflows/learn-experiment.yml"
   pull_request:
     paths:
@@ -24,6 +25,6 @@ jobs:
           python-version: "3.13"
       - name: Run Learn vertical tests
         working-directory: experiments
-        run: python -m unittest -v test_learn_model.py
+        run: python -m unittest -v test_learn_model.py test_capability_request_learn_boundary.py
 
 # Verification trigger: execute the current mainline Learn vertical slice.
