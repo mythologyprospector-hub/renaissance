@@ -212,26 +212,9 @@ A project can be useful to Renaissance without being owned, restructured, or gov
 
 This is deliberate.
 
-For example, the Shiva-related work has a separate constellation:
-
-```text
-SHIVA
-  |
-  v
-BEHEMOTH   -- forensic teardown
-  |
-  v
-LEVIATHAN  -- implementation/build work
-  |
-  v
-NAMAGIRI   -- Ryan's Shiva-compatible project
-```
-
-These projects retain their own purposes.
+Independent specialist and domain projects may retain their own purposes, authorities, and architectures while remaining outside the Renaissance working constellation.
 
 Renaissance may learn from, use, or interoperate with independent projects where appropriate. Their existence does not require architectural absorption into Renaissance.
-
----
 
 ## 10. Interoperability
 
