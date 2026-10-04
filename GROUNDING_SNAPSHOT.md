@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** f64c9402f9291ed593022d08cd335af878355151
+**Source commit:** ec7c068804c82e1c9488b9bfc5a986520ab124f8
 **Branch:** main
 
 ## Recent commits
 
+- ec7c068 2026-10-04 Implement minimal Human Doorway runtime boundary
+- e28a058 2026-10-04 chore: refresh grounding snapshot
+- bedab8d 2026-10-04 Record Human Doorway runtime decision
 - f64c940 2026-10-04 Record Human Doorway runtime boundary
 - c88eb1e 2026-10-04 chore: refresh grounding snapshot
 - c2f69a9 2026-10-04 Establish Human Doorway runtime boundary
 - 50c1022 2026-10-04 chore: refresh grounding snapshot
 - 45eb10c 2026-10-04 Validate human doorway runtime placement candidate
-- 235ef16 2026-10-04 chore: refresh grounding snapshot
-- dc9c469 2026-10-04 Propose executable Renaissance human doorway boundary
-- a47d84f 2026-10-04 chore: refresh grounding snapshot
 
 ## Core documents
 
