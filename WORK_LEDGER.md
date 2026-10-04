@@ -272,3 +272,25 @@ Artifacts:
 **Result:** the semantic seam is sufficiently small to test further. It remains proposed, not canon. No runtime or persistence implementation was introduced.
 
 **Next:** test the proposed contract against the real Organs I/O boundary and existing Renaissance/Episteme/Praxis interaction patterns before deciding whether any durable request record or adapter is actually needed.
+
+
+### Capability Request real-boundary validation
+
+The proposed Capability Request contract was tested against the actual Organs I/O Interface and the established Praxis/Episteme boundaries.
+
+**Result: PASS with one integration finding.**
+
+- Organs I/O correctly remains deterministic operational routing with Critic/Executive safety gates.
+- Ordinary conversation need not become a Capability Request.
+- Renaissance learning/investigation requests fit the proposed semantic boundary without becoming authorization or evidence.
+- Praxis retains its domain semantics.
+- Episteme retains scientific execution and provenance.
+- Unrecognized Renaissance requests fail closed rather than being guessed into API calls.
+
+The important finding is that the Capability Request boundary belongs above or alongside the existing Organs operational catalog, not inside it.
+
+There is still no justified Renaissance runtime/adapter surface for this contract. No runtime, I/O catalog expansion, persistence layer, or new front door should be invented yet.
+
+Experiment: `experiments/CAPABILITY_REQUEST_REAL_BOUNDARY_MVT.md`
+
+**Next grounded question:** what existing Renaissance-facing interaction surface, if any, can host Capability Request interpretation without creating a second front door? If none exists, establish that absence before implementation.
