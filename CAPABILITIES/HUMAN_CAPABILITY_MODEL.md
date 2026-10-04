@@ -527,7 +527,6 @@ A project may contribute to a capability through an explicit contract while reta
 In particular:
 
 - Episteme remains its own project and major Renaissance inquiry instrument.
-- Behemoth, Leviathan, and Namagiri remain independent Shiva-related projects.
 
 Independent projects are not treated as Renaissance implementations merely because their work resembles a provisional capability. A concrete relationship must be established before such a project becomes implementation evidence for Renaissance.
 
