@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import unittest
 
-from human_doorway_harness import CASES, evaluate
+from human_doorway_harness import CASES, VARIANT_CASES, evaluate
 
 
 class HumanDoorwayHarnessTests(unittest.TestCase):
@@ -12,6 +12,7 @@ class HumanDoorwayHarnessTests(unittest.TestCase):
         names = [case.name for case in CASES]
 
         self.assertGreaterEqual(len(CASES), 8)
+        self.assertGreaterEqual(len(VARIANT_CASES), 8)
         self.assertEqual(len(names), len(set(names)))
 
         required = {
