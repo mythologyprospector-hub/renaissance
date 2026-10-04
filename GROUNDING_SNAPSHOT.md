@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 6725c4e48b73be859841d837cf7d8e63b5c42dab
+**Source commit:** 561c42ace73bd2416337699fa949c433a23533eb
 **Branch:** main
 
 ## Recent commits
 
+- 561c42a 2026-10-04 Record human-facing interaction discovery frontier
+- 4a5f8fe 2026-10-04 chore: refresh grounding snapshot
 - 6725c4e 2026-10-04 Remove stale private-project references from public README
 - 3fa0c13 2026-10-04 chore: refresh grounding snapshot
 - 14b8c0d 2026-10-04 Remove stale private-project references from public architecture
 - 897bf6c 2026-10-04 chore: refresh grounding snapshot
 - 9c6ee67 2026-10-04 Remove remaining private project references
 - 49f7b6a 2026-10-04 chore: refresh grounding snapshot
-- 0010600 2026-10-04 Remove private forensic repository references
-- 5a85c4f 2026-10-04 Remove private projects from public constellation audit
 
 ## Core documents
 
