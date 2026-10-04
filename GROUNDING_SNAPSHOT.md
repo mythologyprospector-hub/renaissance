@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 3b040d21150e24ca864034983b26bdd6c72409d2
+**Source commit:** b6fe8229752ff49907270ac7dc04b6d8371de80d
 **Branch:** main
 
 ## Recent commits
 
+- b6fe822 2026-10-04 Advance ledger: Attention Choice contract validated; formal decision gate is next.
+- 902eeee 2026-10-04 chore: refresh grounding snapshot
 - 3b040d2 2026-10-04 Validate separate Attention Choice and authorization provenance semantics.
 - f456b17 2026-10-04 chore: refresh grounding snapshot
 - 8d0e6e9 2026-10-04 Refine Attention Choice proposal with separate authorization provenance reference.
 - ac832dd 2026-10-04 chore: refresh grounding snapshot
 - 68fee1b 2026-10-04 Validate minimal Attention Choice record shape; identify authorization provenance boundary.
 - b9d6a6f 2026-10-04 chore: refresh grounding snapshot
-- 2809773 2026-10-04 Refine proposed Attention Choice contract with minimal referential record shape; proposal remains non-canon.
-- dd1dc0f 2026-10-04 chore: refresh grounding snapshot
 
 ## Core documents
 
