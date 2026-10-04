@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 4005cb492c72a2dc57ecd25a0194b2f8864f773e
+**Source commit:** c1f642495cf98d8e27186a28c488d74076ab3f2a
 **Branch:** main
 
 ## Recent commits
 
+- c1f6424 2026-10-04 docs: align capability evidence with AI Foundry boundary
+- 1cddcd2 2026-10-04 chore: refresh grounding snapshot
 - 4005cb4 2026-10-04 docs: close Praxis catch-up review
 - 4854396 2026-10-04 chore: refresh grounding snapshot
 - c3ff5d0 2026-10-04 docs: record Praxis evidence boundary in constellation audit
 - cf8512e 2026-10-04 chore: refresh grounding snapshot
 - 48db116 2026-10-04 docs: record cross-repo catch-up finding
 - ae0384d 2026-10-04 chore: refresh grounding snapshot
-- dd7da0b 2026-10-04 learn: update work ledger stopping point
-- 5f28b64 2026-10-04 chore: refresh grounding snapshot
 
 ## Core documents
 
