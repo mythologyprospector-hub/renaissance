@@ -285,19 +285,7 @@ Some projects remain deliberately independent and outside the current Renaissanc
 
 The current architecture does not retroactively absorb pre-existing projects simply because their capabilities resemble one of the provisional human-facing responsibilities.
 
-For example, the Shiva-related constellation is its own body of work:
-
-~~~
-                    SHIVA
-                      │
-          ┌───────────┼───────────┐
-          ▼           ▼           ▼
-      BEHEMOTH     LEVIATHAN   NAMAGIRI
-      teardown     build       compatible
-      research     work        project
-~~~
-
-They can remain independent while future interoperability, where useful, is established explicitly.
+Independent specialist projects can remain their own body of work while future interoperability, where useful, is established explicitly.
 
 That distinction matters.
 
