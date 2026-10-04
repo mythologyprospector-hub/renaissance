@@ -59,6 +59,24 @@ CASES = (
     ),
 )
 
+# Variants deliberately exercise ordinary human mess without changing the
+# semantic target of the seed case. These are corpus entries, not a classifier.
+VARIANT_CASES = (
+    Case("learning_hedged", "I'd kind of like to understand how to read a Linux process map.", "capability_request", "learn", "answer"),
+    Case("learning_colloquial", "Can you teach me what I'm looking at in this process map?", "capability_request", "learn", "answer"),
+    Case("inquiry_hedged", "Could these two explanations both be causing what I'm seeing?", "capability_request", "understand", "investigate", True),
+    Case("inquiry_uncertain", "I'm not sure what I'm looking at, but I have a couple ideas. How can we tell?", "capability_request", "understand", "investigate", True),
+    Case("problem_constraints", "I've got a real problem, and I need a solution that doesn't risk the machine. Can we work through it?", "capability_request", "praxis", "investigate"),
+    Case("problem_colloquial", "This thing keeps doing something weird. Help me figure out a safe way to tackle it.", "clarify"),
+    Case("ambiguous_pronoun", "It broke again. Can you help?", "clarify"),
+    Case("ambiguous_context", "That doesn't make sense to me.", "clarify"),
+    Case("conversation_observation", "Huh. That's interesting. I wasn't actually asking you to do anything.", "conversation"),
+    Case("correction_explicit", "Nope, you've got me wrong. Let me back up and explain.", "conversation"),
+    Case("compound_learning_inquiry", "Teach me this, but I also want to know which of my two explanations fits.", "clarify"),
+    Case("unsupported_uncertain", "Could you build something that lets me teleport across town?", "unsupported"),
+)
+
+
 
 def evaluate(
     adapter: Callable[[Case], Mapping[str, Any]],
