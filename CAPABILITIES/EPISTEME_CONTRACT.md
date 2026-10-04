@@ -190,7 +190,7 @@ Episteme does not become the mandatory integration point for independent project
 
 Integration with an independent project must be justified by a concrete Renaissance requirement and an explicit contract.
 
-Behemoth, Leviathan, and Namagiri remain examples of independent projects whose boundaries are preserved.
+Independent specialist projects remain outside this contract unless a concrete Renaissance requirement and explicit relationship establish otherwise.
 
 ## 8. Epistemic invariants
 
