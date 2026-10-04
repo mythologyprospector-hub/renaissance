@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 42ba97442431b3ad5f4e5d7e3cdf7fdff7bc56c4
+**Source commit:** 5e0ec082f2c6d08f9fec348f4e3985a119c83454
 **Branch:** main
 
 ## Recent commits
 
+- 5e0ec08 2026-10-04 Test complete-episode evidence requirements
+- d9a1497 2026-10-04 Require a complete learning episode before capability evidence
+- b81cae1 2026-10-04 chore: refresh grounding snapshot
 - 42ba974 2026-10-04 ci: verify current Learn vertical slice
 - f9ebf18 2026-10-04 chore: refresh grounding snapshot
 - a94c7bf 2026-10-04 Test Learn lifecycle invariants
 - 1052ee1 2026-10-04 Harden Learn episode lifecycle invariants
 - b124c35 2026-10-04 chore: refresh grounding snapshot
-- 0bb5ddf 2026-10-04 Test Learn provenance and bounded evidence
-- bf76d48 2026-10-04 Harden Learn evidence and instructional provenance
-- fbfebd3 2026-10-04 chore: refresh grounding snapshot
 
 ## Core documents
 
