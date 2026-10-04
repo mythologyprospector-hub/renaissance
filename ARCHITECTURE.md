@@ -154,6 +154,21 @@ The current conceptual system-responsibility set includes:
 
 These responsibilities may be implemented together where that is architecturally appropriate. They should not be split merely because they have distinct names.
 
+### Attention Choice boundary
+
+Decision 0009 establishes **Attention Choice** as a Renaissance knowledge-growth boundary above Episteme's scientific execution machinery.
+
+An Attention Choice records the declared decision to give an identified matter attention. Its purpose is to preserve the transition:
+
+`represented pressure → attention choice → established authorization when required → declared investigation`
+
+The contract preserves the local reason for selection, supporting references, alternatives, mode, authorization provenance when applicable, and subsequent outcome reference without turning the choice into evidence, authority, permission, or a universal importance ranking.
+
+Episteme remains responsible for the investigation it receives and its scientific provenance. Attention Choice does not make Episteme a global agenda setter.
+
+The minimum referential record and field semantics are defined by `PROPOSALS/ATTENTION_CHOICE_CONTRACT.md` as accepted by Decision 0009. Implementation details remain intentionally unresolved until separately justified.
+
+
 The two vocabularies do not imply a one-to-one mapping:
 
 - one implementation may perform several system responsibilities;
