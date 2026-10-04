@@ -415,11 +415,11 @@ A conforming implementation must:
 
 ### Current implementation evidence
 
-No mature Renaissance project has yet been identified as the primary implementation of Learn.
+A concrete experimental Renaissance Learn vertical slice now exists in `experiments/learn_model.py` with automated tests and a real Capability Request boundary test. It demonstrates a minimal learning-process boundary: goal, capability target, baseline, activity, performance, feedback, adaptation, transfer, and bounded capability evidence.
 
-This is an intentional architectural gap.
+This is **implementation evidence, not a mature primary Learn instrument**. The broader capability remains intentionally open.
 
-The gap does **not** justify creating a learning repository immediately. The next step is to test the contract against real learning workflows and determine what responsibilities, evidence, and interfaces an implementation would actually require.
+The next step is to determine what real human-facing interaction and runtime boundary would justify growing this experiment into an instrument.
 
 ## 5. Composition
 
