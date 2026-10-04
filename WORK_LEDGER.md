@@ -359,3 +359,12 @@ The workflow can be represented as a Capability Request for `learn` without crea
 **Result: PASS.** The Capability Request contract is now grounded by a real Renaissance capability workflow rather than conceptual tests alone.
 
 The remaining implementation question is narrower: where should the Renaissance-owned semantic boundary live when this kind of capability interaction becomes operational beyond conversational execution?
+
+
+### Implementation-boundary finding — Learn already has a real vertical slice
+
+The repository already contains `experiments/learn_model.py` and `experiments/test_learn_model.py`, with CI configured to execute the Learn vertical tests. The model implements the minimum learning-process boundary: goal, capability target, baseline, activity, performance, feedback, adaptation, transfer, and bounded capability evidence. It explicitly refuses capability evidence without transfer and preserves unresolved outcomes.
+
+This changes the Capability Request implementation question: there is now a concrete Renaissance-owned capability implementation surface to exercise without inventing a runtime or new repository. The semantic request boundary can be tested against this existing vertical slice first.
+
+The smallest next step is therefore **not** a new service or adapter. It is a machine-checkable boundary test showing that a real Capability Request can hand off to the existing Learn vertical slice while keeping request interpretation, learning execution, and capability evidence distinct.
