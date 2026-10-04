@@ -2,7 +2,7 @@
 
 **Status:** Proposed working audit — not canon  
 **Original snapshot:** 2026-09-23  
-**Refresh:** 2026-09-29  
+**Refresh:** 2026-10-04  
 **Scope:** Public/private repositories currently visible under `mythologyprospector-hub`
 
 ## Purpose
@@ -91,7 +91,24 @@ Episteme's own README explicitly states that it is an independent project and th
 
 ---
 
-### 4. `tiger-den`
+### 4. `praxis`
+
+**Current status:** Public  
+**Working classification:** Supporting/satellite project
+
+Praxis is a human-centered solution-discovery engine for moving from defined human problems through candidate interventions, bounded tests, human decision, observed results, and explicit evidence admission.
+
+Praxis remains independently governed and does not depend on Renaissance runtime services. Its current concrete cross-project relationship is with Episteme: admitted Praxis evidence can cross a narrow, runtime-independent handoff into an Episteme-owned record while preserving Praxis identity, admission context, provenance, and epistemic neutrality.
+
+**Relationship:** Concrete evidence-producing instrument with an explicit downstream relationship to Episteme. This is a real constellation relationship, but it does not by itself establish Praxis as a Renaissance-owned capability or require Renaissance to absorb the handoff.
+
+**Evidence update (2026-10-04):** The completed Praxis↔Episteme handoff was compared against Renaissance's existing architecture and constellation rules. No Renaissance-owned duplicate boundary or new runtime dependency is justified. The existing Renaissance principles already permit independent instruments to interoperate through explicit contracts.
+
+**Action:** Keep public and independently governed. Record the relationship as architectural evidence; do not add a Renaissance runtime interface or restructure Praxis without a separate justified decision.
+
+---
+
+### 5. `tiger-den`
 
 **Current status:** Public  
 **Working classification:** Specialist / independent project — outside current Renaissance working constellation
@@ -108,7 +125,7 @@ Its principles — evidence before assertion, provenance, preservation of meanin
 
 ---
 
-### 5. `ai-foundry`
+### 6. `ai-foundry`
 
 **Current status:** Public  
 **Working classification:** Specialist / independent project — outside current Renaissance working constellation
@@ -123,11 +140,11 @@ It is nevertheless an engineering laboratory rather than Renaissance itself.
 
 **Evidence update (2026-09-28):** A dedicated archaeology pass inspected AI Foundry's foundation, terminology, artifact model, persistence rules, evaluation/comparison workflow, and explicit Run provenance. AI Foundry concretely preserves an Experiment → Run → Result → Evaluation chain and runtime/dataset/test-case provenance within its laboratory boundary. Those findings remain historical evidence of compatibility; they do not establish Renaissance membership or a current integration boundary.
 
-**Action:** Keep public and independently governed. Preserve the archaeology as historical evidence. Do not plan Renaissance integration unless a concrete future architectural relationship is independently established.
+**Action:** Keep public and independently governed. Preserve the archaeology as historical evidence. Do not plan Renaissance integration unless a concrete future interoperability need emerges.
 
 ---
 
-### 6. `esoteric-atlas`
+### 7. `esoteric-atlas`
 
 **Current status:** Private  
 **Working classification:** Independent/private domain project
@@ -144,7 +161,7 @@ Its subject matter is domain-specific, however, and should not define Renaissanc
 
 ---
 
-### 7. `android-dojo`
+### 8. `android-dojo`
 
 **Current status:** Private  
 **Working classification:** Independent/private domain education project
@@ -159,7 +176,7 @@ Its emphasis on reproducibility, safety, evidence, recovery, and teaching rather
 
 ---
 
-### 8. `android-dojo-toolkit`
+### 9. `android-dojo-toolkit`
 
 **Current status:** Private  
 **Working classification:** Independent/private domain tooling project
@@ -174,7 +191,7 @@ Its evidence-first workflow, safety boundaries, verification, and instructional 
 
 ---
 
-### 9. `notation-transposer`
+### 10. `notation-transposer`
 
 **Current status:** Private  
 **Working classification:** Specialist/private domain project
@@ -189,7 +206,7 @@ Those engineering principles are compatible with Renaissance, but the current re
 
 ---
 
-### 10. `namagiri`
+### 11. `namagiri`
 
 **Current status:** Public (forensic work)  
 **Working classification:** Specialist / independent
@@ -204,7 +221,7 @@ It has its own explicit external technical authority: the Shiva source and relat
 
 ---
 
-### 11. `behemoth`
+### 12. `behemoth`
 
 **Current status:** Public (forensic work)  
 **Working classification:** Specialist / independent forensic repository
@@ -219,7 +236,7 @@ It is operationally related to Namagiri rather than Renaissance directly.
 
 ---
 
-### 12. `leviathan`
+### 13. `leviathan`
 
 **Current status:** Public (forensic work)  
 **Working classification:** Specialist / independent implementation repository
@@ -234,7 +251,7 @@ Like Behemoth, its present mission is tightly coupled to the Shiva/Namagiri inve
 
 ---
 
-### 13. `akasha`
+### 14. `akasha`
 
 **Current status:** Private  
 **Working classification:** Historical/private archaeology
@@ -272,17 +289,19 @@ The current evidence suggests a layered world rather than a single monolithic so
                    constitutional foundation
                               |
               +---------------+---------------+
-              |               |
-        CORE CAPABILITIES   SHARED
-              |           INFRASTRUCTURE
-          Episteme        Organs
-              |
+              |               |               |
+        CORE CAPABILITIES   SHARED        SUPPORTING /
+              |           INFRASTRUCTURE    SATELLITE
+          Episteme        Organs             Praxis
+              |                               |
+              |                         explicit handoff
+              |                               v
+              +-------------------------- Episteme
               |
        INDEPENDENT / SPECIALIST
               |
        Tiger Den / AI Foundry
        Namagiri / Behemoth / Leviathan
-       (public for forensic evidence)
        Esoteric Atlas
        Notation Transposer
        Android Dojo / Toolkit
@@ -343,6 +362,8 @@ Organs supplies reusable runtime infrastructure.
 
 Episteme supplies a concrete discovery/inquiry capability and now has independently inspected evidence showing that its existing provenance, transformation, and execution-lineage mechanisms already realize several Renaissance-required distinctions.
 
+Praxis now provides a second concrete instrument relationship: it produces human-admitted evidence through a bounded solution-discovery workflow and can hand that evidence to Episteme without runtime coupling.
+
 Tiger Den and AI Foundry have been archaeologically examined and show compatibility with Renaissance principles, but Decision 0008 places both outside the current Renaissance working constellation. Their prior evidence remains useful historical context; it does not establish membership, dependency, or an integration requirement.
 
 The exact interfaces between current Renaissance relationships remain an architecture question and should not be invented merely because conceptual fit is attractive.
@@ -350,6 +371,8 @@ The exact interfaces between current Renaissance relationships remain an archite
 ## Finding 4 — Public Renaissance does not need to contain every compatible project
 
 Tiger Den, AI Foundry, Namagiri/Behemoth/Leviathan, Notation Transposer, Esoteric Atlas, and Android Dojo/Toolkit currently have sufficiently specific or independent missions that incorporating them into Renaissance would create artificial coupling or visual symmetry.
+
+Praxis is different: its concrete Episteme handoff is now recorded as an actual constellation relationship, while Praxis itself remains independent.
 
 The current evidence supports a smaller public Renaissance boundary while preserving independent projects and historical relationships. The three reverse-engineering repositories remain public for an operational reason: their Issues are being used as a forensic evidence record. Their README notices make the boundary explicit.
 
@@ -398,16 +421,16 @@ No answer is being forced by this audit.
 # Recommended Next Work
 
 1. Ratify or revise the constellation model only after Human Gate review.
-2. Convert the completed Episteme archaeology into explicit integration documentation only if a concrete boundary is needed; do not duplicate its existing provenance/lineage mechanisms.
-3. Preserve the completed Tiger Den archaeology as historical evidence; do not create integration documentation unless a concrete future boundary is needed.
-4. Preserve AI Foundry's independent laboratory boundary unless a demonstrated future interoperability need emerges.
-5. Use Decision 0006 as the current minimum relationship-interoperability boundary; do not infer a final protocol from it.
-6. Only then finalize the Renaissance visual identity and social preview.
-7. Do not move, delete, or rename repositories merely for aesthetic uniformity.
-8. Keep the public Renaissance surface focused on demonstrated architectural relationships; compatible independent work may remain outside it.
+2. Preserve the completed Praxis↔Episteme boundary as evidence; do not create a duplicate Renaissance interface unless a concrete need emerges.
+3. Convert the completed Episteme archaeology into explicit integration documentation only if a concrete boundary is needed; do not duplicate its existing provenance/lineage mechanisms.
+4. Preserve the completed Tiger Den archaeology as historical evidence; do not create integration documentation unless a concrete future boundary is needed.
+5. Preserve AI Foundry's independent laboratory boundary unless a demonstrated future interoperability need emerges.
+6. Use Decision 0006 as the current minimum relationship-interoperability boundary; do not infer a final protocol from it.
+7. Only then finalize the Renaissance visual identity and social preview.
+8. Do not move, delete, or rename repositories merely for aesthetic uniformity.
+9. Keep the public Renaissance surface focused on demonstrated architectural relationships; compatible independent work may remain outside it.
 
 **Current status:** Proposed working document. No repository classification in this document is constitutional canon.
-
 
 ---
 
@@ -439,3 +462,15 @@ The resulting distinction is deliberate: public visibility does not imply Renais
 Decision 0008 clarifies that **Tiger Den and AI Foundry are outside the current Renaissance working constellation**. Their prior archaeology remains historical evidence of compatibility with Renaissance principles, but neither is a Renaissance implementation of Explore or Create, Renaissance does not depend on either, and no current integration is authorized or required.
 
 This clarification preserves both projects' independent identities and does not reject the possibility of a future relationship. Any such relationship must be established independently from a concrete architectural need rather than inferred from compatibility alone.
+
+---
+
+## Refresh Record — 2026-10-04 — Praxis↔Episteme Boundary
+
+This refresh records the completed Praxis↔Episteme evidence handoff and its relationship to Renaissance.
+
+Praxis now has a canonical, runtime-independent handoff for admitted evidence to Episteme. The handoff preserves Praxis evidence and human-admission objects, source/provenance information, and Praxis identity inside an Episteme-owned record without transferring epistemic authority or introducing a runtime dependency.
+
+Renaissance does not currently need to own this boundary or introduce another interface for it. The completed handoff is sufficient evidence that two independent instruments can interoperate under Renaissance's existing principle of explicit contracts and preserved authority boundaries.
+
+No new Renaissance architecture is introduced by this refresh.
