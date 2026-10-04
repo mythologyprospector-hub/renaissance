@@ -294,3 +294,14 @@ There is still no justified Renaissance runtime/adapter surface for this contrac
 Experiment: `experiments/CAPABILITY_REQUEST_REAL_BOUNDARY_MVT.md`
 
 **Next grounded question:** what existing Renaissance-facing interaction surface, if any, can host Capability Request interpretation without creating a second front door? If none exists, establish that absence before implementation.
+
+
+### Capability boundary cleanup
+
+Targeted inspection of the current human-facing capability model found one stale architectural reference to retired Akasha implementation material under Explore.
+
+Because Akasha is retired historical archaeology, it should not remain presented as current Renaissance implementation evidence or as a source for future rebirth.
+
+The Explore section was reduced to the established current truth: no current Renaissance Explore implementation is established; future implementation must be justified and tested against the Explore contract rather than inherited from retired archaeology.
+
+**Result:** current public capability documentation now respects the retired-project boundary.
