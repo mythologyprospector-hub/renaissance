@@ -78,7 +78,7 @@ authorized investigation when required
 Episteme execution / result history
 ~~~
 
-Not every human interaction should become an Attention Choice. Some are answered, clarified, taught, or otherwise handled without investigation.
+Not every human interaction should become a Capability Request, and not every Capability Request should become an Attention Choice. Some interactions remain conversational; others are clarified, answered, taught, or otherwise handled without investigation.
 
 ## Interpretation rules
 
