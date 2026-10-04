@@ -1,0 +1,27 @@
+name: Renaissance Learn experiment
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "experiments/learn_model.py"
+      - "experiments/test_learn_model.py"
+      - ".github/workflows/learn-experiment.yml"
+  pull_request:
+    paths:
+      - "experiments/learn_model.py"
+      - "experiments/test_learn_model.py"
+      - ".github/workflows/learn-experiment.yml"
+  workflow_dispatch:
+
+jobs:
+  learn-vertical:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Run Learn vertical tests
+        working-directory: experiments
+        run: python -m unittest -v test_learn_model.py
