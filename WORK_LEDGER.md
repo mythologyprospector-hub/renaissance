@@ -8,7 +8,7 @@ constitutional documents and recorded Decisions.
 
 ## Current Frontier
 
-**Status:** Attention Choice contract validated; formal decision gate pending.
+**Status:** Attention Choice contract ratified; implementation boundary is next.
 
 ### Last verified stopping point
 
@@ -133,26 +133,19 @@ Latest validation commit:
 
 **`3b040d21150e24ca864034983b26bdd6c72409d2`**
 
-### Current decision boundary
+### Decision boundary — resolved
 
-The Attention Choice concept and its minimum record shape have now survived the concrete validation cases examined so far.
+Decision 0009 ratified the Attention Choice contract as a Renaissance architectural boundary.
 
-The next step is **not implementation**.
+- Decision: `DECISIONS/0009-establish-attention-choice-boundary.md`
+- The proposal is accepted as the contract source; implementation details remain unresolved.
+- `ARCHITECTURE.md` is synchronized.
+- The contract does not authorize a storage format, runtime organ, universal ranking engine, autonomous agenda subsystem, or Episteme redesign.
+- Authorization remains distinct from attention choice.
 
-Because adopting this as an established Renaissance architectural contract would be a substantive change, the project's `CHANGE_CONTROL.md` requires a decision record and `GOVERNANCE.md` places final authority with the Human Gate during the founding phase.
+The next grounded task is therefore to determine the **smallest implementation boundary** required to make an Attention Choice durable and inspectable, without inventing infrastructure prematurely.
 
-Therefore the next grounded task is to prepare the formal decision record for human review, preserving the current proposal and experiments as evidence.
-
-Do **not**:
-
-- implement storage;
-- create a runtime Attention organ;
-- create a universal ranking or importance engine;
-- make Attention Choice an authorization mechanism;
-- make Episteme responsible for global agenda selection;
-- silently promote the proposal to canon.
-
-If the Human Gate does not adopt the contract, the proposal and experiments remain useful historical evidence and no implementation follows.
+Do **not** build a new subsystem merely because the contract exists. First inspect existing request, workflow, persistence, and provenance mechanisms across Renaissance and Episteme to determine whether the contract can be implemented through an existing boundary.
 
 ## Last Known Organs Boundary
 
