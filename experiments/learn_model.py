@@ -102,6 +102,15 @@ class LearningEpisode:
         self.transfer = transfer
 
     def capability_evidence(self) -> CapabilityEvidence | dict[str, str]:
+        required = (
+            (self.activities, "no learning activity recorded"),
+            (self.performances, "no practice performance recorded"),
+            (self.feedback, "no feedback recorded"),
+            (self.adaptations, "no adaptation recorded"),
+        )
+        for records, reason in required:
+            if not records:
+                return {"status": "unresolved", "reason": reason}
         if self.transfer is None:
             return {
                 "status": "unresolved",
