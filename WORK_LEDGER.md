@@ -437,3 +437,24 @@ The semantic problem is now substantially solved. The remaining question is prac
 
 > **What actual human interaction is valuable enough to justify making this doorway executable?**
 
+
+
+### Human Doorway runtime boundary — Decision 0010
+
+The Human Doorway semantic boundary and runtime placement were validated against the actual Renaissance and Organs surfaces.
+
+Decision 0010 establishes the executable boundary:
+
+`human → Organs I/O → Renaissance semantic runtime → conversation / clarification / Capability Request`
+
+Organs remains the human-facing transport/front door and operational authority. Renaissance owns semantic interpretation of non-operational human expressions. The Renaissance runtime may use the existing Organs registry/discovery and service convention without transferring semantic ownership to Organs.
+
+Communications was inspected and remains transport infrastructure, not semantic owner.
+
+**Result:** Human Doorway runtime boundary ratified by Human Gate. The next implementation must be the smallest Renaissance service/adapter surface that can pass the existing Human Doorway harness against the real Organs transport. No autonomous agenda, ranking engine, new persistence, second front door, or automatic cross-repository execution is authorized by this decision.
+
+Artifacts:
+- `DECISIONS/0010-establish-human-doorway-runtime-boundary.md`
+- `experiments/HUMAN_DOORWAY_RUNTIME_PLACEMENT_MVT.md`
+- `PROPOSALS/HUMAN_DOORWAY_RUNTIME_BOUNDARY.md`
+
