@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** e8477f97a47a6edc59d27433ebc0b8ab30bc229c
+**Source commit:** 30634d6792758b56b85257fb1f41a9f894146c08
 **Branch:** main
 
 ## Recent commits
 
+- 30634d6 2026-10-04 Record CI verification of Capability Request Learn boundary
+- d88adc3 2026-10-04 chore: refresh grounding snapshot
 - e8477f9 2026-10-04 Record Capability Request Learn boundary test
 - f0ea407 2026-10-04 chore: refresh grounding snapshot
 - be699a4 2026-10-04 Include boundary test on pull requests
 - 15f0590 2026-10-04 chore: refresh grounding snapshot
 - ade1e74 2026-10-04 Run Capability Request Learn boundary test in CI
 - a161510 2026-10-04 Test Capability Request handoff to Learn vertical
-- d7efa28 2026-10-04 chore: refresh grounding snapshot
-- c3e13f4 2026-10-04 Record existing Learn vertical implementation boundary
 
 ## Core documents
 
