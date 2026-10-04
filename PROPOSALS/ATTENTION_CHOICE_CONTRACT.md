@@ -1,6 +1,6 @@
 # Proposal — Renaissance Attention Choice Contract
 
-**Status:** Proposed — not canon  
+**Status:** Accepted by Decision 0009 — implementation details remain unresolved  
 **Scope:** Renaissance knowledge-growth / investigation selection boundary  
 **Purpose:** Define the smallest durable semantic boundary between represented pressure and declared investigation without creating a universal ranking system.
 
