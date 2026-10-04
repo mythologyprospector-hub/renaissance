@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 32a088861fe2c52588f525d2f0d03e587c41268b
+**Source commit:** fd612a2153f6960653b07e3695ffcb638b82a147
 **Branch:** main
 
 ## Recent commits
 
+- fd612a2 2026-10-04 Record retired architecture reference cleanup
+- 3d2184f 2026-10-04 Remove retired implementation from current capability model
+- 3495b61 2026-10-04 chore: refresh grounding snapshot
 - 32a0888 2026-10-04 Record Capability Request boundary validation
 - 92ad917 2026-10-04 chore: refresh grounding snapshot
 - 2bab298 2026-10-04 Validate Capability Request against real interaction boundaries
 - 1319e66 2026-10-04 chore: refresh grounding snapshot
 - 78a74e6 2026-10-04 Show repository social preview at top of README
-- ddffd62 2026-10-04 chore: refresh grounding snapshot
-- d738621 2026-10-04 Add repository social preview image
-- ccc8c9a 2026-10-04 chore: refresh grounding snapshot
 
 ## Core documents
 
