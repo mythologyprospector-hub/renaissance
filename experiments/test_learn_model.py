@@ -1,8 +1,10 @@
 import unittest
 
 from learn_model import (
+    CapabilityEvidence,
     Feedback,
     LearningEpisode,
+    LearningMaterial,
     Performance,
     Transfer,
 )
@@ -24,7 +26,7 @@ class LearnVerticalSliceTests(unittest.TestCase):
             capability_target="classify and justify claims",
             baseline=self.baseline(),
         )
-        episode.add_activity("worked example and counterexample")
+        episode.add_activity(LearningMaterial("worked example and counterexample", "instructional_example", "learn-test-fixture"))
         episode.record_performance(
             Performance("practice", "correct", "guided", True, "used criteria")
         )
@@ -43,9 +45,10 @@ class LearnVerticalSliceTests(unittest.TestCase):
 
         evidence = episode.capability_evidence()
 
-        self.assertEqual(evidence["status"], "bounded")
-        self.assertEqual(evidence["transfer_task_id"], "transfer")
-        self.assertEqual(evidence["support_level"], "reduced")
+        self.assertIsInstance(evidence, CapabilityEvidence)
+        self.assertEqual(evidence.status, "bounded")
+        self.assertEqual(evidence.transfer_task_id, "transfer")
+        self.assertEqual(evidence.support_level, "reduced")
 
     def test_practice_without_transfer_is_not_capability_evidence(self):
         episode = LearningEpisode(
@@ -107,6 +110,12 @@ class LearnVerticalSliceTests(unittest.TestCase):
 
         with self.assertRaises(ValueError):
             episode.add_feedback(Feedback("criteria", ""))
+
+        with self.assertRaises(ValueError):
+            episode.add_activity(LearningMaterial("", "generated", "fixture"))
+
+        with self.assertRaises(ValueError):
+            episode.add_activity(LearningMaterial("lesson", "generated", ""))
 
         with self.assertRaises(ValueError):
             episode.adapt("")
