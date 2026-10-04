@@ -229,3 +229,15 @@ It fixes the transport vocabulary for the first implementation boundary:
 The contract explicitly keeps Communications as transport/persistence infrastructure. It does not create an Attention registry, agenda, queue, ranking engine, new database, Episteme record type, or permission mechanism.
 
 The next step is the smallest implementation/test of a Renaissance-side publisher using the existing Organs discovery convention.
+
+### Publisher implementation boundary check
+
+The proposed first publisher was checked against the current Renaissance repository.
+
+**Finding:** Renaissance currently has no established runtime/package/test surface for a Communications publisher. There is no existing Renaissance HTTP client, service entrypoint, Python package, or test harness to extend.
+
+Therefore implementing a publisher now would require inventing a runtime location and lifecycle that the architecture has deliberately left unresolved. That would be more architecture than the current evidence justifies.
+
+The event contract is complete enough to guide a future publisher, but the correct next step is **not** to manufacture a runtime. A real Renaissance runtime/use case must establish the hosting boundary first. The existing Organs discovery convention remains the intended integration mechanism once that boundary exists.
+
+**Result:** implementation deferred for lack of an existing justified runtime boundary. No code was added.
