@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 0bb5ddf314b71a4d124a597915d6a575c53a960b
+**Source commit:** a94c7bfd039f193a5907072b479236172553f65d
 **Branch:** main
 
 ## Recent commits
 
+- a94c7bf 2026-10-04 Test Learn lifecycle invariants
+- 1052ee1 2026-10-04 Harden Learn episode lifecycle invariants
+- b124c35 2026-10-04 chore: refresh grounding snapshot
 - 0bb5ddf 2026-10-04 Test Learn provenance and bounded evidence
 - bf76d48 2026-10-04 Harden Learn evidence and instructional provenance
 - fbfebd3 2026-10-04 chore: refresh grounding snapshot
 - c3b41e9 2026-10-04 Verify Learn vertical slice in CI
 - dbe492e 2026-10-04 chore: refresh grounding snapshot
-- 60776fa 2026-10-04 Test Learn vertical process boundary
-- 5a1390e 2026-10-04 Add minimal Learn process model
-- de32bf4 2026-10-04 chore: refresh grounding snapshot
 
 ## Core documents
 
