@@ -368,3 +368,12 @@ The repository already contains `experiments/learn_model.py` and `experiments/te
 This changes the Capability Request implementation question: there is now a concrete Renaissance-owned capability implementation surface to exercise without inventing a runtime or new repository. The semantic request boundary can be tested against this existing vertical slice first.
 
 The smallest next step is therefore **not** a new service or adapter. It is a machine-checkable boundary test showing that a real Capability Request can hand off to the existing Learn vertical slice while keeping request interpretation, learning execution, and capability evidence distinct.
+
+
+### Boundary test added — Capability Request → Learn vertical
+
+Added `experiments/test_capability_request_learn_boundary.py`. The test exercises a concrete Capability Request handoff into the existing Learn vertical slice and asserts three distinct layers: request interpretation, learning execution, and bounded capability evidence. It also asserts that the request does not manufacture authorization, truth, permission, or evidence fields.
+
+The existing Learn CI workflow now runs this boundary test alongside the Learn vertical tests on push and pull request paths.
+
+The repository's workflow-run lookup did not report a run for the resulting commits, so CI execution is **not claimed as verified here**. The code-level boundary is present; runtime verification remains the next check if Actions reports a run.
