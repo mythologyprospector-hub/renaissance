@@ -139,6 +139,12 @@ This suggests the attention boundary may belong **above Episteme's scientific ex
 
 No implementation yet. The next question is whether Renaissance can define this choice semantics without creating a universal ranking system or duplicating Episteme's epistemic artifacts.
 
+### Investigation result — no existing Renaissance request/choice boundary
+
+A targeted search of the current Renaissance repository found no established request, intent, attention, selection, or investigation-choice contract that already owns the missing transition. GROUNDING_PROTOCOL.md defines how work is grounded and classified, but it is an operating procedure, not a knowledge-growth choice record. BOUNDARIES.md constrains authority and automation, but does not define attention semantics.
+
+The result is therefore stronger than "we have not found the right file": **the attention-choice seam is currently unrepresented at the Renaissance level.** This still does not justify implementation. The next step is to define the minimum semantics of that seam as a proposed Renaissance architectural contract, then test whether the contract can remain small enough to avoid becoming a ranking system, duplicate Episteme artifacts, or an autonomous agenda setter.
+
 ## Last Known Organs Boundary
 
 Organs has a real Communications BUS carrying Memory events, but current
