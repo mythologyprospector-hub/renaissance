@@ -391,3 +391,16 @@ GitHub Actions executed the updated Learn workflow on commit `be699a4924aa271faf
 A targeted search found stale retired/private project references in two Renaissance capability contracts: Explore referenced historical Akasha work, and Episteme named Behemoth, Leviathan, and Namagiri. These references conflicted with the current world rule that retired/private projects are not current Renaissance architecture or public navigation material.
 
 Removed both references without changing the capability semantics. A follow-up repository search found no remaining occurrences of `Akasha`, `Behemoth`, `Leviathan`, or `Namagiri` in Renaissance.
+
+
+### Investigation result — Capability Request composes with real Episteme workflow
+
+The second real capability boundary was tested against Episteme's existing Phase 12 finite discovery workflow. A Renaissance `understand / investigate` Capability Request can precede the established Attention Choice boundary, after which Episteme receives a declared workflow and retains ownership of scientific execution, provenance, results, and knowledge-state change.
+
+**Result: PASS.** The Learn boundary was not a special case. The semantic separation remains intact across two distinct capabilities:
+
+`Capability Request ≠ Attention Choice ≠ Episteme workflow ≠ Episteme result/evidence`
+
+This remains a real-boundary validation rather than a live cross-repository runtime invocation. No adapter, API, persistence layer, or new runtime is justified yet.
+
+The remaining question is now whether there is a genuine user-facing runtime need that requires making this already-proven composition executable across repository boundaries.
