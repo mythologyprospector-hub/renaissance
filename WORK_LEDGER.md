@@ -8,57 +8,54 @@ constitutional documents and recorded Decisions.
 
 ## Current Frontier
 
-**Status:** Learn Experiment 001A execution completed and delayed-retention follow-up completed; no new implementation task is currently established.
+**Status:** Cross-repository catch-up review in progress.
 
 ### Last verified stopping point
 
-The capability-model review identified an ambiguity between the human-facing
-capability model and the lower-level system responsibility list. The clarification
-was made without introducing a new capability, interface, repository, or Decision:
+The Learn 001A experiment and delayed-retention follow-up are complete:
 
-- `CAPABILITIES/README.md` — system capabilities/responsibilities distinguished from human-facing capabilities.
-- `CAPABILITIES/HUMAN_CAPABILITY_MODEL.md` — Understand, Explore, Create, and Learn explicitly framed as human-facing capabilities.
-- **Commits:** `293f8b07971a6b296eec967054d1d928131860d6`, `4b81ceeb93211b078d1e82f8b5a2127dc76fc48a3`
-
-The constellation review was followed by the boundary clarification:
-
-- **Decision:** 0008 — Clarify Independent Project Boundaries
-- **Status:** Accepted
-- **Date:** 2026-09-29
-- **Authority:** Human Gate
-- **Commit:** c34f9cab906624a3e0bdd7219686cc8c82f330b4
-
-Decision 0008 establishes that Tiger Den and AI Foundry are outside the current
-Renaissance working constellation. It preserves Decision 0007 as historical
-record and does not authorize interfaces, adapters, repository absorption,
-replacement projects, or manufactured symmetry.
-
-The architecture review then clarified Episteme's independence:
-
-- **Commit:** `644bccb7ed10d0981b472d95463c197925c5a739`
-- Renaissance may revise its Renaissance-facing contract or architectural boundary through change control without acquiring ownership or day-to-day control of Episteme's independent repository.
-
-The concrete Learn experiment was then executed and followed by delayed retention testing:
-
-- **Experiment:** `CAPABILITIES/LEARN_EXPERIMENT_001A_LINUX_PATHS.md`
-- **Initial execution record:** `CAPABILITIES/LEARN_EXPERIMENT_001A_LINUX_PATHS_RESULT.md`
-- **Delayed-retention protocol/result:** `CAPABILITIES/LEARN_EXPERIMENT_001A_RETENTION.md`
-- The initial run recorded baseline, instruction, immediate performance, transfer, and reflection without inventing a universal learning score or binary pass/fail judgment.
-- The delayed retest used a new directory layout, with no hints or re-teaching. All four path-resolution questions were answered correctly, providing bounded evidence of delayed retention and transfer.
-- **Delayed-retention commit:** `e1926b106e8c07b80b9a9baf67fa2dd24fe5f24b`
+- Initial execution recorded baseline, instruction, immediate performance, transfer, and reflection.
+- Delayed retest used a new directory layout with no hints or re-teaching.
+- All four path-resolution questions were answered correctly, providing bounded evidence of delayed retention and transfer.
+- **Commit:** `e1926b106e8c07b80b9a9baf67fa2dd24fe5f24b`
 - No implementation of Learn was introduced.
+
+### Cross-repository catch-up finding
+
+A fresh world-level review found that the surrounding constellation has moved since the
+last Renaissance review.
+
+**Praxis and Episteme completed their first explicit evidence handoff boundary on
+2026-10-03.**
+
+- Praxis records the problem/intervention/test/result domain semantics.
+- Praxis explicitly admits evidence through a human decision boundary.
+- Episteme now has a canonical Praxis handoff adapter that preserves the supplied
+  Praxis evidence and admission objects, assigns an Episteme-owned identity, and
+  preserves provenance without making Praxis a runtime dependency.
+- Praxis commits: `7baa1db6`, `1aca6554`, `873c54e8`, `740ff5bf`, `e3bb5b8b`
+- Episteme commits: `ce3d5464`, `a0c3a347`, `72cd2555`, `0ea499c1`, `8f88274f`
+
+The important catch-up point is **not** that Renaissance should automatically absorb
+Praxis or add a new interface. Renaissance's current architecture and constellation
+documents do not yet clearly record this newly completed boundary.
+
+Therefore the next grounded task is to inspect the Renaissance-facing relationship
+and determine whether this is:
+
+1. documentation that simply needs synchronization;
+2. an existing relationship that needs explicit evidence recorded; or
+3. a substantive architectural boundary requiring Renaissance change control.
+
+No architectural relationship is being invented by this ledger entry.
 
 ### Resume From Here
 
-When continuing this work:
-
-1. Inspect current Renaissance and relevant project state from their repositories.
-2. Treat the Learn 001A execution and retention records as evidence, not as an architectural verdict.
-3. Identify whether the recorded experiment exposes a concrete architectural requirement that is actually established.
-4. If a task crosses a project boundary, establish the applicable contract and authority before implementation.
-5. If the next task requires a substantive Renaissance architectural decision, use the applicable Decision/change-control process.
-6. Do not manufacture work merely to maintain momentum.
-7. Update this ledger when the next meaningful stopping point is established.
+1. Inspect the current Renaissance-facing Praxis relationship against the completed Praxis↔Episteme handoff.
+2. Check whether the World map and Renaissance constellation documentation agree.
+3. Make the smallest synchronization change that is actually justified.
+4. If a substantive Renaissance architectural decision is required, use the applicable Decision/change-control process.
+5. Do not manufacture additional work merely to maintain momentum.
 
 ## Last Known Organs Boundary
 
