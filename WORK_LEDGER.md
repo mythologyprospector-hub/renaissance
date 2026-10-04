@@ -411,3 +411,29 @@ The remaining question is now whether there is a genuine user-facing runtime nee
 After validating the Capability Request boundary against both the existing Learn vertical and an existing Episteme investigation workflow, there is still no concrete user-facing runtime invocation that requires cross-repository execution. Existing Organs front-door routing remains operationally sufficient; Renaissance semantic interpretation can remain a contract until a real invocation demands executable composition.
 
 **Result: stop at the boundary.** Further runtime construction would currently be architecture manufactured ahead of need.
+
+
+### Human Doorway MVT — semantic boundary validated
+
+The Human Doorway MVT was executed against the existing Renaissance contracts and real Learn, Episteme, Praxis, and Organs boundaries.
+
+Seven cases passed:
+
+- ordinary conversation remains conversation;
+- clear learning requests can enter Learn without manufacturing Attention Choice or authorization;
+- investigative questions compose through Capability Request → Attention Choice → authorization when required → Episteme;
+- problem-solving requests preserve Praxis domain ownership;
+- ambiguity produces clarification rather than invented capability/action;
+- operational requests remain on the Organs I/O path;
+- unsupported requests fail closed rather than manufacturing architecture.
+
+**Result: PASS at the semantic boundary.**
+
+The test does not justify an executable doorway, new runtime, universal classifier, second front door, autonomous agenda, ranking system, or persistence layer.
+
+Artifact: `experiments/HUMAN_DOORWAY_MVT_RESULT.md`
+
+The semantic problem is now substantially solved. The remaining question is practical:
+
+> **What actual human interaction is valuable enough to justify making this doorway executable?**
+
