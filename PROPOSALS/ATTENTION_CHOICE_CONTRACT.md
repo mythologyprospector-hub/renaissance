@@ -26,7 +26,8 @@ It should preserve, at minimum:
 - **selection basis** — the explicit reason or rule by which this target was chosen;
 - **alternatives** — other represented candidates considered or intentionally left available, when applicable;
 - **mode** — whether Renaissance is asking the human, suggesting an investigation, or proceeding with an already-authorized investigation;
-- **outcome reference** — what subsequently happened, without changing the choice itself into evidence.
+- **outcome reference** — what subsequently happened, without changing the choice itself into evidence;
+- **authorization reference** — where execution requires separate authorization, a reference to the established source that authorized progression.
 
 ## 3. Minimal record shape
 
@@ -43,6 +44,7 @@ AttentionChoice
   selection_basis
   alternative_refs[]
   mode
+  authorization_ref?
   outcome_ref?
 ```
 
@@ -55,6 +57,7 @@ AttentionChoice
 - **selection_basis** is a short, inspectable local reason or explicit selection rule. It must not be a hidden utility function, universal importance score, or opaque ranking value.
 - **alternative_refs[]** identifies materially available alternatives when alternatives actually existed. It may be empty.
 - **mode** is one of `ask`, `suggest`, or `execute`.
+- **authorization_ref** is optional. When present, it points to the already-established source of authorization that permits progression into execution. It is provenance for authorization, not the authorization itself, and its presence must not be interpreted as a new authority mechanism.
 - **outcome_ref** is optional and may be added only after subsequent work produces something referable. It does not turn the Attention Choice into evidence or retroactively justify the original selection.
 
 ### Referential boundary
@@ -62,6 +65,10 @@ AttentionChoice
 The record should answer:
 
 > **Why was this target selected for attention now?**
+
+And, when applicable:
+
+> **What established source authorized progression?**
 
 It should not attempt to answer:
 
@@ -83,10 +90,11 @@ An Attention Choice is not:
 - a universal importance score;
 - a ranking of humanity's interests;
 - an autonomous mandate;
+- an authority model;
 - an Episteme finding, hypothesis, prediction, experiment, or result;
 - permission to act merely because something was selected.
 
-A choice records attention. It does not establish epistemic authority.
+A choice records attention. It does not establish epistemic or operational authority.
 
 ## 5. Human agency
 
@@ -114,13 +122,15 @@ A proposed choice must point to represented pressure or explicit human curiosity
 
 The intended relationship is:
 
-`Renaissance Attention Choice → Episteme declared investigation → Episteme execution/result history`
+`Renaissance Attention Choice → authorization (when required) → Episteme declared investigation → Episteme execution/result history`
 
 Renaissance owns the meaning of the choice.
 
 Episteme owns the semantics and provenance of the scientific investigation it receives.
 
 Neither layer should manufacture the other's artifacts.
+
+Authorization remains outside the Attention Choice's authority semantics; the choice merely preserves a reference to the established authorization when needed for provenance.
 
 ## 8. Minimum viable test
 
@@ -131,10 +141,10 @@ Before implementation, test the contract against at least these cases:
 3. Several possible investigations exist with no universal ranking.
 4. An interesting but unrelated observation appears.
 5. Human rejects a suggested investigation.
-6. A suggested investigation is accepted and executed.
+6. A suggested investigation is accepted and executed, with separate authorization provenance where required.
 7. An investigation produces a contradiction or new gap.
 
-The contract succeeds only if each case remains inspectable without hidden importance scoring, epistemic promotion, or loss of provenance.
+The contract succeeds only if each case remains inspectable without hidden importance scoring, epistemic promotion, authorization leakage, or loss of provenance.
 
 ## 9. Open questions
 
@@ -154,6 +164,6 @@ Those questions require evidence from the minimum viable test and subsequent imp
 
 If this proposal survives testing, Renaissance gains a small knowledge-growth boundary:
 
-`curiosity / represented pressure → attention choice → investigation → result → memory → new pressure`
+`curiosity / represented pressure → attention choice → authorization when required → investigation → result → memory → new pressure`
 
 That boundary should remain a contract, not a new autonomous subsystem, unless later evidence demonstrates that a separate implementation is actually required.
