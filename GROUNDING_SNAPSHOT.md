@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** d81b440ffd65960c745179b59b024f64d18005c9
+**Source commit:** fdac513de5da5504a9571541db55b9ab69849a05
 **Branch:** main
 
 ## Recent commits
 
+- fdac513 2026-10-04 Fix runtime CI dependencies and cover Attention Choice tests
+- 7f101f1 2026-10-04 chore: refresh grounding snapshot
 - d81b440 2026-10-04 Test Renaissance Attention Choice publisher
 - 114e070 2026-10-04 chore: refresh grounding snapshot
 - 74bf3d7 2026-10-04 Add Renaissance Attention Choice publisher
 - 06c7545 2026-10-04 chore: refresh grounding snapshot
 - d6c0981 2026-10-04 Add Renaissance Attention Choice publisher
 - 43a48e6 2026-10-04 Add Attention Choice runtime package
-- 6d117f7 2026-10-04 chore: refresh grounding snapshot
-- 6b32b06 2026-10-04 Record Human Doorway transport hardening
 
 ## Core documents
 
