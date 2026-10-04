@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 481fe7c86f92ddc42a90fbb7001e1c6891a1ec58
+**Source commit:** 60776faccd4af967baabec8756b7cae11a1f7230
 **Branch:** main
 
 ## Recent commits
 
+- 60776fa 2026-10-04 Test Learn vertical process boundary
+- 5a1390e 2026-10-04 Add minimal Learn process model
+- de32bf4 2026-10-04 chore: refresh grounding snapshot
 - 481fe7c 2026-10-04 Validate Learn with vertical transfer test
 - 81d95b9 2026-10-03 chore: refresh grounding snapshot
 - b6bae44 2026-10-03 Define minimum Learn instrument model
 - 54a1179 2026-10-03 chore: refresh grounding snapshot
 - e0ec7ca 2026-10-03 Establish Learn capability boundary
-- c477be8 2026-10-03 chore: refresh grounding snapshot
-- c556ff8 2026-10-03 Test Explore model against AI configuration space
-- 5e45ed6 2026-10-03 chore: refresh grounding snapshot
 
 ## Core documents
 
