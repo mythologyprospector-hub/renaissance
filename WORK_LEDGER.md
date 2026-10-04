@@ -8,7 +8,7 @@ constitutional documents and recorded Decisions.
 
 ## Current Frontier
 
-**Status:** Cross-repository catch-up review — Praxis boundary synchronized.
+**Status:** Autonomous knowledge-growth hypothesis — discovery cycle under examination.
 
 ### Last verified stopping point
 
@@ -17,7 +17,7 @@ The Learn 001A experiment and delayed-retention follow-up are complete:
 - Initial execution recorded baseline, instruction, immediate performance, transfer, and reflection.
 - Delayed retest used a new directory layout with no hints or re-teaching.
 - All four path-resolution questions were answered correctly, providing bounded evidence of delayed retention and transfer.
-- **Commit:** `e1926b106e8c07b80b9a9baf67fa2dd24fe5f24b`
+- **Commit:** `e1926b106e8c07b80b9a9baf67fa2dd24fe5f24b9`
 - No implementation of Learn was introduced.
 
 ### Cross-repository catch-up finding
@@ -43,28 +43,41 @@ The smallest justified change was made in `CONSTELLATION_AUDIT.md`:
 
 **Commit:** `c3ff5d0b1fb32788b36094c853f8b55e00cc91bf`
 
-### Resume From Here
+### Human-facing interaction discovery
 
-1. Treat the Praxis catch-up item as closed unless new evidence appears.
-2. Look for the next cross-repository mismatch that represents a real architectural or evidence gap.
-3. Prefer a missing relationship, capability boundary, or concrete workflow over another inventory exercise.
-4. If no justified next task is found after checking the relevant world, stop inventing work and ask the world-level gap question.
+Recent role-play established that Renaissance should not require the human to classify a request into a capability or workflow before receiving useful help.
 
-## Current Frontier — Human-Facing Interaction Discovery
+Examples tested:
 
-The next justified line of inquiry is the human-facing experience of Renaissance.
-
-Recent role-play produced three deliberately different natural-language inputs:
-
-- a curiosity that could become a small self-run experiment (color and mood);
+- curiosity that could become a small self-run experiment (color and mood);
 - a request for a way into an unfamiliar subject (systems);
-- a conceptual question requiring exploration and boundary-checking ("anti-magnets").
+- conceptual exploration with boundary-checking ("anti-magnets");
+- observations and meaning-bearing thoughts ("the stars are beautiful", a poetic thought about God);
+- causal curiosity about a person and history (Van Gogh).
 
-The emerging pattern is a curiosity-first interaction that does not require the human to classify the request into a capability or workflow before receiving useful help.
+The important finding is broader than question answering: a human-facing Renaissance must be able to recognize the kind of moment it is in and respond proportionately. Sometimes that means investigation, sometimes learning, sometimes conceptual exploration, and sometimes simply participating in a human moment without turning it into a task.
 
-The current hypothesis is that this is an interaction/session pattern drawing on existing capabilities, not a new engine or repository.
+### New hypothesis — knowledge-growth cycle
 
-**Important:** Do not implement or name a new subsystem yet. Continue with natural examples until the behavior is sufficiently understood to justify a boundary.
+The latest discussion points toward a stronger hypothesis:
+
+> Renaissance may be most useful as a system for reasoning over, accumulating, connecting, testing, and expanding knowledge, with the human participating rather than manually driving every step.
+
+A possible long-running cycle is:
+
+`curiosity → exploration → reasoning → evidence/experiment → knowledge → memory → connections → new questions`
+
+A further possibility is that the system can generate some of its own next questions and investigations rather than waiting for the human to supply every step.
+
+This is **not yet an architecture decision** and does not justify a new repository or subsystem by itself.
+
+The immediate design question is narrower:
+
+> **What must a knowledge-growth cycle preserve so that accumulated material remains distinguishable as observation, evidence, interpretation, hypothesis, prediction, experiment, result, conclusion, or unknown even after repeated autonomous exploration?**
+
+That question is grounded directly in the existing Renaissance epistemic model and is the next place to investigate.
+
+**Important restraint:** do not build self-talk, autonomy, an "auto-glean" subsystem, or a new memory architecture merely because the concept is attractive. First establish the minimum durable record and cycle semantics needed to preserve provenance, uncertainty, contradictions, and epistemic status across repeated exploration.
 
 ## Last Known Organs Boundary
 
