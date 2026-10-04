@@ -187,7 +187,7 @@ One limitation remains: Communications provides durable event transport, not a d
 
 **Implementation conclusion:** the existing Communications mechanism is sufficient for the first durable representation. No new persistence subsystem and no Communications semantic extension are currently justified.
 
-The next grounded step is to define the smallest Renaissance-facing event contract needed to publish an Attention Choice, then test it end-to-end without inventing a registry or autonomous consumer.
+The next grounded step is to define the smallest Renaissance-facing event contract needed to publish an Attention Choice, then test it end-to-end without inventing a registry or autonomous consumer.\n\n### Publisher boundary inspection\n\nTargeted inspection found no existing Renaissance-side HTTP client, Communications integration wrapper, or Attention publisher. Organs' established cross-organ convention is registry discovery followed by direct HTTP calls; Communications exposes a generic publish endpoint accepting `event_type`, `payload`, and `publisher` under a caller-selected topic.\n\n**Finding:** there is currently no justified existing Renaissance publisher to reuse. Creating a generic Communications client merely for Attention Choice would be premature infrastructure. The smallest next artifact is therefore the Renaissance-facing event contract itself, not runtime code.
 
 Do **not** turn Communications into an Attention organ, move Attention Choice semantics into Organs, or modify Episteme merely to gain storage.
 
