@@ -377,3 +377,10 @@ Added `experiments/test_capability_request_learn_boundary.py`. The test exercise
 The existing Learn CI workflow now runs this boundary test alongside the Learn vertical tests on push and pull request paths.
 
 The repository's workflow-run lookup did not report a run for the resulting commits, so CI execution is **not claimed as verified here**. The code-level boundary is present; runtime verification remains the next check if Actions reports a run.
+
+
+### CI verification — Capability Request → Learn boundary
+
+GitHub Actions executed the updated Learn workflow on commit `be699a4924aa271faf245869ed3b6af72973bff3`. The `learn-vertical` job completed successfully, including the new `test_capability_request_learn_boundary.py` test.
+
+**Result: PASS in CI.** The Capability Request boundary is now both represented in code and verified by the repository's existing automated Learn workflow.
