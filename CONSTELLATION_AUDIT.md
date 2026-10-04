@@ -110,7 +110,7 @@ Praxis remains independently governed and does not depend on Renaissance runtime
 
 ### 5. `tiger-den`
 
-**Current status:** Public  
+**Current status:** Private  
 **Working classification:** Specialist / independent project — outside current Renaissance working constellation
 
 Tiger Den maps reusable computational primitives already present in the world rather than attempting to absorb them into one implementation.
@@ -140,7 +140,7 @@ It is nevertheless an engineering laboratory rather than Renaissance itself.
 
 **Evidence update (2026-09-28):** A dedicated archaeology pass inspected AI Foundry's foundation, terminology, artifact model, persistence rules, evaluation/comparison workflow, and explicit Run provenance. AI Foundry concretely preserves an Experiment → Run → Result → Evaluation chain and runtime/dataset/test-case provenance within its laboratory boundary. Those findings remain historical evidence of compatibility; they do not establish Renaissance membership or a current integration boundary.
 
-**Action:** Keep public and independently governed. Preserve the archaeology as historical evidence. Do not plan Renaissance integration unless a concrete future interoperability need emerges.
+**Action:** Keep private and independently governed. Preserve the archaeology as historical evidence. Do not plan Renaissance integration unless a concrete future interoperability need emerges.
 
 ---
 
@@ -300,7 +300,7 @@ The current evidence suggests a layered world rather than a single monolithic so
               |
        INDEPENDENT / SPECIALIST
               |
-       Tiger Den / AI Foundry
+       Tiger Den
        Namagiri / Behemoth / Leviathan
        Esoteric Atlas
        Notation Transposer
@@ -406,7 +406,6 @@ These are intentionally unresolved:
 
 1. Which capabilities constitute the first formal Renaissance core?
 2. What exact interfaces should exist between Renaissance, Organs, Episteme, and Tiger Den?
-3. Is AI Foundry infrastructure, an experimental satellite, or a future core capability?
 4. Should a formal Renaissance integration contract exist for any independent repository if a concrete future relationship emerges?
 5. What naming/branding conventions should shared projects follow?
 6. What license model should govern Renaissance and participating repositories?
@@ -424,7 +423,7 @@ No answer is being forced by this audit.
 2. Preserve the completed Praxis↔Episteme boundary as evidence; do not create a duplicate Renaissance interface unless a concrete need emerges.
 3. Convert the completed Episteme archaeology into explicit integration documentation only if a concrete boundary is needed; do not duplicate its existing provenance/lineage mechanisms.
 4. Preserve the completed Tiger Den archaeology as historical evidence; do not create integration documentation unless a concrete future boundary is needed.
-5. Preserve AI Foundry's independent laboratory boundary unless a demonstrated future interoperability need emerges.
+5. Preserve AI Foundry's private, independent laboratory boundary unless a demonstrated future interoperability need emerges.
 6. Use Decision 0006 as the current minimum relationship-interoperability boundary; do not infer a final protocol from it.
 7. Only then finalize the Renaissance visual identity and social preview.
 8. Do not move, delete, or rename repositories merely for aesthetic uniformity.
@@ -474,3 +473,14 @@ Praxis now has a canonical, runtime-independent handoff for admitted evidence to
 Renaissance does not currently need to own this boundary or introduce another interface for it. The completed handoff is sufficient evidence that two independent instruments can interoperate under Renaissance's existing principle of explicit contracts and preserved authority boundaries.
 
 No new Renaissance architecture is introduced by this refresh.
+
+
+---
+
+## Refresh Record — 2026-10-04 — AI Foundry Privacy Boundary
+
+AI Foundry was made private by Human Gate review. This does not delete the project or invalidate its historical experimental evidence.
+
+The public constellation therefore no longer lists AI Foundry as a current public repository. Its archaeology remains available through authorized project work, but privacy and independence now match the architectural conclusion already established by Decision 0008: AI Foundry is not a Renaissance implementation, dependency, or current constellation member.
+
+No Renaissance architecture is introduced by this refresh.
