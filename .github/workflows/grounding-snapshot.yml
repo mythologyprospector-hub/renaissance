@@ -77,7 +77,7 @@ jobs:
           git commit -m "chore: refresh grounding snapshot"
           git rebase origin/main
 
-          if git diff-tree --quiet HEAD^ HEAD -- GROUNDING_SNAPSHOT.md && git ls-files --error-unmatch GROUNDING_SNAPSHOT.md >/dev/null 2>&1; then && git diff --cached --quiet -- GROUNDING_SNAPSHOT.md && git ls-files --error-unmatch GROUNDING_SNAPSHOT.md >/dev/null 2>&1; then
+          if git diff-tree --quiet HEAD^ HEAD -- GROUNDING_SNAPSHOT.md; then
             echo "Grounding snapshot unchanged."
             exit 0
           fi
