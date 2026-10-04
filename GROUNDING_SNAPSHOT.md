@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 80eb91709489c6d0ee65575dec8dc4bcda724649
+**Source commit:** 0010600923c9e427d0b775b47ce9419309baa296
 **Branch:** main
 
 ## Recent commits
 
+- 0010600 2026-10-04 Remove private forensic repository references
+- 5a85c4f 2026-10-04 Remove private projects from public constellation audit
+- e914a4e 2026-10-04 chore: refresh grounding snapshot
 - 80eb917 2026-10-04 renaissance: correct AI Foundry privacy status
 - 6683d5a 2026-10-04 chore: refresh grounding snapshot
 - 28d57c2 2026-10-04 renaissance: record AI Foundry privacy boundary
 - b7f2a8e 2026-10-04 chore: refresh grounding snapshot
 - 778ff7c 2026-10-04 docs: clarify Explore test uses independent AI Foundry evidence
-- f4f30d8 2026-10-04 chore: refresh grounding snapshot
-- c1f6424 2026-10-04 docs: align capability evidence with AI Foundry boundary
-- 1cddcd2 2026-10-04 chore: refresh grounding snapshot
 
 ## Core documents
 
