@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** c3ff5d0b1fb32788b36094c853f8b55e00cc91bf
+**Source commit:** 4005cb492c72a2dc57ecd25a0194b2f8864f773e
 **Branch:** main
 
 ## Recent commits
 
+- 4005cb4 2026-10-04 docs: close Praxis catch-up review
+- 4854396 2026-10-04 chore: refresh grounding snapshot
 - c3ff5d0 2026-10-04 docs: record Praxis evidence boundary in constellation audit
 - cf8512e 2026-10-04 chore: refresh grounding snapshot
 - 48db116 2026-10-04 docs: record cross-repo catch-up finding
 - ae0384d 2026-10-04 chore: refresh grounding snapshot
 - dd7da0b 2026-10-04 learn: update work ledger stopping point
 - 5f28b64 2026-10-04 chore: refresh grounding snapshot
-- e1926b1 2026-10-04 learn: record delayed retention result
-- 6e995f2 2026-10-04 chore: refresh grounding snapshot
 
 ## Core documents
 
