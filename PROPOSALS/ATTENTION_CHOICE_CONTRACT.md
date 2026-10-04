@@ -28,7 +28,52 @@ It should preserve, at minimum:
 - **mode** — whether Renaissance is asking the human, suggesting an investigation, or proceeding with an already-authorized investigation;
 - **outcome reference** — what subsequently happened, without changing the choice itself into evidence.
 
-## 3. What it is not
+## 3. Minimal record shape
+
+If the contract is later implemented, the smallest proposed durable representation is a **referential choice record**. It records the relationship and decision; it does not duplicate the semantics of the material it references.
+
+Conceptually:
+
+```
+AttentionChoice
+  id
+  pressure_ref
+  target_ref
+  supporting_refs[]
+  selection_basis
+  alternative_refs[]
+  mode
+  outcome_ref?
+```
+
+### Field rules
+
+- **id** identifies this choice record.
+- **pressure_ref** points to the represented pressure that gave rise to the choice. This may be a question, gap, explicit human curiosity, or another established pressure representation.
+- **target_ref** identifies what the choice attends to.
+- **supporting_refs[]** points to material that materially informed the choice. Empty is permitted when the pressure itself is sufficient.
+- **selection_basis** is a short, inspectable local reason or explicit selection rule. It must not be a hidden utility function, universal importance score, or opaque ranking value.
+- **alternative_refs[]** identifies materially available alternatives when alternatives actually existed. It may be empty.
+- **mode** is one of `ask`, `suggest`, or `execute`.
+- **outcome_ref** is optional and may be added only after subsequent work produces something referable. It does not turn the Attention Choice into evidence or retroactively justify the original selection.
+
+### Referential boundary
+
+The record should answer:
+
+> **Why was this target selected for attention now?**
+
+It should not attempt to answer:
+
+> **Is the target true?**
+
+> **Is the target important to humanity in general?**
+
+> **What scientific result did the investigation produce?**
+
+Those questions belong to other established semantic layers.
+
+## 4. What it is not
 
 An Attention Choice is not:
 
@@ -43,7 +88,7 @@ An Attention Choice is not:
 
 A choice records attention. It does not establish epistemic authority.
 
-## 4. Human agency
+## 5. Human agency
 
 Human curiosity may itself be sufficient represented pressure.
 
@@ -57,7 +102,7 @@ The contract must distinguish:
 
 Automation does not become consent merely because a target was selected.
 
-## 5. Anti-daffodil rule
+## 6. Anti-daffodil rule
 
 Interesting is not equivalent to relevant.
 
@@ -65,7 +110,7 @@ A target should not receive an investigation merely because Renaissance noticed 
 
 A proposed choice must point to represented pressure or explicit human curiosity. If no such basis exists, the system may record the observation or leave the matter available without spending an investigation cycle on it.
 
-## 6. Boundary with Episteme
+## 7. Boundary with Episteme
 
 The intended relationship is:
 
@@ -77,7 +122,7 @@ Episteme owns the semantics and provenance of the scientific investigation it re
 
 Neither layer should manufacture the other's artifacts.
 
-## 7. Minimum viable test
+## 8. Minimum viable test
 
 Before implementation, test the contract against at least these cases:
 
@@ -91,7 +136,7 @@ Before implementation, test the contract against at least these cases:
 
 The contract succeeds only if each case remains inspectable without hidden importance scoring, epistemic promotion, or loss of provenance.
 
-## 8. Open questions
+## 9. Open questions
 
 This proposal intentionally does not decide:
 
@@ -103,9 +148,9 @@ This proposal intentionally does not decide:
 - final authorization model;
 - whether every human interaction should produce an Attention Choice.
 
-Those questions require evidence from the minimum viable test.
+Those questions require evidence from the minimum viable test and subsequent implementation experience.
 
-## 9. Architectural consequence if accepted
+## 10. Architectural consequence if accepted
 
 If this proposal survives testing, Renaissance gains a small knowledge-growth boundary:
 
