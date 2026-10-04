@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** db14ddf517a87421b16517750a7c4db730bf3ef9
+**Source commit:** a7295092193a5f8660db265a9a5a0a7caaeea179
 **Branch:** main
 
 ## Recent commits
 
+- a729509 2026-10-04 Fix grounding snapshot shell syntax
+- 6bed442 2026-10-04 Fix grounding snapshot rebase staging order
+- c27943b 2026-10-04 Harden grounding snapshot against concurrent pushes
+- 872edf2 2026-10-04 chore: refresh grounding snapshot
 - db14ddf 2026-10-04 Test semantic-preserving doorway mutations
 - 980aea5 2026-10-04 Add deterministic semantic-preserving doorway mutations
 - 0b6af6c 2026-10-04 chore: refresh grounding snapshot
 - 3ac2bf9 2026-10-04 Verify expanded doorway variant corpus
-- 41c1436 2026-10-04 Expand human doorway corpus with natural-language variants
-- 7405592 2026-10-04 chore: refresh grounding snapshot
-- 6b205e1 2026-10-04 Run human doorway harness in experiment CI
-- 3c7d474 2026-10-04 Align doorway harness test with experiment runner
 
 ## Core documents
 
