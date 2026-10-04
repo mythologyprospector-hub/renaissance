@@ -241,3 +241,17 @@ Therefore implementing a publisher now would require inventing a runtime locatio
 The event contract is complete enough to guide a future publisher, but the correct next step is **not** to manufacture a runtime. A real Renaissance runtime/use case must establish the hosting boundary first. The existing Organs discovery convention remains the intended integration mechanism once that boundary exists.
 
 **Result:** implementation deferred for lack of an existing justified runtime boundary. No code was added.
+
+### Human-facing runtime boundary investigation
+
+The Organs I/O Interface was inspected as the existing human-facing runtime front door. It accepts natural-language requests, maps them through a fixed intent catalog, routes recognized actions through Critic, and sends consequential actions through Executive approval. This establishes that Renaissance does not need to invent a second front door merely to host human-facing interaction.
+
+**Boundary finding:** the I/O Interface is operational routing infrastructure, not a Renaissance capability interpreter. Its current catalog describes concrete Organs operations (memory, introspection, reflection, orchestration, sandbox), and it deliberately refuses to infer arbitrary new actions. Therefore it should not silently become the owner of Renaissance semantics.
+
+The next architectural seam is the translation boundary between a human-facing request and a Renaissance capability request:
+
+`human expression → Renaissance interpretation/capability boundary → appropriate instrument or Organs operation`
+
+The investigation should determine whether an existing Renaissance contract already owns this translation, and if not, what smallest contract is justified. No new runtime component or I/O catalog entry is justified by this finding alone.
+
+**Result:** Organs provides the front door; Renaissance still lacks an explicit capability-request boundary. The next step is contract inspection, not implementation.
