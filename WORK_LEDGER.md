@@ -255,3 +255,20 @@ The next architectural seam is the translation boundary between a human-facing r
 The investigation should determine whether an existing Renaissance contract already owns this translation, and if not, what smallest contract is justified. No new runtime component or I/O catalog entry is justified by this finding alone.
 
 **Result:** Organs provides the front door; Renaissance still lacks an explicit capability-request boundary. The next step is contract inspection, not implementation.
+
+
+### Capability Request boundary proposal
+
+A minimal Renaissance-owned Capability Request contract was proposed and validated against seven human-facing cases.
+
+The proposed record preserves the original expression while representing capability, intent, target/context, constraints, interaction mode, authorization provenance when applicable, and outcome reference. It keeps Capability Request distinct from Attention Choice, authorization, Episteme epistemic artifacts, execution, and universal ranking.
+
+Validation covered ordinary learning, scientific curiosity, explicit investigation, creation, human expression that should not be converted into a task, ambiguity requiring clarification, and consequential operational requests. All cases passed the boundary checks.
+
+Artifacts:
+- `PROPOSALS/CAPABILITY_REQUEST_CONTRACT.md`
+- `experiments/CAPABILITY_REQUEST_MVT.md`
+
+**Result:** the semantic seam is sufficiently small to test further. It remains proposed, not canon. No runtime or persistence implementation was introduced.
+
+**Next:** test the proposed contract against the real Organs I/O boundary and existing Renaissance/Episteme/Praxis interaction patterns before deciding whether any durable request record or adapter is actually needed.
