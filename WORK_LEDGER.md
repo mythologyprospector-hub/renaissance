@@ -458,3 +458,30 @@ Artifacts:
 - `experiments/HUMAN_DOORWAY_RUNTIME_PLACEMENT_MVT.md`
 - `PROPOSALS/HUMAN_DOORWAY_RUNTIME_BOUNDARY.md`
 
+
+
+### Human Doorway runtime — first executable slice
+
+Decision 0010 is now exercised by a real Renaissance service surface at `runtime/human_doorway/`.
+
+The service exposes:
+
+- `GET /health`
+- `GET /info`
+- `POST /renaissance/doorway`
+
+The first implementation is deliberately conservative and deterministic. It accepts preserved human expression and returns only:
+
+`conversation | clarify | capability_request | operational | unsupported`
+
+with capability/mode when a Renaissance Capability Request is warranted.
+
+It does not authorize, execute, create evidence, create Attention Choice, persist a request, or route work across repositories.
+
+The service participates in the existing Organs registry convention by registering as `renaissance` when a Registry is available. Registry failure is non-fatal and does not cause the service to invent authority.
+
+Executable tests cover the existing Human Doorway corpus, exact expression preservation, HTTP transport, and fail-closed ambiguity.
+
+CI was extended to run the runtime tests. The first workflow result is not yet available for verification at the time of this ledger update.
+
+**Next:** verify the new CI run. If green, exercise the doorway against the real Organs transport rather than expanding the service.
