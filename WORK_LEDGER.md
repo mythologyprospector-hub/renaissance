@@ -404,3 +404,10 @@ The second real capability boundary was tested against Episteme's existing Phase
 This remains a real-boundary validation rather than a live cross-repository runtime invocation. No adapter, API, persistence layer, or new runtime is justified yet.
 
 The remaining question is now whether there is a genuine user-facing runtime need that requires making this already-proven composition executable across repository boundaries.
+
+
+### Boundary maturity check — no runtime need demonstrated
+
+After validating the Capability Request boundary against both the existing Learn vertical and an existing Episteme investigation workflow, there is still no concrete user-facing runtime invocation that requires cross-repository execution. Existing Organs front-door routing remains operationally sufficient; Renaissance semantic interpretation can remain a contract until a real invocation demands executable composition.
+
+**Result: stop at the boundary.** Further runtime construction would currently be architecture manufactured ahead of need.
