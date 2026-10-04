@@ -157,7 +157,37 @@ The first implementation inspection is complete across Renaissance, Episteme, an
 
 Therefore the smallest currently justified implementation boundary appears to be **an Attention Choice event carried through the existing Communications persistence mechanism**, while Renaissance retains ownership of the semantic contract. This is an integration hypothesis, not yet an implementation decision.
 
-The next concrete check is whether the existing Communications event contract can carry the minimum Attention Choice record without losing referential integrity, mode/authorization distinctions, inspectability, or replay semantics. If it can, no new persistence subsystem is justified. If it cannot, the missing requirement should be recorded before designing anything new.
+### Communications transport boundary test
+
+The existing Communications core was checked directly.
+
+**Result: PASS as a transport/persistence mechanism; no Communications code change is justified.**
+
+Its event contract already provides exactly the structural envelope required by the Attention Choice record:
+
+- durable SQLite event row;
+- timestamp;
+- topic;
+- event type;
+- publisher;
+- arbitrary JSON payload;
+- topic-indexed inspection;
+- independent consumer cursors;
+- replay/reset for inspection and recovery.
+
+The Attention Choice minimum record can therefore live unchanged inside the payload. Its semantic fields remain Renaissance-owned; Communications does not need to understand or interpret them.
+
+The important boundary is:
+
+`Renaissance Attention Choice record → Communications event envelope → consumer`
+
+This preserves the distinction between **transport/storage** and **semantic ownership**. It also avoids duplicating persistence in Renaissance or turning Organs into an Attention subsystem.
+
+One limitation remains: Communications provides durable event transport, not a domain-level Attention Choice registry or query contract. That is acceptable for the current decision because no consumer/query requirement has yet been demonstrated. A domain-specific registry should only be added if a concrete use case requires lookup, lifecycle management, or validation beyond event replay/inspection.
+
+**Implementation conclusion:** the existing Communications mechanism is sufficient for the first durable representation. No new persistence subsystem and no Communications semantic extension are currently justified.
+
+The next grounded step is to define the smallest Renaissance-facing event contract needed to publish an Attention Choice, then test it end-to-end without inventing a registry or autonomous consumer.
 
 Do **not** turn Communications into an Attention organ, move Attention Choice semantics into Organs, or modify Episteme merely to gain storage.
 
