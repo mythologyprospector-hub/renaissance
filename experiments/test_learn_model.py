@@ -105,6 +105,21 @@ class LearnVerticalSliceTests(unittest.TestCase):
                 )
             )
 
+    def test_episode_requires_meaningful_identity(self):
+        with self.assertRaises(ValueError):
+            LearningEpisode("", "target", self.baseline())
+        with self.assertRaises(ValueError):
+            LearningEpisode("goal", "", self.baseline())
+        with self.assertRaises(ValueError):
+            LearningEpisode("goal", "target", Performance("", "x", "none", False))
+
+    def test_transfer_requires_identity_and_rationale(self):
+        episode = LearningEpisode("goal", "target", self.baseline())
+        with self.assertRaises(ValueError):
+            episode.record_transfer(Transfer("", Performance("x", "correct", "reduced", True, "why"), True, True))
+        with self.assertRaises(ValueError):
+            episode.record_transfer(Transfer("transfer", Performance("transfer", "correct", "reduced", True), True, True))
+
     def test_feedback_and_adaptation_require_content(self):
         episode = LearningEpisode("goal", "target", self.baseline())
 
