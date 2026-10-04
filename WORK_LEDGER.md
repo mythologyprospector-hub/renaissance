@@ -522,3 +522,21 @@ The earlier failure on `eb131635e39242b045b320cb3844297116497be4` was a real int
 
 **Next:** inspect the broader world boundary for the next concrete seam. Do not add more Human Doorway machinery unless a demonstrated interaction requires it.
 
+### Attention Choice — live transport verified
+
+The Attention Choice publisher was exercised against the real Organs runtime rather than mocks.
+
+Verified path:
+
+Renaissance Attention Choice → Registry → Communications → real bus → readback
+
+The live test confirmed that Registry discovery resolves Communications, the publisher sends the accepted Attention Choice payload unchanged, Communications persists the event, and the event can be read back from the real bus with the expected topic, event type, publisher, and payload.
+
+The first live workflow attempt exposed a harness-only dependency omission (uvicorn was not installed). That run is preserved in GitHub history. The dependency was added without changing the architecture, and the corrected workflow completed successfully.
+
+Verified commit: 848ae11df98b2649fc3ca19d3c32a173321dee46
+GitHub Actions run: 37235855551 (run 101) — PASS
+
+Result: PASS — the first durable Attention Choice transport boundary is now demonstrated end-to-end. Communications remains transport/persistence infrastructure; Renaissance retains Attention Choice semantic ownership. No registry, autonomous consumer, ranking system, or new persistence layer was introduced.
+
+Next: return to the broader world boundary. Do not add more Attention Choice machinery unless a concrete consumer or lifecycle requirement appears.
