@@ -12,6 +12,7 @@ on:
     paths:
       - "experiments/learn_model.py"
       - "experiments/test_learn_model.py"
+      - "experiments/test_capability_request_learn_boundary.py"
       - ".github/workflows/learn-experiment.yml"
   workflow_dispatch:
 
