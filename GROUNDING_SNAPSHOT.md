@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** c8f2c521486edce6d02c999abe2d41b54eec2362
+**Source commit:** a643d342d7b003325ebfa36bfb3b1888d5cac54a
 **Branch:** main
 
 ## Recent commits
 
+- a643d34 2026-10-04 Fix root test invocation and ignore Python artifacts
+- c7ab24f 2026-10-04 chore: refresh grounding snapshot
+- 42f27dd 2026-10-04 Use Renaissance-local registry adapter
 - c8f2c52 2026-10-04 Keep Human Doorway registry heartbeat inside Renaissance
 - 06d3515 2026-10-04 chore: refresh grounding snapshot
 - e84e6ef 2026-10-04 Keep Human Doorway registration alive
 - e6bf4f7 2026-10-04 chore: refresh grounding snapshot
 - 226332f 2026-10-04 Add Human Doorway local runtime launcher
-- f91f0ba 2026-10-04 chore: refresh grounding snapshot
-- 8cc1d41 2026-10-04 Record live Attention Choice transport verification
-- 57c0c16 2026-10-04 chore: refresh grounding snapshot
 
 ## Core documents
 
