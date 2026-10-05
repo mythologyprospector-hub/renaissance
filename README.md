@@ -115,6 +115,14 @@ It is an open scientific discovery engine concerned with:
 
 Episteme is substantial already. Renaissance does **not** need to fracture it into artificial pieces merely because those responsibilities have separate names.
 
+### Praxis — Supporting Solution-Discovery Instrument
+
+[Praxis](https://github.com/mythologyprospector-hub/praxis) is an independently governed, human-centered solution-discovery instrument. It works from a defined human problem toward candidate interventions, bounded tests, human decisions, observed results, and explicit evidence admission.
+
+Praxis is a **supporting/satellite project**, not the constitutional foundation or a Renaissance-owned core capability. Its concrete relationship to the current constellation is a runtime-independent handoff of human-admitted evidence to Episteme. Praxis retains its domain semantics and independent identity; Episteme retains ownership of its receiving records and scientific provenance.
+
+This relationship demonstrates cooperation through explicit contracts without requiring repository absorption or a Renaissance runtime dependency.
+
 ### Explore — An Honest Frontier
 
 No current Renaissance project is established as the primary implementation of **Explore**.
