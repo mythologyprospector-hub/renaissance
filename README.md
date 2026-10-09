@@ -1,4 +1,4 @@
-![Renaissance social preview](renaissance.jpeg)
+![Renaissance social preview](assets/renaissance.jpeg)
 
 # Renaissance
 
