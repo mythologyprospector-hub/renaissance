@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** b07ec983244337159037b4df78102bd96285e178
+**Source commit:** 6e53cb01e86af28a40fa17166da39428114427ef
 **Branch:** main
 
 ## Recent commits
 
+- 6e53cb0 2026-10-09 Move social preview image into assets
+- a14d976 2026-10-05 chore: refresh grounding snapshot
 - b07ec98 2026-10-04 docs: document Praxis constellation relationship
 - 94af8a6 2026-10-05 chore: refresh grounding snapshot
 - a643d34 2026-10-04 Fix root test invocation and ignore Python artifacts
 - c7ab24f 2026-10-04 chore: refresh grounding snapshot
 - 42f27dd 2026-10-04 Use Renaissance-local registry adapter
 - c8f2c52 2026-10-04 Keep Human Doorway registry heartbeat inside Renaissance
-- 06d3515 2026-10-04 chore: refresh grounding snapshot
-- e84e6ef 2026-10-04 Keep Human Doorway registration alive
 
 ## Core documents
 
