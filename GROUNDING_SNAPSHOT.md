@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 168761a34c512db15e92e92764fcdf1e6824e238
+**Source commit:** 267fb74b52e21d29500cd495f6b4cd7c6a563002
 **Branch:** main
 
 ## Recent commits
 
+- 267fb74 2026-10-09 Add private-repository historical-only rule
+- 483bb1c 2026-10-09 chore: refresh grounding snapshot
 - 168761a 2026-10-09 Establish Project Seed default MIT license
 - 092b624 2026-10-09 chore: refresh grounding snapshot
 - af9029f 2026-10-09 Align agent guidance with Project Seed without removing project notes
 - 16a174d 2026-10-09 chore: refresh grounding snapshot
 - 6e53cb0 2026-10-09 Move social preview image into assets
 - a14d976 2026-10-05 chore: refresh grounding snapshot
-- b07ec98 2026-10-04 docs: document Praxis constellation relationship
-- 94af8a6 2026-10-05 chore: refresh grounding snapshot
 
 ## Core documents
 
