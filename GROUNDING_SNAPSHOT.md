@@ -2,19 +2,19 @@
 
 > Generated orientation material. This file is not canon.
 
-**Source commit:** 267fb74b52e21d29500cd495f6b4cd7c6a563002
+**Source commit:** 915bd99b39b15108156e9267072870692c3c088c
 **Branch:** main
 
 ## Recent commits
 
+- 915bd99 2026-10-10 Make wider-world awareness explicit in Renaissance (#10)
+- 9ceaf2f 2026-10-09 chore: refresh grounding snapshot
 - 267fb74 2026-10-09 Add private-repository historical-only rule
 - 483bb1c 2026-10-09 chore: refresh grounding snapshot
 - 168761a 2026-10-09 Establish Project Seed default MIT license
 - 092b624 2026-10-09 chore: refresh grounding snapshot
 - af9029f 2026-10-09 Align agent guidance with Project Seed without removing project notes
 - 16a174d 2026-10-09 chore: refresh grounding snapshot
-- 6e53cb0 2026-10-09 Move social preview image into assets
-- a14d976 2026-10-05 chore: refresh grounding snapshot
 
 ## Core documents
 
